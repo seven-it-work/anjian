@@ -1,0 +1,9 @@
+POST //AliCloud/GetStorageToken HTTP/1.1
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+User-Agent: Dalvik/2.1.0 (Linux; U; Android 13; XQ-BC72 Build/61.2.G.0.72A)
+Host: auth2.mobileanjian.com
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Content-Length: 870
+
+R=3&V=81058250b7deb83d0&Data=aKapxn%2B4dIiTFGHxhfUOD%2FOPa4aiXRabIm%2BmcvfTo9Ll4UGrwEsXFEUfDTLlzLO1V%2FxEBJqx1GkGJXqNZZUylkAiOfjPOtyCBb4LsjL7H8tXgQed8g714MMpfvExEWFR06D9BOoBupiu7tsZBKLJLe4KgedhpjHJ%2B%2FqGauFApypoaQ4rM0hDt%2BQKbIQfYgO%2F7sxkl3qD5nwP%2BFsj5AqcOJdNzyL2HpkOOxf9yogWw9nSCGNSEt4dMGhQYqjeywyqCMqMt4%2BeiO3hN1gfix06DzXDxdi9CsvgKwgQbulcRX2wqeZTxCXaKHvcP8shc%2BzyJ8PqwTMSSdEbxwkk7alj04%2Fu3d35H%2BpsMCDubNGrolgo34gm6kEhSiWvFzvzgY1kcO%2B33ZfO4gC7pGbuyRtAK2H3759Wj13XvpLeaL0rs6NLifhs%2BqPlWHfUFZIBIyazD%2FhbI%2BQKnDia%2FtqzmhFem7CRFds4hEpVkChDfz1u9j7dQvI6csuAiTfLHzjPkdpOER%2FTA%2FJ7criBDy47MsngC0ic0%2F%2B9e1fV5Ph4QGpfPkCoqLBpnz8tkK5fzaut%2BkVnB%2FTqtBUqMFljVJwnVQqQsP0MwVLEAjhLzu%2F2pO5lQ9kC4ptYAw4dN%2BqjcLBWqWSDk28aLMR9J%2FtJW3bNqo%2FVGp4w0TQGE4KZQ5UmZe4vHeXhxHNgSoJAkBSwPGJ0WqY%2F0EuxmF5WgIUzza10TvkTcIHObM4aJJvGFQwQEEfLrDdcKDutUCJMUu90OBJqWxbxKOcckvu638s%3D&
