@@ -1,4 +1,5 @@
 
+import java.nio.charset.StandardCharsets;
 import java.util.Arrays;
 import java.util.Base64;
 import java.util.List;
@@ -11,11 +12,20 @@ import javax.crypto.spec.DESKeySpec;
 public class Main2 {
 
     public static void main(String[] args) throws Exception {
-        String s="{\"SignContent\":\"{\\u0022Code\\u0022:1400,\\u0022Message\\u0022:\\u0022注册码不存在！\\u0022,\\u0022Data\\u0022:{\\u0022ClientTimestamp\\u0022:1712559099,\\u0022ServerTimestamp\\u0022:1712559099}}\",\"Signature\":\"DEzelYlonfbxZ3Rn5+NFqUqx7xGJ//XLtNxFNL9bvMSy5aAikv8q82aGG2b7msWSSOlPW5XAaeG6XCbKB04g0iEFMAVHYzAcnBhz7xSZ22mDVwNYKPyXvlVUg6kDTRDDJXUlFOMjppcaKdDQ01Pg1TlVCDD2ZAY3l5SX6osk2D8=\"}";
-        String decrypt = encrypt(s, "b4af55a5".getBytes());
-        System.out.println(decrypt);
-        String encrypt = decrypt(decrypt, "b4af55a5".getBytes());
+//        String s="{\u0022SignContent\u0022:\u0022{\\u0022Code\\u0022:1400,\\u0022Message\\u0022:\\u0022注册码不存在！\\u0022,\\u0022Data\\u0022:{\\u0022ClientTimestamp\\u0022:1712559099,\\u0022ServerTimestamp\\u0022:1712559099}}\u0022,\u0022Signature\u0022:\u0022DEzelYlonfbxZ3Rn5+NFqUqx7xGJ//XLtNxFNL9bvMSy5aAikv8q82aGG2b7msWSSOlPW5XAaeG6XCbKB04g0iEFMAVHYzAcnBhz7xSZ22mDVwNYKPyXvlVUg6kDTRDDJXUlFOMjppcaKdDQ01Pg1TlVCDD2ZAY3l5SX6osk2D8=\u0022}";
+//        String decrypt = encrypt(s, "b4af55a5".getBytes());
+//        System.out.println(decrypt);
+//        String encrypt = decrypt(decrypt, "b4af55a5".getBytes());
+//        System.out.println(encrypt);
+
+        String ciphertext = "plTp6fqma/DxrHPBF/pk9Kat8/RNtNJ7/rm2VZyNlhr3ughDZQPweTq3MDgVr31jZUXzcjFvlbw170Es5DrpcZ0y+B+YpuXefDzX+fH224tRruTP5AfSwOGKS6YGV5XjMuZ23pSpcKle/i3ATdNIMCUTYpDktvVWe0sPVnVhfga6XlsS3EZL0fDwgCPvNovslsqjwF8iU5cpp8ErSlDSv6jVXPagtPz16bXiirCNXlPIUKuoQLtoT7aXPseZUVl0KbgKJ+iBP96kd4Lf2nJP0zkQ4sVFUfxAFMtpABEKq/5IWrxwJs0RZtFEpWICmG7b3SvFNp2noKg+KNKA/D6RUBxxhuPJ0J9xFcCH1dnIYvucuj5awF/uXw8WbJk6D6EOWZfRs0pHJ6VogbRPdrxK8XkKuU2/9X/m2VfeCd5SToPxS5+L6gXuPgBKosTmhR1Hl3qhpMItzTZsG+SA5zQjMsn9BxZdLCGgzvucnL/Dg7kI+0pk1YCfsTZmnFd3aNZa4VaQb4FMA6N9xJ50sNZ7R3YFUgqiLU+h";
+        String x = bruteForceCracking(ciphertext).replace("1713180919","1744110022");
+        System.out.println(x);
+
+//        String tem="{\"SignContent\":\"{\\u0022Code\\u0022:200,\\u0022Message\\u0022:\\u0022请求成功！\\u0022,\\u0022Data\\u0022:{\\u0022ExpireTime\\u0022:1744110022,\\u0022ClientTimestamp\\u0022:1712577192,\\u0022ServerTimestamp\\u0022:1712577193}}\",\"Signature\":\"J+OIaF8SvpWrBvM2AzHMhTcdmCZ3TjV2yiQh3ektVkAEry8PU7mLA69xqm4NtWdO9vjdtH5HLlAVWY4XVPxwf7cJtwEtj6IbMzQ0lJyo0zp7ntX9BXKiV8JCIYOkTtS/imOaXMSE2MTQTRy10EhxUk25dvWmXZOmdvPdGX1a72o=\"}  ";
+        String encrypt = encrypt(x, "7fed39f9".getBytes());
         System.out.println(encrypt);
+        System.out.println(decrypt(encrypt,"7fed39f9".getBytes()));
     }
 
     public static List<String> salt = Arrays.asList("a6cd931d", "1dcf44bf", "650e59d7", "3460d8da", "21fbt87f",
