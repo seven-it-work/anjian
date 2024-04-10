@@ -10,7 +10,7 @@ getData下发json数据为null
     invoke-static {v0, v2}, Lcom/cyjh/elfin/e/c/f;->a(Landroid/content/Context;Ljava/lang/String;)V
 
     invoke-static {v2}, Lmt/LogA9F8F1;->a(Ljava/lang/Object;)V
-    const-string v4,""
+    const-string v4,"{\u0022Code\u0022:200,\u0022Message\u0022:\u0022请求成功！\u0022,\u0022Data\u0022:{\u0022ExpireTime\u0022:1713180919,\u0022ClientTimestamp\u0022:1712721225,\u0022ServerTimestamp\u0022:1712721224}}"
     invoke-static {v4}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v0
