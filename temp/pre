@@ -12,4 +12,5 @@ http://auth2.mobileanjian.com/Script/PreStart
 }
 {"Code":200,"Message":"请求成功！","Data":{"ExpireTime":1744110022,"ClientTimestamp":1712579752,"ServerTimestamp":1712579755}}
 
-invoke-interface {v0}, Lcom/cyjh/http/c/c/c$a;->a()V
+Lcom/cyjh/http/bean/response/ScriptStartRunResponse;
+
