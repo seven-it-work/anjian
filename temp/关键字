@@ -1,2 +1,21 @@
 getData下发json数据为null
 
+准备启动引擎
+    invoke-static {v0, v2}, Lcom/cyjh/elfin/e/c/f;->a(Landroid/content/Context;Ljava/lang/String;)V
+
+    invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+
+    move-result v0
+-----------------
+    invoke-static {v0, v2}, Lcom/cyjh/elfin/e/c/f;->a(Landroid/content/Context;Ljava/lang/String;)V
+
+    invoke-static {v2}, Lmt/LogA9F8F1;->a(Ljava/lang/Object;)V
+    const-string v4,""
+    invoke-static {v4}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+
+    move-result v0
+绕过->注册码无效，请输入正确的注册码
+
+
+日志注入
+invoke-static {v0}, Lmt/LogA9F8F1;->a(Ljava/lang/Object;)V
