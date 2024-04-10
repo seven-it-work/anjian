@@ -3,4 +3,5 @@
   "R": 1
 }
 http://auth2.mobileanjian.com/Script/Start
+关键字 com.cyjh.share.AppStatisticsPresenter--uiDataSuccess:
 {"Code":200,"Message":"请求成功！","Data":{"ExpireTime":1713180919,"DailyTryTimes":1,"OnceTryMinute":10,"RunGuid":"380ac53d90b4408f946008ba763c8c9b","ScriptEncryptKey":"","ClientTimestamp":1712710841,"ServerTimestamp":1712710840}}
