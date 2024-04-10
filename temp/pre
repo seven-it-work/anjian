@@ -14,3 +14,8 @@ http://auth2.mobileanjian.com/Script/PreStart
 
 Lcom/cyjh/http/bean/response/ScriptStartRunResponse;
 
+
+com.cyjh.share.AppStatisticsPresenter--uiDataSuccess:
+runScriptOperate --> onCallbackSuc
+ElfinFloatView onCallbackSuc --> data=
+runScriptOperate --> 准备启动引擎
