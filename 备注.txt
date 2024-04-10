@@ -1,0 +1,17 @@
+注入以下东西
+
+{\"Code\":200,\"Message\":\"请求成功！\",\"Data\":{\"ExpireTime\":1713180919,\"ClientTimestamp\":1712755616,\"ServerTimestamp\":1712755617}}
+
+激活校验
+invoke-static {v1, v2}, Lcom/cyjh/common/util/ad;->c(Ljava/lang/String;Ljava/lang/String;)V
+
+const-string p1,"{\"Code\":200,\"Message\":\"请求成功！\",\"Data\":{\"ExpireTime\":1713180919,\"ClientTimestamp\":1712755616,\"ServerTimestamp\":1712755617}}"
+
+
+启动校验
+
+时间戳验证602
+
+63ff40df981462bf
+
+
