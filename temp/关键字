@@ -14,6 +14,35 @@ getData下发json数据为null
     invoke-static {v4}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v0
+-----------------
+com.cyjh.share.AppStatisticsPresenter--uiDataSuccess:
+    invoke-static {v0, v1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
+
+    :try_start_13
+-------------
+    invoke-static {v0, v1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v1}, Lmt/LogA9F8F1;->a(Ljava/lang/Object;)V
+
+    invoke-static {v0, v1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
+
+    :try_start_13
+    iget-object v0, p0, Lcom/cyjh/http/c/c/c;->b:Lcom/cyjh/http/c/c/c$a;
+
+    if-eqz v0, :cond_1c
+
+    iget-object v0, p0, Lcom/cyjh/http/c/c/c;->b:Lcom/cyjh/http/c/c/c$a;
+
+    invoke-interface {v0}, Lcom/cyjh/http/c/c/c$a;->a()V
+
+    :cond_1c
+    iget-object v0, p0, Lcom/cyjh/http/c/c/c;->c:Lcom/cyjh/http/c/c/c$b;
+
+    if-eqz v0, :cond_61
+    const-string v0, "{\u0022Code\u0022:200,\u0022sClientTime\u0022:1712721201,\u0022Data\u0022:{\u0022ExpireTime\u0022:0,\u0022DailyTryTimes\u0022:1,\u0022OnceTryMinute\u0022:10,\u0022RunGuid\u0022:null,\u0022ScriptEncryptKey\u0022:\u00226f8c0fed247c498eba8d3be17c6e44af\u0022,\u0022ClientTimestamp\u0022:1712721201,\u0022ServerTimestamp\u0022:1712721200},\u0022Message\u0022:\u0022注入中\u0022}"
+
+
+
+
 绕过->注册码无效，请输入正确的注册码
 
 
