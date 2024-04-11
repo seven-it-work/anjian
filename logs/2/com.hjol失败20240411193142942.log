@@ -1,0 +1,1350 @@
+19:31:42.940 com.cyjh.elfin.base.AppContext
+->attachBaseContext(0101.java:4)
+测试↓
+--------------------
+19:31:42.941 com.cyjh.elfin.base.AppContext
+->attachBaseContext(0101.java:4)
+java.lang.RuntimeException: 记录栈
+	at mt.LogA9F8F1.a(Unknown Source)
+	at com.cyjh.elfin.base.AppContext.attachBaseContext(0101.java:4)
+	at android.app.Application.attach(Application.java:189)
+	at android.app.Instrumentation.newApplication(Instrumentation.java:1008)
+	at android.app.Instrumentation.newApplication(Instrumentation.java:992)
+	at android.app.LoadedApk.makeApplication(LoadedApk.java:796)
+	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:5442)
+	at android.app.ActivityThread.-wrap2(ActivityThread.java)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1550)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:154)
+	at android.app.ActivityThread.main(ActivityThread.java:6189)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1126)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1000)
+
+--------------------
+19:31:42.941 com.cyjh.elfin.base.AppContext
+->attachBaseContext(0101.java:4)
+TAG
+--------------------
+19:31:42.941 com.cyjh.elfin.base.AppContext
+->attachBaseContext(0101.java:4)
+initProcess: com.hjol
+--------------------
+19:31:42.942 com.cyjh.elfin.base.AppContext
+->attachBaseContext(0101.java:4)
+测试↑
+--------------------
+19:31:43.446 com.cyjh.elfin.base.AppContext
+->onCreate(0101.java:5)
+测试↓
+--------------------
+19:31:43.447 com.cyjh.elfin.base.AppContext
+->onCreate(0101.java:5)
+java.lang.RuntimeException: 记录栈
+	at mt.LogA9F8F1.a(Unknown Source)
+	at com.cyjh.elfin.base.AppContext.onCreate(0101.java:5)
+	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1024)
+	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:5471)
+	at android.app.ActivityThread.-wrap2(ActivityThread.java)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1550)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:154)
+	at android.app.ActivityThread.main(ActivityThread.java:6189)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1126)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1000)
+
+--------------------
+19:31:43.447 com.cyjh.elfin.base.AppContext
+->onCreate(0101.java:5)
+AppContext
+--------------------
+19:31:43.447 com.cyjh.elfin.base.AppContext
+->onCreate(0101.java:5)
+onCreate process: com.hjol
+--------------------
+19:31:43.447 com.cyjh.elfin.base.AppContext
+->onCreate(0101.java:5)
+测试↑
+--------------------
+19:31:44.085 com.cyjh.elfin.floatingwindowprocess.d.b
+->a(011F.java)
+测试↓
+--------------------
+19:31:44.087 com.cyjh.elfin.floatingwindowprocess.d.b
+->a(011F.java)
+java.lang.RuntimeException: 记录栈
+	at mt.LogA9F8F1.a(Unknown Source)
+	at com.cyjh.elfin.floatingwindowprocess.d.b.a(011F.java)
+	at com.cyjh.elfin.floatingwindowprocess.c.c.b(011C.java:14)
+	at com.cyjh.elfin.base.AppContext.onCreate(0101.java:5)
+	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1024)
+	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:5471)
+	at android.app.ActivityThread.-wrap2(ActivityThread.java)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1550)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:154)
+	at android.app.ActivityThread.main(ActivityThread.java:6189)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1126)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1000)
+
+--------------------
+19:31:44.087 com.cyjh.elfin.floatingwindowprocess.d.b
+->a(011F.java)
+记录2
+--------------------
+19:31:44.087 com.cyjh.elfin.floatingwindowprocess.d.b
+->a(011F.java)
+{"BaseURL":"http://auth2.mobileanjian.com/","PackageName":"com.hjol","PayAppId":"7BACC4EF-DFDA-4dd9-815C-999FF745A82B","ScriptType":true,"authDesKeys":["c6bd901f","0ddf44be","950e5927","6460d8df","11fb887f","117e4900","bd113950","a99f6f97"],"AppId":238076,"AppInfo":"COBC41DkB9vuJuuZA5T2+hSJXVrM5/DJs+cvCsW89UbcEuqeEcx8Zfdll5w5Ed04e/JnVcOeO4XHospe1u9wgu+IpdsPqHj6","AppVersion":"1712804694","ClientTimestamp":1712835104,"DeviceCode":"53504273809530277ba80b7a4","DeviceId":"677b0ea9b8fcd0d3284a3d4692a13042","IsRedFinger":0,"TemplateFileId":559,"TemplateVersion":"6.1.1"}
+--------------------
+19:31:44.088 com.cyjh.elfin.floatingwindowprocess.d.b
+->a(011F.java)
+测试↑
+--------------------
+19:31:44.088 com.cyjh.elfin.floatingwindowprocess.d.b
+->a(011F.java)
+测试↓
+--------------------
+19:31:44.089 com.cyjh.elfin.floatingwindowprocess.d.b
+->a(011F.java)
+java.lang.RuntimeException: 记录栈
+	at mt.LogA9F8F1.a(Unknown Source)
+	at com.cyjh.elfin.floatingwindowprocess.d.b.a(011F.java)
+	at com.cyjh.elfin.floatingwindowprocess.c.c.b(011C.java:14)
+	at com.cyjh.elfin.base.AppContext.onCreate(0101.java:5)
+	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1024)
+	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:5471)
+	at android.app.ActivityThread.-wrap2(ActivityThread.java)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1550)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:154)
+	at android.app.ActivityThread.main(ActivityThread.java:6189)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1126)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1000)
+
+--------------------
+19:31:44.089 com.cyjh.elfin.floatingwindowprocess.d.b
+->a(011F.java)
+-----BEGIN RSA PRIVATE KEY-----
+MIICXAIBAAKBgQCVNCExZl+SZAQNhkR1KXdaft64oG88FjymP+iK9l5TVt7+VpUw
+bJ4/hl9UXqrFMQsrAm9d2/4NN3Laz+KthWOCjNRDWgMg0xhXRg6ns0hKRFZCEasc
+MX5ioW0IFf/WqFkaYEnMtgnJWrOvPFS/FPNIk84TZADfAktzSRJw+aNzFwIDAQAB
+AoGAIdCXuT9vZ5kdRgdpGniUYUEhrwxFSYPsqO0RAfWGOTMWBOSQmVH0p4cHsfJm
+l5xe4JeDr+z87ffkIu08fYEepQ4Y5eMNJ8T4O3V8MlhqKApJPyVwLNzd2fCXb3vJ
+jkUC0+CJB6767eHGoRvlPT2TkUOssMNPriM0XK4t9iPKzzkCQQDOK4u9Te23M7IQ
+Mf3SQTBtwT+SijOHPx6QSaOemvGvO8gxm0sa37R1fTUkM5ZeVzavZ5SnLGnYDitc
+xvCtQ6BNAkEAuUPfRaZy9vCmspE59TgcbuNNs2puPXGhrtZZHxziGiuyikpUT5Np
+HQwYvRo6XaAsuUuDi9sjKP1kAfdaAVBy8wJBAKq+nahV1b2X7qxC+rcajgUXupKe
+KjakK6fLlNpR8D7z/8Q1nGnRQx7aZxxoLOxMxllWK2KYAcCRW5AmokSccTECQG33
+6K7aJ0GHBRvXclSpcs8rYzLNSRR1v6gdGZeLOHaaW4cUqcj2Uh1o0cJlsCFk80cl
+mLbKY6twBQ3ZufYvv5sCQCaWn4kDt9jjhuP0+Pbjzcl75MixfnZPLSjWkhqgv0TO
+OGW4iOxKpDF7Q1MBiMckymzitab3GBy4Owd3QC/wnk0=
+-----END RSA PRIVATE KEY-----
+
+--------------------
+19:31:44.090 com.cyjh.elfin.floatingwindowprocess.d.b
+->a(011F.java)
+-----BEGIN PUBLIC KEY-----
+MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDQ6aF1yXQM2dS6Wl5IUkpIAPad
+Ppyt8qkhWSFw0OpmDxTPBOnnF/3V0HUbcu0E+xO542sbHX1PYZD1OStHBYOcvc2I
+uKa7dl/A/uywHZ4fVxSKXrge3MuvDZ6kefbJEcDaCLuc+TOtj7/HlDpblJE7sRVt
+CYxNQp0T3b3OokyDnwIDAQAB
+-----END PUBLIC KEY-----
+
+--------------------
+19:31:44.090 com.cyjh.elfin.floatingwindowprocess.d.b
+->a(011F.java)
+测试↑
+--------------------
+19:31:44.345 com.cyjh.elfin.ui.activity.SplashActivity
+->a(0131.java)
+测试↓
+--------------------
+19:31:44.345 com.cyjh.elfin.ui.activity.SplashActivity
+->a(0131.java)
+java.lang.RuntimeException: 记录栈
+	at mt.LogA9F8F1.a(Unknown Source)
+	at com.cyjh.elfin.ui.activity.SplashActivity.a(0131.java)
+	at com.cyjh.elfin.ui.activity.SplashActivity$2.a(Unknown Source)
+	at com.cyjh.root.c.a(Unknown Source)
+	at com.elfin.engin.a.c.a(Unknown Source)
+	at com.cyjh.elfin.ui.activity.SplashActivity.j(0131.java)
+	at com.cyjh.elfin.ui.activity.SplashActivity.onCreate(0131.java)
+	at android.app.Activity.performCreate(Activity.java:6682)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1118)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2679)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2787)
+	at android.app.ActivityThread.-wrap12(ActivityThread.java)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1482)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:154)
+	at android.app.ActivityThread.main(ActivityThread.java:6189)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1126)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1000)
+
+--------------------
+19:31:44.345 com.cyjh.elfin.ui.activity.SplashActivity
+->a(0131.java)
+zzz
+--------------------
+19:31:44.345 com.cyjh.elfin.ui.activity.SplashActivity
+->a(0131.java)
+notHasBlueTooth:null
+--------------------
+19:31:44.346 com.cyjh.elfin.ui.activity.SplashActivity
+->a(0131.java)
+测试↑
+--------------------
+19:31:44.357 com.cyjh.http.d.b.a
+->a(Unknown Source)
+测试↓
+--------------------
+19:31:44.357 com.cyjh.http.d.b.a
+->a(Unknown Source)
+java.lang.RuntimeException: 记录栈
+	at mt.LogA9F8F1.a(Unknown Source)
+	at com.cyjh.http.d.b.a.a(Unknown Source)
+	at com.cyjh.http.c.c.a.a(Unknown Source)
+	at com.cyjh.elfin.ui.model.SplashModel.a(0143.java)
+	at com.cyjh.elfin.ui.activity.SplashActivity.a(0131.java:1)
+	at com.cyjh.elfin.ui.activity.SplashActivity$2.a(Unknown Source)
+	at com.cyjh.root.c.a(Unknown Source)
+	at com.elfin.engin.a.c.a(Unknown Source)
+	at com.cyjh.elfin.ui.activity.SplashActivity.j(0131.java)
+	at com.cyjh.elfin.ui.activity.SplashActivity.onCreate(0131.java)
+	at android.app.Activity.performCreate(Activity.java:6682)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1118)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2679)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2787)
+	at android.app.ActivityThread.-wrap12(ActivityThread.java)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1482)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:154)
+	at android.app.ActivityThread.main(ActivityThread.java:6189)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1126)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1000)
+
+--------------------
+19:31:44.358 com.cyjh.http.d.b.a
+->a(Unknown Source)
+ActivithHttpHelper
+--------------------
+19:31:44.358 com.cyjh.http.d.b.a
+->a(Unknown Source)
+url:http://app.mobileanjian.com/AppConfig2
+--------------------
+19:31:44.358 com.cyjh.http.d.b.a
+->a(Unknown Source)
+测试↑
+--------------------
+19:31:44.705 com.cyjh.http.c.a.a
+->a(014E.java:1)
+测试↓
+--------------------
+19:31:44.713 com.cyjh.http.c.a.a
+->a(014E.java:1)
+java.lang.RuntimeException: 记录栈
+	at mt.LogA9F8F1.a(Unknown Source)
+	at com.cyjh.http.c.a.a.a(014E.java:1)
+	at com.cyjh.http.d.b.d.a(0152.java:1)
+	at com.android.volley.g.run(Unknown Source)
+
+--------------------
+19:31:44.713 com.cyjh.http.c.a.a
+->a(014E.java:1)
+AbstractHttpPresenter
+--------------------
+19:31:44.713 com.cyjh.http.c.a.a
+->a(014E.java:1)
+decodeRes:{"SignContent":"{\u0022Code\u0022:200,\u0022Message\u0022:\u0022请求成功！\u0022,\u0022Data\u0022:{\u0022ApiVersionV\u0022:\u002281058250b7deb83d0\u0022,\u0022ApiDescKeys\u0022:[\u00228dbe4df8\u0022,\u0022be5aa0ed\u0022,\u0022d9d54d9f\u0022,\u0022f79e1471\u0022,\u00226d31c74e\u0022,\u0022462dca7d\u0022,\u002207e95c1d\u0022,\u0022daa1a7eb\u0022],\u0022AuthDescKeys\u0022:[\u00221bff00f5\u0022,\u0022caf7a1f0\u0022,\u00227fed39f9\u0022,\u0022a1988775\u0022,\u0022964f8677\u0022,\u0022242678c5\u0022,\u0022b4af55a5\u0022,\u00226619cb9d\u0022],\u0022AppDomainName\u0022:\u0022http://auth2.mobileanjian.com/\u0022,\u0022App2DomainName\u0022:\u0022http://app.mobileanjian.com\u0022,\u0022App3DomainName\u0022:\u0022http://auth3.mobileanjian.com\u0022,\u0022RedFingerSwitch\u0022:0,\u0022PhoneConfig\u0022:[{\u0022Active\u0022:1,\u0022DisableMsg\u0022:\u0022当前环境暂不支持！\u0022,\u0022Package\u0022:\u0022com.android.inputmethod.pinyin,com.android.coreservice\u0022,\u0022JudgeMode\u0022:1,\u0022CloudPhoneType\u0022:12,\u0022ImageUrl\u0022:\u0022http://ajres.mobileanjian.com/PaidEditionMacro/Image/95867c2ddfad405c9ee0d3a1241bfbce.jpg\u0022,\u0022LinkUrl\u0022:\u0022http://www.ddyun.com\u0022},{\u0022Active\u0022:1,\u0022DisableMsg\u0022:\u0022当前环境暂不支持！\u0022,\u0022Package\u0022:\u0022com.ld.cloudserver\u0022,\u0022JudgeMode\u0022:1,\u0022CloudPhoneType\u0022:6,\u0022ImageUrl\u0022:\u0022http://ajres.mobileanjian.com/PaidEditionMacro/Image/55d90efe6a1744c18e4b048f3ec043e7.jpg\u0022,\u0022LinkUrl\u0022:\u0022http://www.ddyun.com\u0022},{\u0022Active\u0022:1,\u0022DisableMsg\u0022:\u0022当前环境暂不支持！\u0022,\u0022Package\u0022:\u0022com.lz.appmarket\u0022,\u0022JudgeMode\u0022:1,\u0022CloudPhoneType\u0022:11,\u0022ImageUrl\u0022:\u0022http://ajres.mobileanjian.com/PaidEditionMacro/Image/ac6491c8860a46b2af89350f8a0bd3c7.jpg\u0022,\u0022LinkUrl\u0022:\u0022http://www.ddyun.com\u0022},{\u0022Active\u0022:1,\u0022DisableMsg\u0022:\u0022当前环境暂不支持！\u0022,\u0022Package\u0022:\u0022com.abo.vpmarket\u0022,\u0022JudgeMode\u0022:1,\u0022CloudPhoneType\u0022:10,\u0022ImageUrl\u0022:\u0022http://ajres.mobileanjian.com/PaidEditionMacro/Image/9de946cd87af4725861e32c83793b59d.jpg\u0022,\u0022LinkUrl\u0022:\u0022http://www.ddyun.com\u0022},{\u0022Active\u0022:1,\u0022DisableMsg\u0022:\u0022当前环境暂不支持！\u0022,\u0022Package\u0022:\u0022com.yuncap.market\u0022,\u0022JudgeMode\u0022:1,\u0022CloudPhoneType\u0022:9,\u0022ImageUrl\u0022:\u0022http://ajres.mobileanjian.com/PaidEditionMacro/Image/228918f4243e418d84fe3d4bde8c0be2.jpg\u0022,\u0022LinkUrl\u0022:\u0022http://www.ddyun.com\u0022},{\u0022Active\u0022:1,\u0022DisableMsg\u0022:\u0022当前环境暂不支持！\u0022,\u0022Package\u0022:\u0022com.chinac.launcher\u0022,\u0022JudgeMode\u0022:1,\u0022CloudPhoneType\u0022:8,\u0022ImageUrl\u0022:\u0022http://ajres.mobileanjian.com/PaidEditionMacro/Image/cf5eafa2651b46688b263d91c802a37d.jpg\u0022,\u0022LinkUrl\u0022:\u0022http://www.ddyun.com\u0022},{\u0022Active\u0022:1,\u0022DisableMsg\u0022:\u0022当前环境暂不支持！\u0022,\u0022Package\u0022:\u0022com.eternity.appstreamphoneassistant\u0022,\u0022JudgeMode\u0022:1,\u0022CloudPhoneType\u0022:7,\u0022ImageUrl\u0022:\u0022http://ajres.mobileanjian.com/PaidEditionMacro/Image/c4025eeb391f41c7b94c9adc4a0c5854.jpg\u0022,\u0022LinkUrl\u0022:\u0022http://www.ddyun.com\u0022},{\u0022Active\u0022:1,\u0022DisableMsg\u0022:\u0022当前环境暂不支持\u0022,\u0022Package\u0022:\u0022com.android.inputmethod.latin,com.cloud.launcher3\u0022,\u0022JudgeMode\u0022:1,\u0022CloudPhoneType\u0022:6,\u0022ImageUrl\u0022:\u0022http://ajres.mobileanjian.com/PaidEditionMacro/Image/dd5daf07f50244748fa9ab3399e22b3a.jpg\u0022,\u0022LinkUrl\u0022:\u0022http://www.ddyun.com\u0022},{\u0022Active\u0022:1,\u0022DisableMsg\u0022:\u0022当前环境暂不支持！\u0022,\u0022Package\u0022:\u0022com.longene.outfile\u0022,\u0022JudgeMode\u0022:2,\u0022CloudPhoneType\u0022:3,\u0022ImageUrl\u0022:\u0022http://ajres.mobileanjian.com/PaidEditionMacro/Image/8614ed1f398f435d8e6383b2a436f291.jpg\u0022,\u0022LinkUrl\u0022:\u0022http://www.ddyun.com/\u0022},{\u0022Active\u0022:1,\u0022DisableMsg\u0022:\u0022当前环境暂不支持！\u0022,\u0022Package\u0022:\u0022com.redfinger.appstore,com.wsh.market\u0022,\u0022JudgeMode\u0022:2,\u0022CloudPhoneType\u0022:5,\u0022ImageUrl\u0022:\u0022http://ajres.mobileanjian.com/PaidEditionMacro/Image/62808a7e5e9f4194a08aeaaa9d0c7800.jpg\u0022,\u0022LinkUrl\u0022:\u0022http://www.ddyun.com\u0022},{\u0022Active\u0022:1,\u0022DisableMsg\u0022:\u0022当前环境暂不支持！\u0022,\u0022Package\u0022:\u0022com.huang.autorunmarket\u0022,\u0022JudgeMode\u0022:2,\u0022CloudPhoneType\u0022:2,\u0022ImageUrl\u0022:\u0022http://ajres.mobileanjian.com/PaidEditionMacro/Image/789dd542bd004e3babf3d5a0e3328d9c.jpg\u0022,\u0022LinkUrl\u0022:\u0022http://www.ddyun.com\u0022},{\u0022Active\u0022:1,\u0022DisableMsg\u0022:\u0022当前环境暂不支持！\u0022,\u0022Package\u0022:\u0022com.haimawan.cloudappstore\u0022,\u0022JudgeMode\u0022:2,\u0022CloudPhoneType\u0022:4,\u0022ImageUrl\u0022:\u0022http://ajres.mobileanjian.com/PaidEditionMacro/Image/576d3605f58b41aaac615110f19bb8aa.jpg\u0022,\u0022LinkUrl\u0022:\u0022http://www.ddyun.com\u0022},{\u0022Active\u0022:1,\u0022DisableMsg\u0022:\u0022当前环境暂不支持！\u0022,\u0022Package\u0022:\u0022com.gemini.cloud.app.market\u0022,\u0022JudgeMode\u0022:2,\u0022CloudPhoneType\u0022:1,\u0022ImageUrl\u0022:\u0022http://ajres.mobileanjian.com/PaidEditionMacro/Image/f3207144e0e24a99882c951d7ba91fb7.jpg\u0022,\u0022LinkUrl\u0022:\u0022http://www.ddyun.com\u0022}],\u0022ClientTimestamp\u0022:1712835104,\u0022ServerTimestamp\u0022:1712835106}}","Signature":"aFuznOQZI8I7Q1GMIVEegFzhcAJcAHxElbe7+38uQPqWAsGueo/2qzeYRe9zoadS1FlZdHbqqAaBiaafU+xskmIEhyphqcoFJPFyFbp2JJwrDAEtmgeu8ViCeipTnNGK3YKh7OtPovkNg4vIGM0tpbndl0By7xkAjTEWm2WXve8="}
+--------------------
+19:31:44.714 com.cyjh.http.c.a.a
+->a(014E.java:1)
+测试↑
+--------------------
+19:31:44.762 com.cyjh.elfin.floatingwindowprocess.d.b
+->a(011F.java)
+测试↓
+--------------------
+19:31:44.763 com.cyjh.elfin.floatingwindowprocess.d.b
+->a(011F.java)
+java.lang.RuntimeException: 记录栈
+	at mt.LogA9F8F1.a(Unknown Source)
+	at com.cyjh.elfin.floatingwindowprocess.d.b.a(011F.java)
+	at com.cyjh.elfin.ui.model.SplashModel.b(0143.java:6)
+	at com.cyjh.elfin.ui.model.SplashModel$1.a(0140.java:1)
+	at com.cyjh.http.c.c.a.a(Unknown Source)
+	at com.cyjh.http.d.b.a.a(Unknown Source)
+	at com.cyjh.http.d.b.d.a(0152.java)
+	at com.android.volley.e$a.run(Unknown Source)
+	at android.os.Handler.handleCallback(Handler.java:751)
+	at android.os.Handler.dispatchMessage(Handler.java:95)
+	at android.os.Looper.loop(Looper.java:154)
+	at android.app.ActivityThread.main(ActivityThread.java:6189)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1126)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1000)
+
+--------------------
+19:31:44.763 com.cyjh.elfin.floatingwindowprocess.d.b
+->a(011F.java)
+记录2
+--------------------
+19:31:44.764 com.cyjh.elfin.floatingwindowprocess.d.b
+->a(011F.java)
+{"BaseURL":"http://auth2.mobileanjian.com/","PackageName":"com.hjol","PayAppId":"7BACC4EF-DFDA-4dd9-815C-999FF745A82B","ScriptType":true,"authDesKeys":["1bff00f5","caf7a1f0","7fed39f9","a1988775","964f8677","242678c5","b4af55a5","6619cb9d"],"AppId":238076,"AppInfo":"COBC41DkB9vuJuuZA5T2+hSJXVrM5/DJs+cvCsW89UbcEuqeEcx8Zfdll5w5Ed04e/JnVcOeO4XHospe1u9wgu+IpdsPqHj6","AppVersion":"1712804694","ClientTimestamp":1712835104,"DeviceCode":"53504273809530277ba80b7a4","DeviceId":"677b0ea9b8fcd0d3284a3d4692a13042","IsRedFinger":0,"TemplateFileId":559,"TemplateVersion":"6.1.1","V":"81058250b7deb83d0"}
+--------------------
+19:31:44.764 com.cyjh.elfin.floatingwindowprocess.d.b
+->a(011F.java)
+测试↑
+--------------------
+19:31:44.764 com.cyjh.elfin.floatingwindowprocess.d.b
+->a(011F.java)
+测试↓
+--------------------
+19:31:44.765 com.cyjh.elfin.floatingwindowprocess.d.b
+->a(011F.java)
+java.lang.RuntimeException: 记录栈
+	at mt.LogA9F8F1.a(Unknown Source)
+	at com.cyjh.elfin.floatingwindowprocess.d.b.a(011F.java)
+	at com.cyjh.elfin.ui.model.SplashModel.b(0143.java:6)
+	at com.cyjh.elfin.ui.model.SplashModel$1.a(0140.java:1)
+	at com.cyjh.http.c.c.a.a(Unknown Source)
+	at com.cyjh.http.d.b.a.a(Unknown Source)
+	at com.cyjh.http.d.b.d.a(0152.java)
+	at com.android.volley.e$a.run(Unknown Source)
+	at android.os.Handler.handleCallback(Handler.java:751)
+	at android.os.Handler.dispatchMessage(Handler.java:95)
+	at android.os.Looper.loop(Looper.java:154)
+	at android.app.ActivityThread.main(ActivityThread.java:6189)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1126)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1000)
+
+--------------------
+19:31:44.765 com.cyjh.elfin.floatingwindowprocess.d.b
+->a(011F.java)
+-----BEGIN RSA PRIVATE KEY-----
+MIICXAIBAAKBgQCVNCExZl+SZAQNhkR1KXdaft64oG88FjymP+iK9l5TVt7+VpUw
+bJ4/hl9UXqrFMQsrAm9d2/4NN3Laz+KthWOCjNRDWgMg0xhXRg6ns0hKRFZCEasc
+MX5ioW0IFf/WqFkaYEnMtgnJWrOvPFS/FPNIk84TZADfAktzSRJw+aNzFwIDAQAB
+AoGAIdCXuT9vZ5kdRgdpGniUYUEhrwxFSYPsqO0RAfWGOTMWBOSQmVH0p4cHsfJm
+l5xe4JeDr+z87ffkIu08fYEepQ4Y5eMNJ8T4O3V8MlhqKApJPyVwLNzd2fCXb3vJ
+jkUC0+CJB6767eHGoRvlPT2TkUOssMNPriM0XK4t9iPKzzkCQQDOK4u9Te23M7IQ
+Mf3SQTBtwT+SijOHPx6QSaOemvGvO8gxm0sa37R1fTUkM5ZeVzavZ5SnLGnYDitc
+xvCtQ6BNAkEAuUPfRaZy9vCmspE59TgcbuNNs2puPXGhrtZZHxziGiuyikpUT5Np
+HQwYvRo6XaAsuUuDi9sjKP1kAfdaAVBy8wJBAKq+nahV1b2X7qxC+rcajgUXupKe
+KjakK6fLlNpR8D7z/8Q1nGnRQx7aZxxoLOxMxllWK2KYAcCRW5AmokSccTECQG33
+6K7aJ0GHBRvXclSpcs8rYzLNSRR1v6gdGZeLOHaaW4cUqcj2Uh1o0cJlsCFk80cl
+mLbKY6twBQ3ZufYvv5sCQCaWn4kDt9jjhuP0+Pbjzcl75MixfnZPLSjWkhqgv0TO
+OGW4iOxKpDF7Q1MBiMckymzitab3GBy4Owd3QC/wnk0=
+-----END RSA PRIVATE KEY-----
+
+--------------------
+19:31:44.765 com.cyjh.elfin.floatingwindowprocess.d.b
+->a(011F.java)
+-----BEGIN PUBLIC KEY-----
+MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDQ6aF1yXQM2dS6Wl5IUkpIAPad
+Ppyt8qkhWSFw0OpmDxTPBOnnF/3V0HUbcu0E+xO542sbHX1PYZD1OStHBYOcvc2I
+uKa7dl/A/uywHZ4fVxSKXrge3MuvDZ6kefbJEcDaCLuc+TOtj7/HlDpblJE7sRVt
+CYxNQp0T3b3OokyDnwIDAQAB
+-----END PUBLIC KEY-----
+
+--------------------
+19:31:44.765 com.cyjh.elfin.floatingwindowprocess.d.b
+->a(011F.java)
+测试↑
+--------------------
+19:31:45.378 com.cyjh.http.c.c.c
+->a(014F.java)
+测试↓
+--------------------
+19:31:45.379 com.cyjh.http.c.c.c
+->a(014F.java)
+java.lang.RuntimeException: 记录栈
+	at mt.LogA9F8F1.a(Unknown Source)
+	at com.cyjh.http.c.c.c.a(014F.java)
+	at com.cyjh.elfin.ui.model.SplashModel.a(0143.java)
+	at com.cyjh.elfin.ui.model.SplashModel.a(0143.java)
+	at com.cyjh.elfin.ui.model.SplashModel$5.run(0142.java:2)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1133)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:607)
+	at java.lang.Thread.run(Thread.java:761)
+
+--------------------
+19:31:45.379 com.cyjh.http.c.c.c
+->a(014F.java)
+loadScriptStar
+--------------------
+19:31:45.379 com.cyjh.http.c.c.c
+->a(014F.java)
+scriptStartRunParams:ScriptStartRunParams{TemplateFileId=559, TemplateVersion='6.1.1', AppId=238076, AppVersion='1712804694', DeviceId='677b0ea9b8fcd0d3284a3d4692a13042', ClientTimestamp=1712835105, IsRedFinger=0, DeviceCode='53504273809530277ba80b7a4', AppInfo='COBC41DkB9vuJuuZA5T2+hSJXVrM5/DJs+cvCsW89UbcEuqeEcx8Zfdll5w5Ed04e/JnVcOeO4XHospe1u9wgu+IpdsPqHj6', V='81058250b7deb83d0', RegCode='63ff40df981462bf', ScriptId='7be025e0-0829-4b47-bff1-224ef491317d'}
+--------------------
+19:31:45.380 com.cyjh.http.c.c.c
+->a(014F.java)
+测试↑
+--------------------
+19:31:45.389 com.cyjh.http.d.b.a
+->a(Unknown Source)
+测试↓
+--------------------
+19:31:45.389 com.cyjh.http.d.b.a
+->a(Unknown Source)
+java.lang.RuntimeException: 记录栈
+	at mt.LogA9F8F1.a(Unknown Source)
+	at com.cyjh.http.d.b.a.a(Unknown Source)
+	at com.cyjh.http.c.c.c.a(014F.java)
+	at com.cyjh.elfin.ui.model.SplashModel.a(0143.java)
+	at com.cyjh.elfin.ui.model.SplashModel.a(0143.java)
+	at com.cyjh.elfin.ui.model.SplashModel$5.run(0142.java:2)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1133)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:607)
+	at java.lang.Thread.run(Thread.java:761)
+
+--------------------
+19:31:45.389 com.cyjh.http.d.b.a
+->a(Unknown Source)
+ActivithHttpHelper
+--------------------
+19:31:45.389 com.cyjh.http.d.b.a
+->a(Unknown Source)
+url:http://auth2.mobileanjian.com//Script/PreStart
+--------------------
+19:31:45.389 com.cyjh.http.d.b.a
+->a(Unknown Source)
+测试↑
+--------------------
+19:31:45.661 com.cyjh.http.c.a.a
+->a(014E.java:1)
+测试↓
+--------------------
+19:31:45.662 com.cyjh.http.c.a.a
+->a(014E.java:1)
+java.lang.RuntimeException: 记录栈
+	at mt.LogA9F8F1.a(Unknown Source)
+	at com.cyjh.http.c.a.a.a(014E.java:1)
+	at com.cyjh.http.d.b.d.a(0152.java:1)
+	at com.android.volley.g.run(Unknown Source)
+
+--------------------
+19:31:45.662 com.cyjh.http.c.a.a
+->a(014E.java:1)
+AbstractHttpPresenter
+--------------------
+19:31:45.662 com.cyjh.http.c.a.a
+->a(014E.java:1)
+decodeRes:{"SignContent":"{\u0022Code\u0022:200,\u0022Message\u0022:\u0022请求成功！\u0022,\u0022Data\u0022:{\u0022ExpireTime\u0022:1713180919,\u0022DailyTryTimes\u0022:1,\u0022OnceTryMinute\u0022:10,\u0022RunGuid\u0022:null,\u0022ScriptEncryptKey\u0022:\u0022ab61f1113c13458bbb57f9601ddd10c4\u0022,\u0022ClientTimestamp\u0022:1712835105,\u0022ServerTimestamp\u0022:1712835107}}","Signature":"oLVIZgGLs+w1RmUbx8xJEuGYdptwEfwQuDaM63E27Wzbx7bIdC9BAsz1nMKvWYVXToSxtP+R7S0G9+c1o2/jqGBWSRNgg1KcAXwOMHTzreaLYNmnwSjvoCdPghrPKsXsQ7VXDE86ZzebtoLVtsqkobXIrzvktCO36b1Qv/eO+sg="}
+--------------------
+19:31:45.662 com.cyjh.http.c.a.a
+->a(014E.java:1)
+测试↑
+--------------------
+19:31:45.664 com.cyjh.http.c.c.c
+->a(014F.java)
+测试↓
+--------------------
+19:31:45.666 com.cyjh.http.c.c.c
+->a(014F.java)
+java.lang.RuntimeException: 记录栈
+	at mt.LogA9F8F1.a(Unknown Source)
+	at com.cyjh.http.c.c.c.a(014F.java)
+	at com.cyjh.http.d.b.a.a(Unknown Source)
+	at com.cyjh.http.d.b.d.a(0152.java)
+	at com.android.volley.e$a.run(Unknown Source)
+	at android.os.Handler.handleCallback(Handler.java:751)
+	at android.os.Handler.dispatchMessage(Handler.java:95)
+	at android.os.Looper.loop(Looper.java:154)
+	at android.app.ActivityThread.main(ActivityThread.java:6189)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1126)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1000)
+
+--------------------
+19:31:45.667 com.cyjh.http.c.c.c
+->a(014F.java)
+zzz
+--------------------
+19:31:45.667 com.cyjh.http.c.c.c
+->a(014F.java)
+com.cyjh.share.AppStatisticsPresenter--uiDataSuccess:{"Code":200,"Message":"请求成功！","Data":{"ExpireTime":1713180919,"DailyTryTimes":1,"OnceTryMinute":10,"RunGuid":null,"ScriptEncryptKey":"ab61f1113c13458bbb57f9601ddd10c4","ClientTimestamp":1712835105,"ServerTimestamp":1712835107}}
+--------------------
+19:31:45.667 com.cyjh.http.c.c.c
+->a(014F.java)
+测试↑
+--------------------
+19:31:45.677 com.cyjh.elfin.floatingwindowprocess.d.b
+->a(011F.java)
+测试↓
+--------------------
+19:31:45.678 com.cyjh.elfin.floatingwindowprocess.d.b
+->a(011F.java)
+java.lang.RuntimeException: 记录栈
+	at mt.LogA9F8F1.a(Unknown Source)
+	at com.cyjh.elfin.floatingwindowprocess.d.b.a(011F.java)
+	at com.cyjh.elfin.floatingwindowprocess.c.c.a(011C.java)
+	at com.cyjh.elfin.ui.model.SplashModel$3.a(Unknown Source)
+	at com.cyjh.http.c.c.c.a(014F.java:1)
+	at com.cyjh.http.d.b.a.a(Unknown Source)
+	at com.cyjh.http.d.b.d.a(0152.java)
+	at com.android.volley.e$a.run(Unknown Source)
+	at android.os.Handler.handleCallback(Handler.java:751)
+	at android.os.Handler.dispatchMessage(Handler.java:95)
+	at android.os.Looper.loop(Looper.java:154)
+	at android.app.ActivityThread.main(ActivityThread.java:6189)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1126)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1000)
+
+--------------------
+19:31:45.678 com.cyjh.elfin.floatingwindowprocess.d.b
+->a(011F.java)
+zzz
+--------------------
+19:31:45.678 com.cyjh.elfin.floatingwindowprocess.d.b
+->a(011F.java)
+runScript--script4Run.scripyEncryptKey:ab61f1113c13458bbb57f9601ddd10c4
+--------------------
+19:31:45.678 com.cyjh.elfin.floatingwindowprocess.d.b
+->a(011F.java)
+测试↑
+--------------------
+19:31:45.756 com.cyjh.http.c.c.m
+->a(0151.java)
+测试↓
+--------------------
+19:31:45.756 com.cyjh.http.c.c.m
+->a(0151.java)
+java.lang.RuntimeException: 记录栈
+	at mt.LogA9F8F1.a(Unknown Source)
+	at com.cyjh.http.c.c.m.a(0151.java)
+	at com.cyjh.elfin.ui.model.ElfinModel.b(013D.java)
+	at com.cyjh.elfin.ui.activity.ElfinFreeActivity.onCreate(012B.java)
+	at android.app.Activity.performCreate(Activity.java:6682)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1118)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2679)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2787)
+	at android.app.ActivityThread.-wrap12(ActivityThread.java)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1482)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:154)
+	at android.app.ActivityThread.main(ActivityThread.java:6189)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1126)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1000)
+
+--------------------
+19:31:45.756 com.cyjh.http.c.c.m
+->a(0151.java)
+zzz
+--------------------
+19:31:45.756 com.cyjh.http.c.c.m
+->a(0151.java)
+com.cyjh.share.NoticeListPresenter--loadAd:
+--------------------
+19:31:45.756 com.cyjh.http.c.c.m
+->a(0151.java)
+测试↑
+--------------------
+19:31:45.760 com.cyjh.http.c.c.m
+->a(0151.java)
+测试↓
+--------------------
+19:31:45.760 com.cyjh.http.c.c.m
+->a(0151.java)
+java.lang.RuntimeException: 记录栈
+	at mt.LogA9F8F1.a(Unknown Source)
+	at com.cyjh.http.c.c.m.a(0151.java)
+	at com.cyjh.elfin.ui.model.ElfinModel.b(013D.java)
+	at com.cyjh.elfin.ui.activity.ElfinFreeActivity.onCreate(012B.java)
+	at android.app.Activity.performCreate(Activity.java:6682)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1118)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2679)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2787)
+	at android.app.ActivityThread.-wrap12(ActivityThread.java)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1482)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:154)
+	at android.app.ActivityThread.main(ActivityThread.java:6189)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1126)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1000)
+
+--------------------
+19:31:45.761 com.cyjh.http.c.c.m
+->a(0151.java)
+zzz
+--------------------
+19:31:45.761 com.cyjh.http.c.c.m
+->a(0151.java)
+com.cyjh.share.NoticeListPresenter--loadAd:http://auth2.mobileanjian.com//Notice/List
+--------------------
+19:31:45.761 com.cyjh.http.c.c.m
+->a(0151.java)
+测试↑
+--------------------
+19:31:45.761 com.cyjh.http.d.b.a
+->a(Unknown Source)
+测试↓
+--------------------
+19:31:45.761 com.cyjh.http.d.b.a
+->a(Unknown Source)
+java.lang.RuntimeException: 记录栈
+	at mt.LogA9F8F1.a(Unknown Source)
+	at com.cyjh.http.d.b.a.a(Unknown Source)
+	at com.cyjh.http.c.c.m.a(0151.java)
+	at com.cyjh.elfin.ui.model.ElfinModel.b(013D.java)
+	at com.cyjh.elfin.ui.activity.ElfinFreeActivity.onCreate(012B.java)
+	at android.app.Activity.performCreate(Activity.java:6682)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1118)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2679)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2787)
+	at android.app.ActivityThread.-wrap12(ActivityThread.java)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1482)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:154)
+	at android.app.ActivityThread.main(ActivityThread.java:6189)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1126)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1000)
+
+--------------------
+19:31:45.761 com.cyjh.http.d.b.a
+->a(Unknown Source)
+ActivithHttpHelper
+--------------------
+19:31:45.761 com.cyjh.http.d.b.a
+->a(Unknown Source)
+url:http://auth2.mobileanjian.com//Notice/List
+--------------------
+19:31:45.761 com.cyjh.http.d.b.a
+->a(Unknown Source)
+测试↑
+--------------------
+19:31:45.767 com.cyjh.elfin.ui.model.ElfinModel$5
+->run(013C.java:2)
+测试↓
+--------------------
+19:31:45.767 com.cyjh.elfin.ui.model.ElfinModel$5
+->run(013C.java:2)
+java.lang.RuntimeException: 记录栈
+	at mt.LogA9F8F1.a(Unknown Source)
+	at com.cyjh.elfin.ui.model.ElfinModel$5.run(013C.java:2)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1133)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:607)
+	at java.lang.Thread.run(Thread.java:761)
+
+--------------------
+19:31:45.768 com.cyjh.elfin.ui.model.ElfinModel$5
+->run(013C.java:2)
+zzz
+--------------------
+19:31:45.768 com.cyjh.elfin.ui.model.ElfinModel$5
+->run(013C.java:2)
+ElfinPayActivity:statusInfo新的--
+--------------------
+19:31:45.768 com.cyjh.elfin.ui.model.ElfinModel$5
+->run(013C.java:2)
+测试↑
+--------------------
+19:31:45.777 com.cyjh.elfin.ui.model.ElfinModel$5
+->run(013C.java:2)
+测试↓
+--------------------
+19:31:45.778 com.cyjh.http.d.b.a
+->a(Unknown Source)
+测试↓
+--------------------
+19:31:45.778 com.cyjh.elfin.ui.model.ElfinModel$5
+->run(013C.java:2)
+java.lang.RuntimeException: 记录栈
+	at mt.LogA9F8F1.a(Unknown Source)
+	at com.cyjh.elfin.ui.model.ElfinModel$5.run(013C.java:2)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1133)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:607)
+	at java.lang.Thread.run(Thread.java:761)
+
+--------------------
+19:31:45.778 com.cyjh.elfin.ui.model.ElfinModel$5
+->run(013C.java:2)
+qureyRegCode
+--------------------
+19:31:45.778 com.cyjh.elfin.ui.model.ElfinModel$5
+->run(013C.java:2)
+ElfinPayActivity:statusInfo新的--
+--------------------
+19:31:45.778 com.cyjh.http.d.b.a
+->a(Unknown Source)
+java.lang.RuntimeException: 记录栈
+	at mt.LogA9F8F1.a(Unknown Source)
+	at com.cyjh.http.d.b.a.a(Unknown Source)
+	at com.cyjh.http.c.c.d.a(Unknown Source)
+	at com.cyjh.http.c.b.a.a(Unknown Source)
+	at com.cyjh.elfin.ui.model.ElfinModel.a(013D.java:7)
+	at com.cyjh.elfin.ui.activity.ElfinFreeActivity.onCreate(012B.java)
+	at android.app.Activity.performCreate(Activity.java:6682)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1118)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2679)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2787)
+	at android.app.ActivityThread.-wrap12(ActivityThread.java)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1482)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:154)
+	at android.app.ActivityThread.main(ActivityThread.java:6189)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1126)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1000)
+
+--------------------
+19:31:45.778 com.cyjh.elfin.ui.model.ElfinModel$5
+->run(013C.java:2)
+测试↑
+--------------------
+19:31:45.778 com.cyjh.http.d.b.a
+->a(Unknown Source)
+ActivithHttpHelper
+--------------------
+19:31:45.778 com.cyjh.http.d.b.a
+->a(Unknown Source)
+url:http://auth2.mobileanjian.com//VersionUpdate
+--------------------
+19:31:45.779 com.cyjh.http.d.b.a
+->a(Unknown Source)
+测试↑
+--------------------
+19:31:45.787 com.cyjh.http.d.b.a
+->a(Unknown Source)
+测试↓
+--------------------
+19:31:45.787 com.cyjh.http.d.b.a
+->a(Unknown Source)
+java.lang.RuntimeException: 记录栈
+	at mt.LogA9F8F1.a(Unknown Source)
+	at com.cyjh.http.d.b.a.a(Unknown Source)
+	at com.cyjh.http.c.c.k.a(Unknown Source)
+	at com.cyjh.elfin.ui.activity.ElfinFreeActivity.onCreate(012B.java)
+	at android.app.Activity.performCreate(Activity.java:6682)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1118)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2679)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2787)
+	at android.app.ActivityThread.-wrap12(ActivityThread.java)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1482)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:154)
+	at android.app.ActivityThread.main(ActivityThread.java:6189)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1126)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1000)
+
+--------------------
+19:31:45.787 com.cyjh.http.d.b.a
+->a(Unknown Source)
+ActivithHttpHelper
+--------------------
+19:31:45.787 com.cyjh.http.d.b.a
+->a(Unknown Source)
+url:http://auth2.mobileanjian.com//AliCloud/GetStorageToken
+--------------------
+19:31:45.788 com.cyjh.http.d.b.a
+->a(Unknown Source)
+测试↑
+--------------------
+19:31:45.793 com.cyjh.common.util.e
+->a(00E8.java:7)
+测试↓
+--------------------
+19:31:45.793 com.cyjh.common.util.e
+->a(00E8.java:7)
+java.lang.RuntimeException: 记录栈
+	at mt.LogA9F8F1.a(Unknown Source)
+	at com.cyjh.common.util.e.a(00E8.java:7)
+	at com.cyjh.elfin.ui.activity.ElfinFreeActivity.onCreate(012B.java)
+	at android.app.Activity.performCreate(Activity.java:6682)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1118)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2679)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2787)
+	at android.app.ActivityThread.-wrap12(ActivityThread.java)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1482)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:154)
+	at android.app.ActivityThread.main(ActivityThread.java:6189)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1126)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1000)
+
+--------------------
+19:31:45.793 com.cyjh.common.util.e
+->a(00E8.java:7)
+jason
+--------------------
+19:31:45.793 com.cyjh.common.util.e
+->a(00E8.java:7)
+operateElfinPackageNames --> isAdd=false,elfinFreePackageNames=
+--------------------
+19:31:45.794 com.cyjh.common.util.e
+->a(00E8.java:7)
+测试↑
+--------------------
+19:31:45.816 com.elfin.engin.d
+->a(0189.java)
+测试↓
+--------------------
+19:31:45.817 com.elfin.engin.d
+->a(0189.java)
+java.lang.RuntimeException: 记录栈
+	at mt.LogA9F8F1.a(Unknown Source)
+	at com.elfin.engin.d.a(0189.java)
+	at com.cyjh.elfin.ui.model.ScriptUipSetModel$c.doInBackground(Unknown Source)
+	at android.os.AsyncTask$2.call(AsyncTask.java:305)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1133)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:607)
+	at java.lang.Thread.run(Thread.java:761)
+
+--------------------
+19:31:45.817 com.elfin.engin.d
+->a(0189.java)
+zzz
+--------------------
+19:31:45.818 com.elfin.engin.d
+->a(0189.java)
+runScript--startLoop:/data/user/0/com.hjol/files/assets/script.lc, scriptEncryptKey:ab61f1113c13458bbb57f9601ddd10c4
+--------------------
+19:31:45.818 com.elfin.engin.d
+->a(0189.java)
+测试↑
+--------------------
+19:31:45.830 com.cyjh.elfin.ui.fragment.DescriptionFragment
+->c(Unknown Source)
+测试↓
+--------------------
+19:31:45.831 com.cyjh.elfin.ui.fragment.DescriptionFragment
+->c(Unknown Source)
+java.lang.RuntimeException: 记录栈
+	at mt.LogA9F8F1.a(Unknown Source)
+	at com.cyjh.elfin.ui.fragment.DescriptionFragment.c(Unknown Source)
+	at com.cyjh.elfin.ui.fragment.DescriptionFragment.onActivityCreated(Unknown Source)
+	at android.support.v4.app.Fragment.performActivityCreated(0002.java)
+	at android.support.v4.app.FragmentManagerImpl.moveToState(0014.java:3)
+	at android.support.v4.app.FragmentManagerImpl.moveFragmentToExpectedState(0014.java)
+	at android.support.v4.app.FragmentManagerImpl.moveToState(0014.java)
+	at android.support.v4.app.BackStackRecord.executeOps(0012.java)
+	at android.support.v4.app.FragmentManagerImpl.executeOps(0014.java)
+	at android.support.v4.app.FragmentManagerImpl.executeOpsTogether(0014.java)
+	at android.support.v4.app.FragmentManagerImpl.removeRedundantOperationsAndExecute(0014.java)
+	at android.support.v4.app.FragmentManagerImpl.execSingleAction(0014.java)
+	at android.support.v4.app.BackStackRecord.commitNowAllowingStateLoss(0012.java)
+	at android.support.v4.app.FragmentPagerAdapter.finishUpdate(0015.java)
+	at android.support.v4.view.ViewPager.populate(0044.java:1)
+	at android.support.v4.view.ViewPager.populate(0044.java)
+	at android.support.v4.view.ViewPager.onMeasure(0044.java)
+	at android.view.View.measure(View.java:19857)
+	at android.widget.LinearLayout.measureVertical(LinearLayout.java:911)
+	at android.widget.LinearLayout.onMeasure(LinearLayout.java:640)
+	at android.view.View.measure(View.java:19857)
+	at android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:6083)
+	at android.widget.FrameLayout.onMeasure(FrameLayout.java:185)
+	at android.view.View.measure(View.java:19857)
+	at android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:6083)
+	at android.widget.LinearLayout.measureChildBeforeLayout(LinearLayout.java:1464)
+	at android.widget.LinearLayout.measureVertical(LinearLayout.java:758)
+	at android.widget.LinearLayout.onMeasure(LinearLayout.java:640)
+	at android.view.View.measure(View.java:19857)
+	at android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:6083)
+	at android.widget.FrameLayout.onMeasure(FrameLayout.java:185)
+	at com.android.internal.policy.DecorView.onMeasure(DecorView.java:690)
+	at android.view.View.measure(View.java:19857)
+	at android.view.ViewRootImpl.performMeasure(ViewRootImpl.java:2275)
+	at android.view.ViewRootImpl.measureHierarchy(ViewRootImpl.java:1366)
+	at android.view.ViewRootImpl.performTraversals(ViewRootImpl.java:1619)
+	at android.view.ViewRootImpl.doTraversal(ViewRootImpl.java:1254)
+	at android.view.ViewRootImpl$TraversalRunnable.run(ViewRootImpl.java:6338)
+	at android.view.Choreographer$CallbackRecord.run(Choreographer.java:874)
+	at android.view.Choreographer.doCallbacks(Choreographer.java:686)
+	at android.view.Choreographer.doFrame(Choreographer.java:621)
+	at android.view.Choreographer$FrameDisplayEventReceiver.run(Choreographer.java:860)
+	at android.os.Handler.handleCallback(Handler.java:751)
+	at android.os.Handler.dispatchMessage(Handler.java:95)
+	at android.os.Looper.loop(Looper.java:154)
+	at android.app.ActivityThread.main(ActivityThread.java:6189)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1126)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1000)
+
+--------------------
+19:31:45.832 com.cyjh.elfin.ui.fragment.DescriptionFragment
+->c(Unknown Source)
+TAG
+--------------------
+19:31:45.832 com.cyjh.elfin.ui.fragment.DescriptionFragment
+->c(Unknown Source)
+file:///data/user/0/com.hjol/files/assets/script.rtd
+--------------------
+19:31:45.832 com.cyjh.elfin.ui.fragment.DescriptionFragment
+->c(Unknown Source)
+测试↑
+--------------------
+19:31:45.852 com.cyjh.http.d.b.a
+->a(Unknown Source)
+测试↓
+--------------------
+19:31:45.852 com.cyjh.http.d.b.a
+->a(Unknown Source)
+java.lang.RuntimeException: 记录栈
+	at mt.LogA9F8F1.a(Unknown Source)
+	at com.cyjh.http.d.b.a.a(Unknown Source)
+	at com.cyjh.http.c.c.e.a(Unknown Source)
+	at com.cyjh.elfin.ui.model.RegCodeModel.a(Unknown Source)
+	at com.cyjh.elfin.ui.activity.ElfinFreeActivity$6.onChanged(Unknown Source)
+	at android.arch.lifecycle.LiveData.considerNotify(Unknown Source)
+	at android.arch.lifecycle.LiveData.dispatchingValue(Unknown Source)
+	at android.arch.lifecycle.LiveData.setValue(Unknown Source)
+	at android.arch.lifecycle.MutableLiveData.setValue(Unknown Source)
+	at android.arch.lifecycle.LiveData$1.run(Unknown Source)
+	at android.os.Handler.handleCallback(Handler.java:751)
+	at android.os.Handler.dispatchMessage(Handler.java:95)
+	at android.os.Looper.loop(Looper.java:154)
+	at android.app.ActivityThread.main(ActivityThread.java:6189)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1126)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1000)
+
+--------------------
+19:31:45.852 com.cyjh.http.d.b.a
+->a(Unknown Source)
+ActivithHttpHelper
+--------------------
+19:31:45.852 com.cyjh.http.d.b.a
+->a(Unknown Source)
+url:http://auth2.mobileanjian.com//Script/BindRegCode
+--------------------
+19:31:45.853 com.cyjh.http.d.b.a
+->a(Unknown Source)
+测试↑
+--------------------
+19:31:45.853 com.cyjh.http.c.c.e
+->a(Unknown Source)
+测试↓
+--------------------
+19:31:45.853 com.cyjh.http.c.c.e
+->a(Unknown Source)
+java.lang.RuntimeException: 记录栈
+	at mt.LogA9F8F1.a(Unknown Source)
+	at com.cyjh.http.c.c.e.a(Unknown Source)
+	at com.cyjh.elfin.ui.model.RegCodeModel.a(Unknown Source)
+	at com.cyjh.elfin.ui.activity.ElfinFreeActivity$6.onChanged(Unknown Source)
+	at android.arch.lifecycle.LiveData.considerNotify(Unknown Source)
+	at android.arch.lifecycle.LiveData.dispatchingValue(Unknown Source)
+	at android.arch.lifecycle.LiveData.setValue(Unknown Source)
+	at android.arch.lifecycle.MutableLiveData.setValue(Unknown Source)
+	at android.arch.lifecycle.LiveData$1.run(Unknown Source)
+	at android.os.Handler.handleCallback(Handler.java:751)
+	at android.os.Handler.dispatchMessage(Handler.java:95)
+	at android.os.Looper.loop(Looper.java:154)
+	at android.app.ActivityThread.main(ActivityThread.java:6189)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1126)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1000)
+
+--------------------
+19:31:45.853 com.cyjh.http.c.c.e
+->a(Unknown Source)
+zzz
+--------------------
+19:31:45.853 com.cyjh.http.c.c.e
+->a(Unknown Source)
+BindRegisterCodePresenter--bindRegCode--http://auth2.mobileanjian.com//Script/BindRegCode
+--------------------
+19:31:45.853 com.cyjh.http.c.c.e
+->a(Unknown Source)
+测试↑
+--------------------
+19:31:45.906 com.elfin.engin.d
+->a(0189.java)
+测试↓
+--------------------
+19:31:45.909 com.elfin.engin.d
+->a(0189.java)
+java.lang.RuntimeException: 记录栈
+	at mt.LogA9F8F1.a(Unknown Source)
+	at com.elfin.engin.d.a(0189.java)
+	at com.cyjh.elfin.ui.fragment.ScriptUipSetFragment.l(0139.java)
+	at com.cyjh.elfin.ui.fragment.ScriptUipSetFragment.f(0139.java)
+	at com.cyjh.elfin.ui.fragment.ScriptUipSetFragment$2.onChanged(Unknown Source)
+	at android.arch.lifecycle.LiveData.considerNotify(Unknown Source)
+	at android.arch.lifecycle.LiveData.dispatchingValue(Unknown Source)
+	at android.arch.lifecycle.LiveData.setValue(Unknown Source)
+	at android.arch.lifecycle.MutableLiveData.setValue(Unknown Source)
+	at android.arch.lifecycle.LiveData$1.run(Unknown Source)
+	at android.os.Handler.handleCallback(Handler.java:751)
+	at android.os.Handler.dispatchMessage(Handler.java:95)
+	at android.os.Looper.loop(Looper.java:154)
+	at android.app.ActivityThread.main(ActivityThread.java:6189)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1126)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1000)
+
+--------------------
+19:31:45.911 com.elfin.engin.d
+->a(0189.java)
+a111111
+--------------------
+19:31:45.912 com.elfin.engin.d
+->a(0189.java)
+getScriptModel /data/user/0/com.hjol/files/assets/script.uip /data/user/0/com.hjol/files/assets/script.ui /data/user/0/com.hjol/files/script.cfg
+--------------------
+19:31:45.912 com.elfin.engin.d
+->a(0189.java)
+测试↑
+--------------------
+19:31:45.926 com.elfin.engin.b.c
+-><init>(0188.java)
+测试↓
+--------------------
+19:31:45.928 com.elfin.engin.b.c
+-><init>(0188.java)
+java.lang.RuntimeException: 记录栈
+	at mt.LogA9F8F1.a(Unknown Source)
+	at com.elfin.engin.b.c.<init>(0188.java)
+	at com.elfin.engin.d.a(0189.java)
+	at com.cyjh.elfin.ui.fragment.ScriptUipSetFragment.l(0139.java)
+	at com.cyjh.elfin.ui.fragment.ScriptUipSetFragment.f(0139.java)
+	at com.cyjh.elfin.ui.fragment.ScriptUipSetFragment$2.onChanged(Unknown Source)
+	at android.arch.lifecycle.LiveData.considerNotify(Unknown Source)
+	at android.arch.lifecycle.LiveData.dispatchingValue(Unknown Source)
+	at android.arch.lifecycle.LiveData.setValue(Unknown Source)
+	at android.arch.lifecycle.MutableLiveData.setValue(Unknown Source)
+	at android.arch.lifecycle.LiveData$1.run(Unknown Source)
+	at android.os.Handler.handleCallback(Handler.java:751)
+	at android.os.Handler.dispatchMessage(Handler.java:95)
+	at android.os.Looper.loop(Looper.java:154)
+	at android.app.ActivityThread.main(ActivityThread.java:6189)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1126)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1000)
+
+--------------------
+19:31:45.928 com.elfin.engin.b.c
+-><init>(0188.java)
+a111111
+--------------------
+19:31:45.928 com.elfin.engin.b.c
+-><init>(0188.java)
+ScriptUipModel /data/user/0/com.hjol/files/assets/script.uip
+--------------------
+19:31:45.929 com.elfin.engin.b.c
+-><init>(0188.java)
+测试↑
+--------------------
+19:31:45.974 com.cyjh.http.c.a.a
+->a(014E.java:1)
+测试↓
+--------------------
+19:31:45.975 com.cyjh.http.c.a.a
+->a(014E.java:1)
+java.lang.RuntimeException: 记录栈
+	at mt.LogA9F8F1.a(Unknown Source)
+	at com.cyjh.http.c.a.a.a(014E.java:1)
+	at com.cyjh.http.d.b.d.a(0152.java:1)
+	at com.android.volley.g.run(Unknown Source)
+
+--------------------
+19:31:45.975 com.cyjh.http.c.a.a
+->a(014E.java:1)
+AbstractHttpPresenter
+--------------------
+19:31:45.975 com.cyjh.http.c.a.a
+->a(014E.java:1)
+decodeRes:{"SignContent":"{\u0022Code\u0022:200,\u0022Message\u0022:\u0022请求成功！\u0022,\u0022Data\u0022:{\u0022NoticeList\u0022:null,\u0022ClientTimestamp\u0022:1712835105,\u0022ServerTimestamp\u0022:1712835107}}","Signature":"mWV+veGIO9QKvv3AnRynbmop8ZjY4rWgsx5o3TVs0o+vNEOsvtbtx7g2cNcNxeP+a4Pc0EDEkZJ3FELRmNcBQkzBJnf1LS2BHnnprzu/DUnsaawHtxgPvKrTpPzbti7YDZH2q2OUossKABeXTmDoR2gjtgAsuigCtzDxpZUq3iY="}
+--------------------
+19:31:45.975 com.cyjh.http.c.a.a
+->a(014E.java:1)
+测试↑
+--------------------
+19:31:46.064 com.cyjh.http.c.a.a
+->a(014E.java:1)
+测试↓
+--------------------
+19:31:46.066 com.cyjh.http.c.a.a
+->a(014E.java:1)
+java.lang.RuntimeException: 记录栈
+	at mt.LogA9F8F1.a(Unknown Source)
+	at com.cyjh.http.c.a.a.a(014E.java:1)
+	at com.cyjh.http.d.b.d.a(0152.java:1)
+	at com.android.volley.g.run(Unknown Source)
+
+--------------------
+19:31:46.066 com.cyjh.http.c.a.a
+->a(014E.java:1)
+AbstractHttpPresenter
+--------------------
+19:31:46.066 com.cyjh.http.c.a.a
+->a(014E.java:1)
+decodeRes:{"SignContent":"{\u0022Code\u0022:200,\u0022Message\u0022:\u0022请求成功！\u0022,\u0022Data\u0022:{\u0022UpdateType\u0022:0,\u0022AppName\u0022:null,\u0022UpdateContent\u0022:null,\u0022UpdateUrl\u0022:null,\u0022PackageName\u0022:null,\u0022PackageSize\u0022:0,\u0022AppUpdateTime\u0022:0,\u0022StudioProjectKey\u0022:null,\u0022DeviceName\u0022:\u0022Sony9a71140d\u0022,\u0022InstanceDataUploadInterval\u0022:0,\u0022UpgradeMode\u0022:0,\u0022AppVersion\u0022:0,\u0022ClientTimestamp\u0022:1712835105,\u0022ServerTimestamp\u0022:1712835107}}","Signature":"OeaXWmUvBxuQDGSvs/4c0mmz/xgazlTg8JCs3yIKdSyRJIIMPsIWBdVQHdvc4d5uoTr12e6cmJBF+RGtIgflfo9xhCEPAVePGkYteAatCnV40Gw6nv7KbXr5pkMa7AHehxjpRDwgmBnpcFFtfEf50eGdT2Gdm6xTKqMieMBN7Dg="}
+--------------------
+19:31:46.066 com.cyjh.http.c.a.a
+->a(014E.java:1)
+测试↑
+--------------------
+19:31:46.101 com.cyjh.http.c.a.a
+->a(014E.java:1)
+测试↓
+--------------------
+19:31:46.102 com.cyjh.http.c.a.a
+->a(014E.java:1)
+java.lang.RuntimeException: 记录栈
+	at mt.LogA9F8F1.a(Unknown Source)
+	at com.cyjh.http.c.a.a.a(014E.java:1)
+	at com.cyjh.http.d.b.d.a(0152.java:1)
+	at com.android.volley.g.run(Unknown Source)
+
+--------------------
+19:31:46.102 com.cyjh.http.c.a.a
+->a(014E.java:1)
+AbstractHttpPresenter
+--------------------
+19:31:46.102 com.cyjh.http.c.a.a
+->a(014E.java:1)
+decodeRes:{"SignContent":"{\u0022Code\u0022:200,\u0022Message\u0022:\u0022请求成功！\u0022,\u0022Data\u0022:{\u0022AliCloundAccessKeyId\u0022:\u0022STS.NSv1rKFEYU7Cp11vNfnQsDtEr\u0022,\u0022AliCloundAccessKeySecret\u0022:\u00223F7bJcdBaDX6whTUWgth2pP3BVvAQ5TZAfjPyGfY3Kgo\u0022,\u0022AliCloundSecurityToken\u0022:\u0022CAIS+QF1q6Ft5B2yfSjIr5DDesj/q5p44vWocheAkk4zYt5fq7HukDz2IHpMenZqBe0Yvvs0mWxV6/cdlqR9WZRUR0yBZM1y751RqZ000ApF4p7b16cNrbH4M0rxYkeJ8a2/SuH9S8ynCZXJQlvYlyh17KLnfDG5JTKMOoGIjpgVBbZ+HHPPD1x8CcxROxFppeIDKHLVLozNCBPxhXfKB0ca0WgVy0EHsPrlmpHFsESE1gOnlLdE/b6ceMb0M5NeW75kSMqw0eBMca7M7TVd8RAi9t0t1vQapm2b44/NXAIMv0jbYrXOl9N9Jx57Zu0zHaxFpf7sITGdZB8DD+4agAEarSRrIJgxzVOUj1LRpl0xvLQ8KhuSOR9hMDGHRdhMvmHqYq2shAhD0zqB6Y1qPASTDJ2o6pgspUfjo2qgfLOQyzr2TXemV4NpiNQMfGyKDT/FhSwSkx9HZUNVqlAv8kMZZTYPRFQM/oiBCV5PPneOl0Qetydq3PmYClEE4HLLECAA\u0022,\u0022AliCloundExpireTime\u0022:1712837520,\u0022OssEndpoint\u0022:\u0022http://oss-cn-shanghai.aliyuncs.com/\u0022,\u0022OssBucket\u0022:\u0022manjian-res\u0022,\u0022OssStoragePath\u0022:\u0022PaidEditionMacroProduction/account_user/screenshot/\u0022,\u0022OssStudioScreenshotPathF\u0022:\u0022PaidEditionMacroProduction/studio/screenshot/{AppId}/{ScriptId}_{DeviceId}\u0022,\u0022CloudStorageResDomainUrl\u0022:null,\u0022ClientTimestamp\u0022:1712835105,\u0022ServerTimestamp\u0022:1712835107}}","Signature":"V7iKtx2/KG5Xp19X26N+uKApXw0jxSSwjhcfUYzZdBpQic/qiW/Z19OnCc0IdkpMcA2CajKiSpFZXdYvLWKfoIFmLEHMOacb3MbnUSbYmlAqLALXt9WbVuTVZx3tr10+zDQIowNBKEnvqU3Jk+zW/jQ9KyeqlIYJf0R0gVAJujI="}
+--------------------
+19:31:46.102 com.cyjh.http.c.a.a
+->a(014E.java:1)
+测试↑
+--------------------
+19:31:46.130 com.cyjh.http.c.a.a
+->a(014E.java:1)
+测试↓
+--------------------
+19:31:46.130 com.cyjh.http.c.a.a
+->a(014E.java:1)
+java.lang.RuntimeException: 记录栈
+	at mt.LogA9F8F1.a(Unknown Source)
+	at com.cyjh.http.c.a.a.a(014E.java:1)
+	at com.cyjh.http.d.b.d.a(0152.java:1)
+	at com.android.volley.g.run(Unknown Source)
+
+--------------------
+19:31:46.131 com.cyjh.http.c.a.a
+->a(014E.java:1)
+AbstractHttpPresenter
+--------------------
+19:31:46.131 com.cyjh.http.c.a.a
+->a(014E.java:1)
+decodeRes:{"SignContent":"{\u0022Code\u0022:200,\u0022Message\u0022:\u0022请求成功！\u0022,\u0022Data\u0022:{\u0022ExpireTime\u0022:1713180919,\u0022ClientTimestamp\u0022:1712828334,\u0022ServerTimestamp\u0022:1712828335}}","Signature":"XUaPQTL4tFOKFi0BF3C4fiiWllWuDNk8jmu8NQ1wEaDzr4zVtDUnLe730PXguKl7y2WwajepwVFVSnjEoGteFC+72Tl3TImA+EA0i1cVfQ2gcud9/dcGEW0doJNNeh7215F0yh6EZDc0u6X61GCbdyhWOC+DGnSRGDiywSS0hzQ="}
+--------------------
+19:31:46.131 com.cyjh.http.c.a.a
+->a(014E.java:1)
+测试↑
+--------------------
+19:31:46.305 com.cyjh.elfin.services.a$1
+->onServiceConnected(Unknown Source)
+测试↓
+--------------------
+19:31:46.306 com.cyjh.elfin.services.a$1
+->onServiceConnected(Unknown Source)
+java.lang.RuntimeException: 记录栈
+	at mt.LogA9F8F1.a(Unknown Source)
+	at com.cyjh.elfin.services.a$1.onServiceConnected(Unknown Source)
+	at android.app.LoadedApk$ServiceDispatcher.doConnected(LoadedApk.java:1453)
+	at android.app.LoadedApk$ServiceDispatcher$RunConnection.run(LoadedApk.java:1481)
+	at android.os.Handler.handleCallback(Handler.java:751)
+	at android.os.Handler.dispatchMessage(Handler.java:95)
+	at android.os.Looper.loop(Looper.java:154)
+	at android.app.ActivityThread.main(ActivityThread.java:6189)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1126)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1000)
+
+--------------------
+19:31:46.307 com.cyjh.elfin.services.a$1
+->onServiceConnected(Unknown Source)
+ClientAppService
+--------------------
+19:31:46.307 com.cyjh.elfin.services.a$1
+->onServiceConnected(Unknown Source)
+与服务端连接成功
+--------------------
+19:31:46.307 com.cyjh.elfin.services.a$1
+->onServiceConnected(Unknown Source)
+测试↑
+--------------------
+19:31:46.308 com.cyjh.http.c.c.m
+->a(0151.java)
+测试↓
+--------------------
+19:31:46.308 com.cyjh.http.c.c.m
+->a(0151.java)
+java.lang.RuntimeException: 记录栈
+	at mt.LogA9F8F1.a(Unknown Source)
+	at com.cyjh.http.c.c.m.a(0151.java)
+	at com.cyjh.http.d.b.a.a(Unknown Source)
+	at com.cyjh.http.d.b.d.a(0152.java)
+	at com.android.volley.e$a.run(Unknown Source)
+	at android.os.Handler.handleCallback(Handler.java:751)
+	at android.os.Handler.dispatchMessage(Handler.java:95)
+	at android.os.Looper.loop(Looper.java:154)
+	at android.app.ActivityThread.main(ActivityThread.java:6189)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1126)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1000)
+
+--------------------
+19:31:46.309 com.cyjh.http.c.c.m
+->a(0151.java)
+zzz
+--------------------
+19:31:46.309 com.cyjh.http.c.c.m
+->a(0151.java)
+com.cyjh.share.NoticeListPresenter--uiDataSuccess1:{"Code":200,"Message":"请求成功！","Data":{"NoticeList":null,"ClientTimestamp":1712835105,"ServerTimestamp":1712835107}}
+--------------------
+19:31:46.309 com.cyjh.http.c.c.m
+->a(0151.java)
+测试↑
+--------------------
+19:31:49.170 com.cyjh.elfin.services.a$a
+->handleMessage(Unknown Source)
+测试↓
+--------------------
+19:31:49.172 com.cyjh.elfin.services.a$a
+->handleMessage(Unknown Source)
+java.lang.RuntimeException: 记录栈
+	at mt.LogA9F8F1.a(Unknown Source)
+	at com.cyjh.elfin.services.a$a.handleMessage(Unknown Source)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:154)
+	at android.app.ActivityThread.main(ActivityThread.java:6189)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1126)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1000)
+
+--------------------
+19:31:49.172 com.cyjh.elfin.services.a$a
+->handleMessage(Unknown Source)
+ClientAppService
+--------------------
+19:31:49.172 com.cyjh.elfin.services.a$a
+->handleMessage(Unknown Source)
+收到来自服务端的消息：4
+--------------------
+19:31:49.172 com.cyjh.elfin.services.a$a
+->handleMessage(Unknown Source)
+测试↑
+--------------------
+19:31:51.129 com.cyjh.elfin.services.a$a
+->handleMessage(Unknown Source)
+测试↓
+--------------------
+19:31:51.130 com.cyjh.elfin.services.a$a
+->handleMessage(Unknown Source)
+java.lang.RuntimeException: 记录栈
+	at mt.LogA9F8F1.a(Unknown Source)
+	at com.cyjh.elfin.services.a$a.handleMessage(Unknown Source)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:154)
+	at android.app.ActivityThread.main(ActivityThread.java:6189)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1126)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1000)
+
+--------------------
+19:31:51.130 com.cyjh.elfin.services.a$a
+->handleMessage(Unknown Source)
+ClientAppService
+--------------------
+19:31:51.130 com.cyjh.elfin.services.a$a
+->handleMessage(Unknown Source)
+收到来自服务端的消息：1
+--------------------
+19:31:51.131 com.cyjh.elfin.services.a$a
+->handleMessage(Unknown Source)
+测试↑
+--------------------
+19:33:24.450 com.cyjh.elfin.ui.activity.SplashActivity$c
+->doInBackground(0130.java:2)
+测试↓
+--------------------
+19:33:24.451 com.cyjh.elfin.ui.activity.SplashActivity$c
+->doInBackground(0130.java:2)
+java.lang.RuntimeException: 记录栈
+	at mt.LogA9F8F1.a(Unknown Source)
+	at com.cyjh.elfin.ui.activity.SplashActivity$c.doInBackground(0130.java:2)
+	at android.os.AsyncTask$2.call(AsyncTask.java:305)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1133)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:607)
+	at java.lang.Thread.run(Thread.java:761)
+
+--------------------
+19:33:24.452 com.cyjh.elfin.ui.activity.SplashActivity$c
+->doInBackground(0130.java:2)
+ping
+--------------------
+19:33:24.452 com.cyjh.elfin.ui.activity.SplashActivity$c
+->doInBackground(0130.java:2)
+faild
+--------------------
+19:33:24.452 com.cyjh.elfin.ui.activity.SplashActivity$c
+->doInBackground(0130.java:2)
+测试↑
+--------------------
+19:34:25.309 com.cyjh.elfin.services.a$a
+->handleMessage(Unknown Source)
+测试↓
+--------------------
+19:34:25.310 com.cyjh.elfin.services.a$a
+->handleMessage(Unknown Source)
+java.lang.RuntimeException: 记录栈
+	at mt.LogA9F8F1.a(Unknown Source)
+	at com.cyjh.elfin.services.a$a.handleMessage(Unknown Source)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:154)
+	at android.app.ActivityThread.main(ActivityThread.java:6189)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1126)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1000)
+
+--------------------
+19:34:25.310 com.cyjh.elfin.services.a$a
+->handleMessage(Unknown Source)
+ClientAppService
+--------------------
+19:34:25.311 com.cyjh.elfin.services.a$a
+->handleMessage(Unknown Source)
+收到来自服务端的消息：4
+--------------------
+19:34:25.311 com.cyjh.elfin.services.a$a
+->handleMessage(Unknown Source)
+测试↑
+--------------------
+19:34:29.858 com.cyjh.elfin.services.a$a
+->handleMessage(Unknown Source)
+测试↓
+--------------------
+19:34:29.859 com.cyjh.elfin.services.a$a
+->handleMessage(Unknown Source)
+java.lang.RuntimeException: 记录栈
+	at mt.LogA9F8F1.a(Unknown Source)
+	at com.cyjh.elfin.services.a$a.handleMessage(Unknown Source)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:154)
+	at android.app.ActivityThread.main(ActivityThread.java:6189)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1126)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1000)
+
+--------------------
+19:34:29.859 com.cyjh.elfin.services.a$a
+->handleMessage(Unknown Source)
+ClientAppService
+--------------------
+19:34:29.860 com.cyjh.elfin.services.a$a
+->handleMessage(Unknown Source)
+收到来自服务端的消息：1
+--------------------
+19:34:29.860 com.cyjh.elfin.services.a$a
+->handleMessage(Unknown Source)
+测试↑
+--------------------
