@@ -1,0 +1,1476 @@
+14:52:47.871 com.cyjh.elfin.base.AppContext
+->attachBaseContext(0101.java:4)
+com.hjol:enginfloat
+--------------------
+14:52:47.873 android.support.multidex.MultiDex
+-><clinit>(000C.java:1)
+2.1.0
+--------------------
+14:52:48.386 com.cyjh.elfin.base.AppContext
+->onCreate(0101.java:5)
+com.hjol:enginfloat
+--------------------
+14:52:48.393 com.iflytek.voiceads.dex.a
+->a(0220.java:1)
+4.0_IFLY
+--------------------
+14:52:48.395 com.iflytek.voiceads.dex.c
+->c(0221.java:4)
+AdDex.4.0.1.dex
+--------------------
+14:52:48.395 com.iflytek.voiceads.dex.c
+->a(0221.java:1)
+AdDex.4.0.1.dex
+--------------------
+14:52:48.396 com.iflytek.voiceads.dex.c
+->d(0221.java:5)
+AdDex.4.0.1.dex
+--------------------
+14:52:48.396 com.iflytek.voiceads.dex.c
+->a(0221.java:2)
+AdDex.4.0.1.dex
+--------------------
+14:52:48.398 com.iflytek.voiceads.dex.a
+->a(0220.java:2)
+AdDex.4.0.1.dex
+--------------------
+14:52:48.416 com.iflytek.voiceads.dex.DexLoader
+->initIFLYADModule(021F.java:1)
+
+--------------------
+14:52:48.425 com.umeng.commonsdk.UMConfigure
+->init(0288.java:4)
+579ad79de0f55a8b3c001633
+--------------------
+14:52:48.428 com.umeng.commonsdk.UMConfigureImpl
+->b(028A.java:2)
+com.hjol:enginfloat
+--------------------
+14:52:48.428 com.umeng.commonsdk.UMConfigureImpl
+->c(028A.java:3)
+com.hjol:enginfloat
+--------------------
+14:52:48.429 com.umeng.commonsdk.UMConfigureImpl$2
+->run(0289.java:1)
+com.hjol:enginfloat
+--------------------
+14:52:48.435 net.grandcentrix.tray.provider.TrayContract
+->generateContentUri(0305.java:1)
+1686949188_1
+--------------------
+14:52:48.435 net.grandcentrix.tray.provider.TrayContract
+->generateContentUri(0305.java:1)
+1686949188_1
+--------------------
+14:52:48.435 net.grandcentrix.tray.provider.TrayContract
+->generateContentUri(0305.java:1)
+1686949188_1
+--------------------
+14:52:48.436 net.grandcentrix.tray.provider.TrayContract
+->generateContentUri(0305.java:1)
+1686949188_1
+--------------------
+14:52:48.446 com.cyjh.elfin.base.AppContext
+->f(0101.java:2)
+/storage/emulated/0/com.hjol
+--------------------
+14:52:48.446 com.cyjh.elfin.base.AppContext
+->f(0101.java:3)
+/storage/emulated/0/com.hjol/log
+--------------------
+14:52:48.449 com.cyjh.elfin.a.b
+-><clinit>(0100.java:1)
+6.1.1
+--------------------
+14:52:48.449 com.cyjh.elfin.floatingwindowprocess.c.c
+->b(011C.java:6)
+/data/user/0/com.hjol/files/script.lc
+--------------------
+14:52:48.449 com.cyjh.elfin.floatingwindowprocess.c.c
+->b(011C.java:7)
+/data/user/0/com.hjol/files/script.prop
+--------------------
+14:52:48.449 com.cyjh.elfin.floatingwindowprocess.c.c
+->b(011C.java:8)
+/data/user/0/com.hjol/files/script.atc
+--------------------
+14:52:48.449 com.cyjh.elfin.floatingwindowprocess.c.c
+->b(011C.java:9)
+/data/user/0/com.hjol/files/script.ui
+--------------------
+14:52:48.450 com.cyjh.elfin.floatingwindowprocess.c.c
+->b(011C.java:10)
+/data/user/0/com.hjol/files/script.uip
+--------------------
+14:52:48.450 com.cyjh.elfin.floatingwindowprocess.c.c
+->b(011C.java:11)
+/data/user/0/com.hjol/files/script.rtd
+--------------------
+14:52:48.450 com.cyjh.elfin.floatingwindowprocess.c.c
+->b(011C.java:12)
+/data/user/0/com.hjol/files/script.cfg
+--------------------
+14:52:48.451 com.cyjh.elfin.e.c.o
+->b(0118.java:6)
+1686949188
+--------------------
+14:52:48.452 com.cyjh.elfin.e.c.o
+->c(0118.java:7)
+1686949188
+--------------------
+14:52:48.452 com.cyjh.elfin.e.c.o
+->b(0118.java:4)
+/data/user/0/com.hjol/files/assets
+--------------------
+14:52:48.452 com.cyjh.elfin.e.c.o
+->b(0118.java:5)
+1712804694
+--------------------
+14:52:48.452 com.cyjh.elfin.e.c.o
+->c(0118.java:8)
+1712804694
+--------------------
+14:52:48.458 com.cyjh.http.e.a
+->c(0153.java:5)
+02:00:00:00:00:00
+--------------------
+14:52:48.480 com.cyjh.http.e.a
+->c(0153.java:6)
+
+--------------------
+14:52:48.482 com.cyjh.http.e.a
+->b(0153.java:2)
+9f259ffd10517199
+--------------------
+14:52:48.482 com.cyjh.http.e.a
+->c(0153.java:8)
+9f259ffd10517199
+--------------------
+14:52:48.483 com.cyjh.http.e.a
+->b(0153.java:2)
+8428f640-e83f-4abd-adda-722fe8fb807f
+--------------------
+14:52:48.483 com.cyjh.http.e.a
+->c(0153.java:10)
+8428f640-e83f-4abd-adda-722fe8fb807f
+--------------------
+14:52:48.484 com.cyjh.common.util.u
+->a(00FB.java:1)
+519fec6122568db9b2e62620d78ee680
+--------------------
+14:52:48.484 com.cyjh.http.e.a
+->c(0153.java:11)
+519fec6122568db9b2e62620d78ee680
+--------------------
+14:52:48.484 com.cyjh.http.b.a
+->b(014D.java:10)
+6.1.1
+--------------------
+14:52:48.484 com.cyjh.common.util.e
+->b(00E8.java:8)
+1686949188
+--------------------
+14:52:48.484 com.cyjh.common.util.af
+->b(00E5.java:1)
+1686949188
+--------------------
+14:52:48.484 com.cyjh.common.util.af
+->b(00E5.java:2)
+1686949188
+--------------------
+14:52:48.484 com.cyjh.http.b.a
+->b(014D.java:11)
+1712804694
+--------------------
+14:52:48.484 com.cyjh.http.b.a
+->b(014D.java:12)
+COBC41DkB9vuJuuZA5T2+hSJXVrM5/DJs+cvCsW89UbcEuqeEcx8Zfdll5w5Ed04e/JnVcOeO4XHospe1u9wgu+IpdsPqHj6
+--------------------
+14:52:48.485 com.cyjh.elfin.floatingwindowprocess.c.c
+->e(011C.java:15)
+http://auth2.mobileanjian.com/
+--------------------
+14:52:48.485 com.cyjh.elfin.floatingwindowprocess.c.c
+->e(011C.java:16)
+http://auth2.mobileanjian.com/
+--------------------
+14:52:48.493 com.google.gson.stream.JsonWriter
+-><clinit>(01F1.java:1)
+\u0000
+--------------------
+14:52:48.493 com.google.gson.stream.JsonWriter
+-><clinit>(01F1.java:1)
+\u0001
+--------------------
+14:52:48.493 com.google.gson.stream.JsonWriter
+-><clinit>(01F1.java:1)
+\u0002
+--------------------
+14:52:48.494 com.google.gson.stream.JsonWriter
+-><clinit>(01F1.java:1)
+\u0003
+--------------------
+14:52:48.494 com.google.gson.stream.JsonWriter
+-><clinit>(01F1.java:1)
+\u0004
+--------------------
+14:52:48.494 com.google.gson.stream.JsonWriter
+-><clinit>(01F1.java:1)
+\u0005
+--------------------
+14:52:48.494 com.google.gson.stream.JsonWriter
+-><clinit>(01F1.java:1)
+\u0006
+--------------------
+14:52:48.494 com.google.gson.stream.JsonWriter
+-><clinit>(01F1.java:1)
+\u0007
+--------------------
+14:52:48.494 com.google.gson.stream.JsonWriter
+-><clinit>(01F1.java:1)
+\u0008
+--------------------
+14:52:48.494 com.google.gson.stream.JsonWriter
+-><clinit>(01F1.java:1)
+\u0009
+--------------------
+14:52:48.494 com.google.gson.stream.JsonWriter
+-><clinit>(01F1.java:1)
+\u000a
+--------------------
+14:52:48.495 com.google.gson.stream.JsonWriter
+-><clinit>(01F1.java:1)
+\u000b
+--------------------
+14:52:48.495 com.google.gson.stream.JsonWriter
+-><clinit>(01F1.java:1)
+\u000c
+--------------------
+14:52:48.495 com.google.gson.stream.JsonWriter
+-><clinit>(01F1.java:1)
+\u000d
+--------------------
+14:52:48.495 com.google.gson.stream.JsonWriter
+-><clinit>(01F1.java:1)
+\u000e
+--------------------
+14:52:48.495 com.google.gson.stream.JsonWriter
+-><clinit>(01F1.java:1)
+\u000f
+--------------------
+14:52:48.495 com.google.gson.stream.JsonWriter
+-><clinit>(01F1.java:1)
+\u0010
+--------------------
+14:52:48.495 com.google.gson.stream.JsonWriter
+-><clinit>(01F1.java:1)
+\u0011
+--------------------
+14:52:48.495 com.google.gson.stream.JsonWriter
+-><clinit>(01F1.java:1)
+\u0012
+--------------------
+14:52:48.496 com.google.gson.stream.JsonWriter
+-><clinit>(01F1.java:1)
+\u0013
+--------------------
+14:52:48.496 com.google.gson.stream.JsonWriter
+-><clinit>(01F1.java:1)
+\u0014
+--------------------
+14:52:48.496 com.google.gson.stream.JsonWriter
+-><clinit>(01F1.java:1)
+\u0015
+--------------------
+14:52:48.496 com.google.gson.stream.JsonWriter
+-><clinit>(01F1.java:1)
+\u0016
+--------------------
+14:52:48.496 com.google.gson.stream.JsonWriter
+-><clinit>(01F1.java:1)
+\u0017
+--------------------
+14:52:48.496 com.google.gson.stream.JsonWriter
+-><clinit>(01F1.java:1)
+\u0018
+--------------------
+14:52:48.496 com.google.gson.stream.JsonWriter
+-><clinit>(01F1.java:1)
+\u0019
+--------------------
+14:52:48.496 com.google.gson.stream.JsonWriter
+-><clinit>(01F1.java:1)
+\u001a
+--------------------
+14:52:48.496 com.google.gson.stream.JsonWriter
+-><clinit>(01F1.java:1)
+\u001b
+--------------------
+14:52:48.497 com.google.gson.stream.JsonWriter
+-><clinit>(01F1.java:1)
+\u001c
+--------------------
+14:52:48.497 com.google.gson.stream.JsonWriter
+-><clinit>(01F1.java:1)
+\u001d
+--------------------
+14:52:48.497 com.google.gson.stream.JsonWriter
+-><clinit>(01F1.java:1)
+\u001e
+--------------------
+14:52:48.497 com.google.gson.stream.JsonWriter
+-><clinit>(01F1.java:1)
+\u001f
+--------------------
+14:52:48.499 com.cyjh.elfin.floatingwindowprocess.c.c
+->e(011C.java:18)
+{"BaseURL":"http://auth2.mobileanjian.com/","PackageName":"com.hjol","PayAppId":"7BACC4EF-DFDA-4dd9-815C-999FF745A82B","ScriptType":true,"authDesKeys":["c6bd901f","0ddf44be","950e5927","6460d8df","11fb887f","117e4900","bd113950","a99f6f97"],"AppId":238076,"AppInfo":"COBC41DkB9vuJuuZA5T2+hSJXVrM5/DJs+cvCsW89UbcEuqeEcx8Zfdll5w5Ed04e/JnVcOeO4XHospe1u9wgu+IpdsPqHj6","AppVersion":"1712804694","ClientTimestamp":1712818368,"DeviceCode":"499524466058853078f8b3e74","DeviceId":"519fec6122568db9b2e62620d78ee680","IsRedFinger":0,"TemplateFileId":559,"TemplateVersion":"6.1.1"}
+--------------------
+14:52:48.500 com.cyjh.elfin.floatingwindowprocess.c.c
+->c(011C.java:1)
+-----BEGIN RSA PRIVATE KEY-----
+MIICXAIBAAKBgQCVNCExZl+SZAQNhkR1KXdaft64oG88FjymP+iK9l5TVt7+VpUw
+bJ4/hl9UXqrFMQsrAm9d2/4NN3Laz+KthWOCjNRDWgMg0xhXRg6ns0hKRFZCEasc
+MX5ioW0IFf/WqFkaYEnMtgnJWrOvPFS/FPNIk84TZADfAktzSRJw+aNzFwIDAQAB
+AoGAIdCXuT9vZ5kdRgdpGniUYUEhrwxFSYPsqO0RAfWGOTMWBOSQmVH0p4cHsfJm
+l5xe4JeDr+z87ffkIu08fYEepQ4Y5eMNJ8T4O3V8MlhqKApJPyVwLNzd2fCXb3vJ
+jkUC0+CJB6767eHGoRvlPT2TkUOssMNPriM0XK4t9iPKzzkCQQDOK4u9Te23M7IQ
+Mf3SQTBtwT+SijOHPx6QSaOemvGvO8gxm0sa37R1fTUkM5ZeVzavZ5SnLGnYDitc
+xvCtQ6BNAkEAuUPfRaZy9vCmspE59TgcbuNNs2puPXGhrtZZHxziGiuyikpUT5Np
+HQwYvRo6XaAsuUuDi9sjKP1kAfdaAVBy8wJBAKq+nahV1b2X7qxC+rcajgUXupKe
+KjakK6fLlNpR8D7z/8Q1nGnRQx7aZxxoLOxMxllWK2KYAcCRW5AmokSccTECQG33
+6K7aJ0GHBRvXclSpcs8rYzLNSRR1v6gdGZeLOHaaW4cUqcj2Uh1o0cJlsCFk80cl
+mLbKY6twBQ3ZufYvv5sCQCaWn4kDt9jjhuP0+Pbjzcl75MixfnZPLSjWkhqgv0TO
+OGW4iOxKpDF7Q1MBiMckymzitab3GBy4Owd3QC/wnk0=
+-----END RSA PRIVATE KEY-----
+
+--------------------
+14:52:48.500 com.cyjh.elfin.floatingwindowprocess.c.c
+->b(011C.java:13)
+-----BEGIN RSA PRIVATE KEY-----
+MIICXAIBAAKBgQCVNCExZl+SZAQNhkR1KXdaft64oG88FjymP+iK9l5TVt7+VpUw
+bJ4/hl9UXqrFMQsrAm9d2/4NN3Laz+KthWOCjNRDWgMg0xhXRg6ns0hKRFZCEasc
+MX5ioW0IFf/WqFkaYEnMtgnJWrOvPFS/FPNIk84TZADfAktzSRJw+aNzFwIDAQAB
+AoGAIdCXuT9vZ5kdRgdpGniUYUEhrwxFSYPsqO0RAfWGOTMWBOSQmVH0p4cHsfJm
+l5xe4JeDr+z87ffkIu08fYEepQ4Y5eMNJ8T4O3V8MlhqKApJPyVwLNzd2fCXb3vJ
+jkUC0+CJB6767eHGoRvlPT2TkUOssMNPriM0XK4t9iPKzzkCQQDOK4u9Te23M7IQ
+Mf3SQTBtwT+SijOHPx6QSaOemvGvO8gxm0sa37R1fTUkM5ZeVzavZ5SnLGnYDitc
+xvCtQ6BNAkEAuUPfRaZy9vCmspE59TgcbuNNs2puPXGhrtZZHxziGiuyikpUT5Np
+HQwYvRo6XaAsuUuDi9sjKP1kAfdaAVBy8wJBAKq+nahV1b2X7qxC+rcajgUXupKe
+KjakK6fLlNpR8D7z/8Q1nGnRQx7aZxxoLOxMxllWK2KYAcCRW5AmokSccTECQG33
+6K7aJ0GHBRvXclSpcs8rYzLNSRR1v6gdGZeLOHaaW4cUqcj2Uh1o0cJlsCFk80cl
+mLbKY6twBQ3ZufYvv5sCQCaWn4kDt9jjhuP0+Pbjzcl75MixfnZPLSjWkhqgv0TO
+OGW4iOxKpDF7Q1MBiMckymzitab3GBy4Owd3QC/wnk0=
+-----END RSA PRIVATE KEY-----
+
+--------------------
+14:52:48.500 com.cyjh.elfin.floatingwindowprocess.c.c
+->d(011C.java:2)
+-----BEGIN PUBLIC KEY-----
+MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDQ6aF1yXQM2dS6Wl5IUkpIAPad
+Ppyt8qkhWSFw0OpmDxTPBOnnF/3V0HUbcu0E+xO542sbHX1PYZD1OStHBYOcvc2I
+uKa7dl/A/uywHZ4fVxSKXrge3MuvDZ6kefbJEcDaCLuc+TOtj7/HlDpblJE7sRVt
+CYxNQp0T3b3OokyDnwIDAQAB
+-----END PUBLIC KEY-----
+
+--------------------
+14:52:48.500 com.cyjh.elfin.floatingwindowprocess.c.c
+->b(011C.java:14)
+-----BEGIN PUBLIC KEY-----
+MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDQ6aF1yXQM2dS6Wl5IUkpIAPad
+Ppyt8qkhWSFw0OpmDxTPBOnnF/3V0HUbcu0E+xO542sbHX1PYZD1OStHBYOcvc2I
+uKa7dl/A/uywHZ4fVxSKXrge3MuvDZ6kefbJEcDaCLuc+TOtj7/HlDpblJE7sRVt
+CYxNQp0T3b3OokyDnwIDAQAB
+-----END PUBLIC KEY-----
+
+--------------------
+14:52:48.524 com.cyjh.mobileanjian.ipc.log.b
+->a(015C.java:7)
+f
+--------------------
+14:52:48.525 com.cyjh.mobileanjian.ipc.log.b
+->a(015C.java:7)
+60
+--------------------
+14:52:48.525 com.cyjh.mobileanjian.ipc.log.b
+->a(015C.java:7)
+72
+--------------------
+14:52:48.525 com.cyjh.mobileanjian.ipc.log.b
+->a(015C.java:7)
+64
+--------------------
+14:52:48.525 com.cyjh.mobileanjian.ipc.log.b
+->a(015C.java:7)
+fc
+--------------------
+14:52:48.525 com.cyjh.mobileanjian.ipc.log.b
+->a(015C.java:7)
+63
+--------------------
+14:52:48.525 com.cyjh.mobileanjian.ipc.log.b
+->a(015C.java:7)
+18
+--------------------
+14:52:48.525 com.cyjh.mobileanjian.ipc.log.b
+->a(015C.java:7)
+a9
+--------------------
+14:52:48.525 com.cyjh.mobileanjian.ipc.log.b
+->a(015C.java:7)
+2b
+--------------------
+14:52:48.525 com.cyjh.mobileanjian.ipc.log.b
+->a(015C.java:7)
+9e
+--------------------
+14:52:48.525 com.cyjh.mobileanjian.ipc.log.b
+->a(015C.java:7)
+13
+--------------------
+14:52:48.525 com.cyjh.mobileanjian.ipc.log.b
+->a(015C.java:7)
+c6
+--------------------
+14:52:48.525 com.cyjh.mobileanjian.ipc.log.b
+->a(015C.java:7)
+5d
+--------------------
+14:52:48.526 com.cyjh.mobileanjian.ipc.log.b
+->a(015C.java:7)
+b7
+--------------------
+14:52:48.526 com.cyjh.mobileanjian.ipc.log.b
+->a(015C.java:7)
+cd
+--------------------
+14:52:48.526 com.cyjh.mobileanjian.ipc.log.b
+->a(015C.java:7)
+3c
+--------------------
+14:52:48.526 com.cyjh.mobileanjian.ipc.log.b
+-><init>(015C.java:1)
+0f607264fc6318a92b9e13c65db7cd3c
+--------------------
+14:52:48.527 com.cyjh.mobileanjian.ipc.log.b
+-><init>(015C.java:2)
+undefined
+--------------------
+14:52:48.527 com.cyjh.mobileanjian.ipc.log.b
+-><init>(015C.java:3)
+Sony XQ-BC72
+--------------------
+14:52:48.528 com.cyjh.mobileanjian.ipc.log.b
+-><init>(015C.java:4)
+红警OL辅助-小精灵
+--------------------
+14:52:48.528 com.cyjh.mobileanjian.ipc.log.b
+-><init>(015C.java:5)
+6.1.1
+--------------------
+14:52:48.533 org.apache.commons.io.FileUtils
+->readFileToString(030C.java:15)
+Linux version 3.18.31-perf (compiler@compiler030) (gcc version 4.9 20150123 (prerelease) (GCC) ) #1 SMP PREEMPT Tue Oct 15 14:59:27 CST 2019
+
+--------------------
+14:52:48.533 org.apache.commons.io.FileUtils
+->readFileToString(030C.java:13)
+Linux version 3.18.31-perf (compiler@compiler030) (gcc version 4.9 20150123 (prerelease) (GCC) ) #1 SMP PREEMPT Tue Oct 15 14:59:27 CST 2019
+
+--------------------
+14:52:48.533 com.cyjh.mobileanjian.ipc.log.b
+-><init>(015C.java:6)
+Linux version 3.18.31-perf (compiler@compiler030) (gcc version 4.9 20150123 (prerelease) (GCC) ) #1 SMP PREEMPT Tue Oct 15 14:59:27 CST 2019
+
+--------------------
+14:52:48.659 com.cyjh.mobileanjian.ipc.utils.FileUtils
+->makeAbsolutePath(0163.java:2)
+lib
+--------------------
+14:52:48.659 com.cyjh.mobileanjian.ipc.utils.FileUtils
+->makeAbsolutePath(0163.java:2)
+libmqm.so
+--------------------
+14:52:48.659 com.cyjh.mq.service.IpcService
+->onCreate(0172.java:5)
+/data/user/0/com.hjol/lib/libmqm.so
+--------------------
+14:52:48.659 com.cyjh.mobileanjian.ipc.utils.FileUtils
+->makeAbsolutePath(0163.java:2)
+mycache
+--------------------
+14:52:48.659 com.cyjh.mobileanjian.ipc.utils.FileUtils
+->makeAbsolutePath(0163.java:2)
+dalvik-cache
+--------------------
+14:52:48.659 com.cyjh.mq.service.IpcService
+->onCreate(0172.java:6)
+/data/user/0/com.hjol/mycache/dalvik-cache
+--------------------
+14:52:48.660 com.cyjh.mq.service.IpcService
+->onCreate(0172.java:7)
+exec /system/bin/app_process32 /data/user/0/com.hjol/files com.cyjh.mobileanjian.ipc.ClientService 15eae1d2-88ab-482f-a65b-30dcefe26ac1 /data/user/0/com.hjol/lib/libmqm.so 12030 &
+
+--------------------
+14:52:48.661 com.cyjh.mq.service.IpcService$1
+->onLooperPrepared(0171.java:1)
+15eae1d2-88ab-482f-a65b-30dcefe26ac1
+--------------------
+14:52:48.663 com.cyjh.http.b.a
+->b(014D.java:10)
+6.1.1
+--------------------
+14:52:48.663 com.cyjh.common.util.e
+->b(00E8.java:8)
+1686949188
+--------------------
+14:52:48.663 com.cyjh.common.util.af
+->b(00E5.java:1)
+1686949188
+--------------------
+14:52:48.663 com.cyjh.common.util.af
+->b(00E5.java:2)
+1686949188
+--------------------
+14:52:48.663 com.cyjh.http.b.a
+->b(014D.java:11)
+1712804694
+--------------------
+14:52:48.663 com.cyjh.http.b.a
+->b(014D.java:12)
+COBC41DkB9vuJuuZA5T2+hSJXVrM5/DJs+cvCsW89UbcEuqeEcx8Zfdll5w5Ed04e/JnVcOeO4XHospe1u9wgu+IpdsPqHj6
+--------------------
+14:52:48.663 com.cyjh.elfin.floatingwindowprocess.c.c
+->e(011C.java:15)
+http://auth2.mobileanjian.com/
+--------------------
+14:52:48.663 com.cyjh.elfin.floatingwindowprocess.c.c
+->e(011C.java:16)
+http://auth2.mobileanjian.com/
+--------------------
+14:52:48.665 com.cyjh.elfin.floatingwindowprocess.c.c
+->e(011C.java:18)
+{"BaseURL":"http://auth2.mobileanjian.com/","PackageName":"com.hjol","PayAppId":"7BACC4EF-DFDA-4dd9-815C-999FF745A82B","ScriptType":true,"authDesKeys":["c6bd901f","0ddf44be","950e5927","6460d8df","11fb887f","117e4900","bd113950","a99f6f97"],"AppId":238076,"AppInfo":"COBC41DkB9vuJuuZA5T2+hSJXVrM5/DJs+cvCsW89UbcEuqeEcx8Zfdll5w5Ed04e/JnVcOeO4XHospe1u9wgu+IpdsPqHj6","AppVersion":"1712804694","ClientTimestamp":1712818368,"DeviceCode":"499524466058853078f8b3e74","DeviceId":"519fec6122568db9b2e62620d78ee680","IsRedFinger":0,"TemplateFileId":559,"TemplateVersion":"6.1.1"}
+--------------------
+14:52:48.665 com.cyjh.elfin.floatingwindowprocess.c.c
+->c(011C.java:1)
+-----BEGIN RSA PRIVATE KEY-----
+MIICXAIBAAKBgQCVNCExZl+SZAQNhkR1KXdaft64oG88FjymP+iK9l5TVt7+VpUw
+bJ4/hl9UXqrFMQsrAm9d2/4NN3Laz+KthWOCjNRDWgMg0xhXRg6ns0hKRFZCEasc
+MX5ioW0IFf/WqFkaYEnMtgnJWrOvPFS/FPNIk84TZADfAktzSRJw+aNzFwIDAQAB
+AoGAIdCXuT9vZ5kdRgdpGniUYUEhrwxFSYPsqO0RAfWGOTMWBOSQmVH0p4cHsfJm
+l5xe4JeDr+z87ffkIu08fYEepQ4Y5eMNJ8T4O3V8MlhqKApJPyVwLNzd2fCXb3vJ
+jkUC0+CJB6767eHGoRvlPT2TkUOssMNPriM0XK4t9iPKzzkCQQDOK4u9Te23M7IQ
+Mf3SQTBtwT+SijOHPx6QSaOemvGvO8gxm0sa37R1fTUkM5ZeVzavZ5SnLGnYDitc
+xvCtQ6BNAkEAuUPfRaZy9vCmspE59TgcbuNNs2puPXGhrtZZHxziGiuyikpUT5Np
+HQwYvRo6XaAsuUuDi9sjKP1kAfdaAVBy8wJBAKq+nahV1b2X7qxC+rcajgUXupKe
+KjakK6fLlNpR8D7z/8Q1nGnRQx7aZxxoLOxMxllWK2KYAcCRW5AmokSccTECQG33
+6K7aJ0GHBRvXclSpcs8rYzLNSRR1v6gdGZeLOHaaW4cUqcj2Uh1o0cJlsCFk80cl
+mLbKY6twBQ3ZufYvv5sCQCaWn4kDt9jjhuP0+Pbjzcl75MixfnZPLSjWkhqgv0TO
+OGW4iOxKpDF7Q1MBiMckymzitab3GBy4Owd3QC/wnk0=
+-----END RSA PRIVATE KEY-----
+
+--------------------
+14:52:48.665 com.cyjh.elfin.floatingwindowprocess.service.FloatingWindowService
+->b(0120.java:1)
+-----BEGIN RSA PRIVATE KEY-----
+MIICXAIBAAKBgQCVNCExZl+SZAQNhkR1KXdaft64oG88FjymP+iK9l5TVt7+VpUw
+bJ4/hl9UXqrFMQsrAm9d2/4NN3Laz+KthWOCjNRDWgMg0xhXRg6ns0hKRFZCEasc
+MX5ioW0IFf/WqFkaYEnMtgnJWrOvPFS/FPNIk84TZADfAktzSRJw+aNzFwIDAQAB
+AoGAIdCXuT9vZ5kdRgdpGniUYUEhrwxFSYPsqO0RAfWGOTMWBOSQmVH0p4cHsfJm
+l5xe4JeDr+z87ffkIu08fYEepQ4Y5eMNJ8T4O3V8MlhqKApJPyVwLNzd2fCXb3vJ
+jkUC0+CJB6767eHGoRvlPT2TkUOssMNPriM0XK4t9iPKzzkCQQDOK4u9Te23M7IQ
+Mf3SQTBtwT+SijOHPx6QSaOemvGvO8gxm0sa37R1fTUkM5ZeVzavZ5SnLGnYDitc
+xvCtQ6BNAkEAuUPfRaZy9vCmspE59TgcbuNNs2puPXGhrtZZHxziGiuyikpUT5Np
+HQwYvRo6XaAsuUuDi9sjKP1kAfdaAVBy8wJBAKq+nahV1b2X7qxC+rcajgUXupKe
+KjakK6fLlNpR8D7z/8Q1nGnRQx7aZxxoLOxMxllWK2KYAcCRW5AmokSccTECQG33
+6K7aJ0GHBRvXclSpcs8rYzLNSRR1v6gdGZeLOHaaW4cUqcj2Uh1o0cJlsCFk80cl
+mLbKY6twBQ3ZufYvv5sCQCaWn4kDt9jjhuP0+Pbjzcl75MixfnZPLSjWkhqgv0TO
+OGW4iOxKpDF7Q1MBiMckymzitab3GBy4Owd3QC/wnk0=
+-----END RSA PRIVATE KEY-----
+
+--------------------
+14:52:48.665 com.cyjh.elfin.floatingwindowprocess.c.c
+->d(011C.java:2)
+-----BEGIN PUBLIC KEY-----
+MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDQ6aF1yXQM2dS6Wl5IUkpIAPad
+Ppyt8qkhWSFw0OpmDxTPBOnnF/3V0HUbcu0E+xO542sbHX1PYZD1OStHBYOcvc2I
+uKa7dl/A/uywHZ4fVxSKXrge3MuvDZ6kefbJEcDaCLuc+TOtj7/HlDpblJE7sRVt
+CYxNQp0T3b3OokyDnwIDAQAB
+-----END PUBLIC KEY-----
+
+--------------------
+14:52:48.665 com.cyjh.elfin.floatingwindowprocess.service.FloatingWindowService
+->b(0120.java:2)
+-----BEGIN PUBLIC KEY-----
+MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDQ6aF1yXQM2dS6Wl5IUkpIAPad
+Ppyt8qkhWSFw0OpmDxTPBOnnF/3V0HUbcu0E+xO542sbHX1PYZD1OStHBYOcvc2I
+uKa7dl/A/uywHZ4fVxSKXrge3MuvDZ6kefbJEcDaCLuc+TOtj7/HlDpblJE7sRVt
+CYxNQp0T3b3OokyDnwIDAQAB
+-----END PUBLIC KEY-----
+
+--------------------
+14:52:48.667 com.cyjh.elfin.floatingwindowprocess.c.c
+->b(011C.java:6)
+/data/user/0/com.hjol/files/script.lc
+--------------------
+14:52:48.667 com.cyjh.elfin.floatingwindowprocess.c.c
+->b(011C.java:7)
+/data/user/0/com.hjol/files/script.prop
+--------------------
+14:52:48.667 com.cyjh.elfin.floatingwindowprocess.c.c
+->b(011C.java:8)
+/data/user/0/com.hjol/files/script.atc
+--------------------
+14:52:48.667 com.cyjh.elfin.floatingwindowprocess.c.c
+->b(011C.java:9)
+/data/user/0/com.hjol/files/script.ui
+--------------------
+14:52:48.667 com.cyjh.elfin.floatingwindowprocess.c.c
+->b(011C.java:10)
+/data/user/0/com.hjol/files/script.uip
+--------------------
+14:52:48.667 com.cyjh.elfin.floatingwindowprocess.c.c
+->b(011C.java:11)
+/data/user/0/com.hjol/files/script.rtd
+--------------------
+14:52:48.667 com.cyjh.elfin.floatingwindowprocess.c.c
+->b(011C.java:12)
+/data/user/0/com.hjol/files/script.cfg
+--------------------
+14:52:48.668 com.cyjh.elfin.e.c.o
+->b(0118.java:6)
+1686949188
+--------------------
+14:52:48.668 com.cyjh.elfin.e.c.o
+->c(0118.java:7)
+1686949188
+--------------------
+14:52:48.668 com.cyjh.elfin.e.c.o
+->b(0118.java:4)
+/data/user/0/com.hjol/files/assets
+--------------------
+14:52:48.668 com.cyjh.elfin.e.c.o
+->b(0118.java:5)
+1712804694
+--------------------
+14:52:48.668 com.cyjh.elfin.e.c.o
+->c(0118.java:8)
+1712804694
+--------------------
+14:52:48.669 com.cyjh.http.b.a
+->b(014D.java:10)
+6.1.1
+--------------------
+14:52:48.669 com.cyjh.common.util.e
+->b(00E8.java:8)
+1686949188
+--------------------
+14:52:48.669 com.cyjh.common.util.af
+->b(00E5.java:1)
+1686949188
+--------------------
+14:52:48.669 com.cyjh.common.util.af
+->b(00E5.java:2)
+1686949188
+--------------------
+14:52:48.669 com.cyjh.http.b.a
+->b(014D.java:11)
+1712804694
+--------------------
+14:52:48.669 com.cyjh.http.b.a
+->b(014D.java:12)
+COBC41DkB9vuJuuZA5T2+hSJXVrM5/DJs+cvCsW89UbcEuqeEcx8Zfdll5w5Ed04e/JnVcOeO4XHospe1u9wgu+IpdsPqHj6
+--------------------
+14:52:48.669 com.cyjh.elfin.floatingwindowprocess.c.c
+->e(011C.java:15)
+http://auth2.mobileanjian.com/
+--------------------
+14:52:48.669 com.cyjh.elfin.floatingwindowprocess.c.c
+->e(011C.java:16)
+http://auth2.mobileanjian.com/
+--------------------
+14:52:48.671 com.cyjh.elfin.floatingwindowprocess.c.c
+->e(011C.java:18)
+{"BaseURL":"http://auth2.mobileanjian.com/","PackageName":"com.hjol","PayAppId":"7BACC4EF-DFDA-4dd9-815C-999FF745A82B","ScriptType":true,"authDesKeys":["c6bd901f","0ddf44be","950e5927","6460d8df","11fb887f","117e4900","bd113950","a99f6f97"],"AppId":238076,"AppInfo":"COBC41DkB9vuJuuZA5T2+hSJXVrM5/DJs+cvCsW89UbcEuqeEcx8Zfdll5w5Ed04e/JnVcOeO4XHospe1u9wgu+IpdsPqHj6","AppVersion":"1712804694","ClientTimestamp":1712818368,"DeviceCode":"499524466058853078f8b3e74","DeviceId":"519fec6122568db9b2e62620d78ee680","IsRedFinger":0,"TemplateFileId":559,"TemplateVersion":"6.1.1"}
+--------------------
+14:52:48.671 com.cyjh.elfin.floatingwindowprocess.c.c
+->c(011C.java:1)
+-----BEGIN RSA PRIVATE KEY-----
+MIICXAIBAAKBgQCVNCExZl+SZAQNhkR1KXdaft64oG88FjymP+iK9l5TVt7+VpUw
+bJ4/hl9UXqrFMQsrAm9d2/4NN3Laz+KthWOCjNRDWgMg0xhXRg6ns0hKRFZCEasc
+MX5ioW0IFf/WqFkaYEnMtgnJWrOvPFS/FPNIk84TZADfAktzSRJw+aNzFwIDAQAB
+AoGAIdCXuT9vZ5kdRgdpGniUYUEhrwxFSYPsqO0RAfWGOTMWBOSQmVH0p4cHsfJm
+l5xe4JeDr+z87ffkIu08fYEepQ4Y5eMNJ8T4O3V8MlhqKApJPyVwLNzd2fCXb3vJ
+jkUC0+CJB6767eHGoRvlPT2TkUOssMNPriM0XK4t9iPKzzkCQQDOK4u9Te23M7IQ
+Mf3SQTBtwT+SijOHPx6QSaOemvGvO8gxm0sa37R1fTUkM5ZeVzavZ5SnLGnYDitc
+xvCtQ6BNAkEAuUPfRaZy9vCmspE59TgcbuNNs2puPXGhrtZZHxziGiuyikpUT5Np
+HQwYvRo6XaAsuUuDi9sjKP1kAfdaAVBy8wJBAKq+nahV1b2X7qxC+rcajgUXupKe
+KjakK6fLlNpR8D7z/8Q1nGnRQx7aZxxoLOxMxllWK2KYAcCRW5AmokSccTECQG33
+6K7aJ0GHBRvXclSpcs8rYzLNSRR1v6gdGZeLOHaaW4cUqcj2Uh1o0cJlsCFk80cl
+mLbKY6twBQ3ZufYvv5sCQCaWn4kDt9jjhuP0+Pbjzcl75MixfnZPLSjWkhqgv0TO
+OGW4iOxKpDF7Q1MBiMckymzitab3GBy4Owd3QC/wnk0=
+-----END RSA PRIVATE KEY-----
+
+--------------------
+14:52:48.671 com.cyjh.elfin.floatingwindowprocess.c.c
+->b(011C.java:13)
+-----BEGIN RSA PRIVATE KEY-----
+MIICXAIBAAKBgQCVNCExZl+SZAQNhkR1KXdaft64oG88FjymP+iK9l5TVt7+VpUw
+bJ4/hl9UXqrFMQsrAm9d2/4NN3Laz+KthWOCjNRDWgMg0xhXRg6ns0hKRFZCEasc
+MX5ioW0IFf/WqFkaYEnMtgnJWrOvPFS/FPNIk84TZADfAktzSRJw+aNzFwIDAQAB
+AoGAIdCXuT9vZ5kdRgdpGniUYUEhrwxFSYPsqO0RAfWGOTMWBOSQmVH0p4cHsfJm
+l5xe4JeDr+z87ffkIu08fYEepQ4Y5eMNJ8T4O3V8MlhqKApJPyVwLNzd2fCXb3vJ
+jkUC0+CJB6767eHGoRvlPT2TkUOssMNPriM0XK4t9iPKzzkCQQDOK4u9Te23M7IQ
+Mf3SQTBtwT+SijOHPx6QSaOemvGvO8gxm0sa37R1fTUkM5ZeVzavZ5SnLGnYDitc
+xvCtQ6BNAkEAuUPfRaZy9vCmspE59TgcbuNNs2puPXGhrtZZHxziGiuyikpUT5Np
+HQwYvRo6XaAsuUuDi9sjKP1kAfdaAVBy8wJBAKq+nahV1b2X7qxC+rcajgUXupKe
+KjakK6fLlNpR8D7z/8Q1nGnRQx7aZxxoLOxMxllWK2KYAcCRW5AmokSccTECQG33
+6K7aJ0GHBRvXclSpcs8rYzLNSRR1v6gdGZeLOHaaW4cUqcj2Uh1o0cJlsCFk80cl
+mLbKY6twBQ3ZufYvv5sCQCaWn4kDt9jjhuP0+Pbjzcl75MixfnZPLSjWkhqgv0TO
+OGW4iOxKpDF7Q1MBiMckymzitab3GBy4Owd3QC/wnk0=
+-----END RSA PRIVATE KEY-----
+
+--------------------
+14:52:48.671 com.cyjh.elfin.floatingwindowprocess.c.c
+->d(011C.java:2)
+-----BEGIN PUBLIC KEY-----
+MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDQ6aF1yXQM2dS6Wl5IUkpIAPad
+Ppyt8qkhWSFw0OpmDxTPBOnnF/3V0HUbcu0E+xO542sbHX1PYZD1OStHBYOcvc2I
+uKa7dl/A/uywHZ4fVxSKXrge3MuvDZ6kefbJEcDaCLuc+TOtj7/HlDpblJE7sRVt
+CYxNQp0T3b3OokyDnwIDAQAB
+-----END PUBLIC KEY-----
+
+--------------------
+14:52:48.671 com.cyjh.elfin.floatingwindowprocess.c.c
+->b(011C.java:14)
+-----BEGIN PUBLIC KEY-----
+MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDQ6aF1yXQM2dS6Wl5IUkpIAPad
+Ppyt8qkhWSFw0OpmDxTPBOnnF/3V0HUbcu0E+xO542sbHX1PYZD1OStHBYOcvc2I
+uKa7dl/A/uywHZ4fVxSKXrge3MuvDZ6kefbJEcDaCLuc+TOtj7/HlDpblJE7sRVt
+CYxNQp0T3b3OokyDnwIDAQAB
+-----END PUBLIC KEY-----
+
+--------------------
+14:52:48.672 com.cyjh.http.b.a
+->b(014D.java:10)
+6.1.1
+--------------------
+14:52:48.672 com.cyjh.common.util.e
+->b(00E8.java:8)
+1686949188
+--------------------
+14:52:48.672 com.cyjh.common.util.af
+->b(00E5.java:1)
+1686949188
+--------------------
+14:52:48.672 com.cyjh.common.util.af
+->b(00E5.java:2)
+1686949188
+--------------------
+14:52:48.672 com.cyjh.http.b.a
+->b(014D.java:11)
+1712804694
+--------------------
+14:52:48.672 com.cyjh.http.b.a
+->b(014D.java:12)
+COBC41DkB9vuJuuZA5T2+hSJXVrM5/DJs+cvCsW89UbcEuqeEcx8Zfdll5w5Ed04e/JnVcOeO4XHospe1u9wgu+IpdsPqHj6
+--------------------
+14:52:48.673 com.cyjh.elfin.floatingwindowprocess.c.c
+->e(011C.java:15)
+http://auth2.mobileanjian.com/
+--------------------
+14:52:48.673 com.cyjh.elfin.floatingwindowprocess.c.c
+->e(011C.java:16)
+http://auth2.mobileanjian.com/
+--------------------
+14:52:48.674 com.cyjh.elfin.floatingwindowprocess.c.c
+->e(011C.java:18)
+{"BaseURL":"http://auth2.mobileanjian.com/","PackageName":"com.hjol","PayAppId":"7BACC4EF-DFDA-4dd9-815C-999FF745A82B","ScriptType":true,"authDesKeys":["1bff00f5","caf7a1f0","7fed39f9","a1988775","964f8677","242678c5","b4af55a5","6619cb9d"],"AppId":238076,"AppInfo":"COBC41DkB9vuJuuZA5T2+hSJXVrM5/DJs+cvCsW89UbcEuqeEcx8Zfdll5w5Ed04e/JnVcOeO4XHospe1u9wgu+IpdsPqHj6","AppVersion":"1712804694","ClientTimestamp":1712818368,"DeviceCode":"499524466058853078f8b3e74","DeviceId":"519fec6122568db9b2e62620d78ee680","IsRedFinger":0,"TemplateFileId":559,"TemplateVersion":"6.1.1","V":"81058250b7deb83d0"}
+--------------------
+14:52:48.674 com.cyjh.elfin.floatingwindowprocess.c.c
+->c(011C.java:1)
+-----BEGIN RSA PRIVATE KEY-----
+MIICXAIBAAKBgQCVNCExZl+SZAQNhkR1KXdaft64oG88FjymP+iK9l5TVt7+VpUw
+bJ4/hl9UXqrFMQsrAm9d2/4NN3Laz+KthWOCjNRDWgMg0xhXRg6ns0hKRFZCEasc
+MX5ioW0IFf/WqFkaYEnMtgnJWrOvPFS/FPNIk84TZADfAktzSRJw+aNzFwIDAQAB
+AoGAIdCXuT9vZ5kdRgdpGniUYUEhrwxFSYPsqO0RAfWGOTMWBOSQmVH0p4cHsfJm
+l5xe4JeDr+z87ffkIu08fYEepQ4Y5eMNJ8T4O3V8MlhqKApJPyVwLNzd2fCXb3vJ
+jkUC0+CJB6767eHGoRvlPT2TkUOssMNPriM0XK4t9iPKzzkCQQDOK4u9Te23M7IQ
+Mf3SQTBtwT+SijOHPx6QSaOemvGvO8gxm0sa37R1fTUkM5ZeVzavZ5SnLGnYDitc
+xvCtQ6BNAkEAuUPfRaZy9vCmspE59TgcbuNNs2puPXGhrtZZHxziGiuyikpUT5Np
+HQwYvRo6XaAsuUuDi9sjKP1kAfdaAVBy8wJBAKq+nahV1b2X7qxC+rcajgUXupKe
+KjakK6fLlNpR8D7z/8Q1nGnRQx7aZxxoLOxMxllWK2KYAcCRW5AmokSccTECQG33
+6K7aJ0GHBRvXclSpcs8rYzLNSRR1v6gdGZeLOHaaW4cUqcj2Uh1o0cJlsCFk80cl
+mLbKY6twBQ3ZufYvv5sCQCaWn4kDt9jjhuP0+Pbjzcl75MixfnZPLSjWkhqgv0TO
+OGW4iOxKpDF7Q1MBiMckymzitab3GBy4Owd3QC/wnk0=
+-----END RSA PRIVATE KEY-----
+
+--------------------
+14:52:48.674 com.cyjh.elfin.floatingwindowprocess.service.FloatingWindowService
+->b(0120.java:1)
+-----BEGIN RSA PRIVATE KEY-----
+MIICXAIBAAKBgQCVNCExZl+SZAQNhkR1KXdaft64oG88FjymP+iK9l5TVt7+VpUw
+bJ4/hl9UXqrFMQsrAm9d2/4NN3Laz+KthWOCjNRDWgMg0xhXRg6ns0hKRFZCEasc
+MX5ioW0IFf/WqFkaYEnMtgnJWrOvPFS/FPNIk84TZADfAktzSRJw+aNzFwIDAQAB
+AoGAIdCXuT9vZ5kdRgdpGniUYUEhrwxFSYPsqO0RAfWGOTMWBOSQmVH0p4cHsfJm
+l5xe4JeDr+z87ffkIu08fYEepQ4Y5eMNJ8T4O3V8MlhqKApJPyVwLNzd2fCXb3vJ
+jkUC0+CJB6767eHGoRvlPT2TkUOssMNPriM0XK4t9iPKzzkCQQDOK4u9Te23M7IQ
+Mf3SQTBtwT+SijOHPx6QSaOemvGvO8gxm0sa37R1fTUkM5ZeVzavZ5SnLGnYDitc
+xvCtQ6BNAkEAuUPfRaZy9vCmspE59TgcbuNNs2puPXGhrtZZHxziGiuyikpUT5Np
+HQwYvRo6XaAsuUuDi9sjKP1kAfdaAVBy8wJBAKq+nahV1b2X7qxC+rcajgUXupKe
+KjakK6fLlNpR8D7z/8Q1nGnRQx7aZxxoLOxMxllWK2KYAcCRW5AmokSccTECQG33
+6K7aJ0GHBRvXclSpcs8rYzLNSRR1v6gdGZeLOHaaW4cUqcj2Uh1o0cJlsCFk80cl
+mLbKY6twBQ3ZufYvv5sCQCaWn4kDt9jjhuP0+Pbjzcl75MixfnZPLSjWkhqgv0TO
+OGW4iOxKpDF7Q1MBiMckymzitab3GBy4Owd3QC/wnk0=
+-----END RSA PRIVATE KEY-----
+
+--------------------
+14:52:48.674 com.cyjh.elfin.floatingwindowprocess.c.c
+->d(011C.java:2)
+-----BEGIN PUBLIC KEY-----
+MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDQ6aF1yXQM2dS6Wl5IUkpIAPad
+Ppyt8qkhWSFw0OpmDxTPBOnnF/3V0HUbcu0E+xO542sbHX1PYZD1OStHBYOcvc2I
+uKa7dl/A/uywHZ4fVxSKXrge3MuvDZ6kefbJEcDaCLuc+TOtj7/HlDpblJE7sRVt
+CYxNQp0T3b3OokyDnwIDAQAB
+-----END PUBLIC KEY-----
+
+--------------------
+14:52:48.674 com.cyjh.elfin.floatingwindowprocess.service.FloatingWindowService
+->b(0120.java:2)
+-----BEGIN PUBLIC KEY-----
+MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDQ6aF1yXQM2dS6Wl5IUkpIAPad
+Ppyt8qkhWSFw0OpmDxTPBOnnF/3V0HUbcu0E+xO542sbHX1PYZD1OStHBYOcvc2I
+uKa7dl/A/uywHZ4fVxSKXrge3MuvDZ6kefbJEcDaCLuc+TOtj7/HlDpblJE7sRVt
+CYxNQp0T3b3OokyDnwIDAQAB
+-----END PUBLIC KEY-----
+
+--------------------
+14:52:48.675 com.umeng.commonsdk.proguard.k$1
+->onSignalStrengthsChanged(029B.java:1)
+2147483647
+--------------------
+14:52:48.677 com.umeng.commonsdk.framework.c
+->a(0290.java:1)
+internal
+--------------------
+14:52:48.677 com.umeng.commonsdk.framework.c
+->a(0290.java:2)
+com.hjol:enginfloat
+--------------------
+14:52:48.705 com.cyjh.mobileanjian.ipc.utils.r
+->a(016B.java:3)
+499524466058853
+--------------------
+14:52:48.706 com.cyjh.mobileanjian.ipc.utils.r
+->a(016B.java:4)
+
+--------------------
+14:52:48.706 com.cyjh.mobileanjian.ipc.utils.r
+->a(016B.java:5)
+078f8b3e74
+--------------------
+14:52:48.706 com.cyjh.mobileanjian.ipc.utils.r
+->d(016B.java:7)
+imei:499524466058853
+--------------------
+14:52:48.707 com.cyjh.mobileanjian.ipc.utils.r
+->b(016B.java:6)
+imei:499524466058853[arm]@_@null
+--------------------
+14:52:48.780 com.cyjh.mobileanjian.ipc.utils.RootUtil
+->isRoot(0166.java:1)
+/sbin:/vendor/bin:/system/sbin:/system/bin:/system/xbin
+--------------------
+14:52:48.877 mt.LogA9F8F1
+->a(02C6.java:7)
+xygtest
+--------------------
+14:52:48.877 mt.LogA9F8F1
+->a(02C6.java:8)
+isRoot=true
+--------------------
+14:52:49.371 com.cyjh.mobileanjian.ipc.a
+->b(0159.java:1)
+com.iflytek.inputmethod.oem/com.iflytek.inputmethod.FlyIME
+--------------------
+14:52:49.429 mt.LogA9F8F1
+->a(02C6.java:7)
+xygtest
+--------------------
+14:52:49.430 mt.LogA9F8F1
+->a(02C6.java:8)
+result=0
+--------------------
+14:52:49.502 mt.LogA9F8F1
+->a(02C6.java:7)
+xygtest
+--------------------
+14:52:49.502 mt.LogA9F8F1
+->a(02C6.java:8)
+result=0
+--------------------
+14:52:49.509 com.cyjh.elfin.d.c
+->c(0103.java:7)
+
+--------------------
+14:52:49.510 com.cyjh.http.e.a
+->b(0153.java:2)
+{"regCode":"63ff40df981462bf","status":1}
+--------------------
+14:52:49.511 com.cyjh.http.e.a
+->a(0153.java:1)
+{"regCode":"63ff40df981462bf","status":1}
+--------------------
+14:52:49.511 com.cyjh.elfin.d.c
+->c(0103.java:8)
+{"regCode":"63ff40df981462bf","status":1}
+--------------------
+14:52:51.969 net.grandcentrix.tray.core.TrayException
+-><init>(0300.java:1)
+Value for Key <com.cyjh.elfin.ui.activity.SettingActivity.swtFloatviewCtrl> not found
+--------------------
+14:52:53.336 com.cyjh.elfin.e.c.o
+->e(0118.java:13)
+/data/user/0/com.hjol/files/assets
+--------------------
+14:52:53.337 com.cyjh.elfin.e.c.o
+->c(0118.java:9)
+238076
+--------------------
+14:52:53.341 com.cyjh.elfin.floatingwindowprocess.d.a
+->a(011D.java:1)
+1686949188
+--------------------
+14:52:53.344 com.cyjh.common.util.e
+->e(00E8.java:13)
+mounted
+--------------------
+14:52:53.345 com.cyjh.common.util.e
+->a(00E8.java:2)
+Sony0bf6dd7d
+--------------------
+14:52:53.346 com.cyjh.elfin.floatingwindowprocess.d.a
+->a(011D.java:2)
+Sony0bf6dd7d
+--------------------
+14:52:53.346 com.cyjh.common.util.e
+->b(00E8.java:8)
+1686949188
+--------------------
+14:52:53.347 com.cyjh.common.util.af
+->b(00E5.java:1)
+1686949188
+--------------------
+14:52:53.347 com.cyjh.common.util.af
+->b(00E5.java:2)
+1686949188
+--------------------
+14:52:53.347 com.cyjh.elfin.floatingwindowprocess.d.a
+->a(011D.java:3)
+1712804694
+--------------------
+14:52:53.349 com.cyjh.http.b.a
+->b(014D.java:10)
+6.1.1
+--------------------
+14:52:53.350 com.cyjh.common.util.e
+->b(00E8.java:8)
+1686949188
+--------------------
+14:52:53.350 com.cyjh.common.util.af
+->b(00E5.java:1)
+1686949188
+--------------------
+14:52:53.350 com.cyjh.common.util.af
+->b(00E5.java:2)
+1686949188
+--------------------
+14:52:53.350 com.cyjh.http.b.a
+->b(014D.java:11)
+1712804694
+--------------------
+14:52:53.351 com.cyjh.http.b.a
+->b(014D.java:12)
+COBC41DkB9vuJuuZA5T2+hSJXVrM5/DJs+cvCsW89UbcEuqeEcx8Zfdll5w5Ed04e/JnVcOeO4XHospe1u9wgu+IpdsPqHj6
+--------------------
+14:52:53.354 com.cyjh.http.b.a
+->a(014D.java:4)
+{"DeviceName":"Sony0bf6dd7d","IsScriptHotUpgrade":1,"ScriptId":"7be025e0-0829-4b47-bff1-224ef491317d","ScriptVersion":1686949188,"AppId":238076,"AppInfo":"COBC41DkB9vuJuuZA5T2+hSJXVrM5/DJs+cvCsW89UbcEuqeEcx8Zfdll5w5Ed04e/JnVcOeO4XHospe1u9wgu+IpdsPqHj6","AppVersion":"1712804694","ClientTimestamp":1712818373,"DeviceCode":"499524466058853078f8b3e74","DeviceId":"519fec6122568db9b2e62620d78ee680","IsRedFinger":0,"TemplateFileId":559,"TemplateVersion":"6.1.1","V":"81058250b7deb83d0"}
+--------------------
+14:52:53.355 com.cyjh.http.e.c
+->a(0156.java:1)
+MIICdgIBADANBgkqhkiG9w0BAQEFAASCAmAwggJcAgEAAoGBAJU0ITFmX5JkBA2GRHUpd1p+3rigbzwWPKY/6Ir2XlNW3v5WlTBsnj+GX1ReqsUxCysCb13b/g03ctrP4q2FY4KM1ENaAyDTGFdGDqezSEpEVkIRqxwxfmKhbQgV/9aoWRpgScy2Cclas688VL8U80iTzhNkAN8CS3NJEnD5o3MXAgMBAAECgYAh0Je5P29nmR1GB2kaeJRhQSGvDEVJg+yo7REB9YY5MxYE5JCZUfSnhwex8maXnF7gl4Ov7Pzt9+Qi7Tx9gR6lDhjl4w0nxPg7dXwyWGooCkk/JXAs3N3Z8Jdve8mORQLT4IkHrvrt4cahG+U9PZORQ6yww0+uIzRcri32I8rPOQJBAM4ri71N7bczshAx/dJBMG3BP5KKM4c/HpBJo56a8a87yDGbSxrftHV9NSQzll5XNq9nlKcsadgOK1zG8K1DoE0CQQC5Q99FpnL28KaykTn1OBxu402zam49caGu1lkfHOIaK7KKSlRPk2kdDBi9GjpdoCy5S4OL2yMo/WQB91oBUHLzAkEAqr6dqFXVvZfurEL6txqOBRe6kp4qNqQrp8uU2lHwPvP/xDWcadFDHtpnHGgs7EzGWVYrYpgBwJFbkCaiRJxxMQJAbffortonQYcFG9dyVKlyzytjMs1JFHW/qB0Zl4s4dppbhxSpyPZSHWjRwmWwIWTzRyWYtspjq3AFDdm59i+/mwJAJpafiQO32OOG4/T49uPNyXvkyLF+dk8tKNaSGqC/RM44ZbiI7EqkMXtDUwGIxyTKbOK1pvcYHLg7B3dAL/CeTQ==
+--------------------
+14:52:53.365 com.cyjh.common.util.b
+->a(00E7.java:1)
+Dmdt1LI2GFsTV7KRHmWHHGqnG9lI99Hbt3H/uQ62/PUAszcMKh8rUeR1RMalOUUOchM0XLFxYES9yXu28/mGTIWd3Dq1xajFX9T3fT/oAEdVbTLLR3lx1QVzK72hyTpECm6+cDx7Cq0h8ArywsvFDCwE2l0igLlEZjsiGTGJ0d0=
+--------------------
+14:52:53.366 com.cyjh.http.e.c
+->a(0156.java:2)
+Dmdt1LI2GFsTV7KRHmWHHGqnG9lI99Hbt3H/uQ62/PUAszcMKh8rUeR1RMalOUUOchM0XLFxYES9yXu28/mGTIWd3Dq1xajFX9T3fT/oAEdVbTLLR3lx1QVzK72hyTpECm6+cDx7Cq0h8ArywsvFDCwE2l0igLlEZjsiGTGJ0d0=
+--------------------
+14:52:53.366 com.cyjh.http.b.a
+->a(014D.java:5)
+Dmdt1LI2GFsTV7KRHmWHHGqnG9lI99Hbt3H/uQ62/PUAszcMKh8rUeR1RMalOUUOchM0XLFxYES9yXu28/mGTIWd3Dq1xajFX9T3fT/oAEdVbTLLR3lx1QVzK72hyTpECm6+cDx7Cq0h8ArywsvFDCwE2l0igLlEZjsiGTGJ0d0=
+--------------------
+14:52:53.367 com.cyjh.http.b.a
+->a(014D.java:6)
+{"SignContent":"{\"DeviceName\":\"Sony0bf6dd7d\",\"IsScriptHotUpgrade\":1,\"ScriptId\":\"7be025e0-0829-4b47-bff1-224ef491317d\",\"ScriptVersion\":1686949188,\"AppId\":238076,\"AppInfo\":\"COBC41DkB9vuJuuZA5T2+hSJXVrM5/DJs+cvCsW89UbcEuqeEcx8Zfdll5w5Ed04e/JnVcOeO4XHospe1u9wgu+IpdsPqHj6\",\"AppVersion\":\"1712804694\",\"ClientTimestamp\":1712818373,\"DeviceCode\":\"499524466058853078f8b3e74\",\"DeviceId\":\"519fec6122568db9b2e62620d78ee680\",\"IsRedFinger\":0,\"TemplateFileId\":559,\"TemplateVersion\":\"6.1.1\",\"V\":\"81058250b7deb83d0\"}","Signature":"Dmdt1LI2GFsTV7KRHmWHHGqnG9lI99Hbt3H/uQ62/PUAszcMKh8rUeR1RMalOUUOchM0XLFxYES9yXu28/mGTIWd3Dq1xajFX9T3fT/oAEdVbTLLR3lx1QVzK72hyTpECm6+cDx7Cq0h8ArywsvFDCwE2l0igLlEZjsiGTGJ0d0\u003d"}
+--------------------
+14:52:53.367 com.cyjh.http.b.a
+->a(014D.java:7)
+b4af55a5
+--------------------
+14:52:53.369 com.cyjh.common.util.h
+->a(00EA.java:2)
+RFU7bUw+4R0T+s01l1ogMggWOSFlG+PBf4a4g5mFvR7HKbu7N78ZYLdHDgDOQ3zLMgc/tbnPfCKZbsqLgaH82+dGI60e3YvRcovj7GzJQUFD+VlCGUsftHPuxl1mKrxbdIgA71eJefP4F2a5k650XIbTJJV3l0OMZm88JUrmD5em0lEIhvhgWmO2f0DYeD0fXMps+pBI0i7b7pxZrFx1Qzj+z11EBNN1oaaKbfDX1ejJL2nmsRwKI55kZjacgApqyjpyIF7tBFFvu1DhJqYrTFoFHsI+Kh8/vxg9VW203ZZmmE1uUQgN5guMjt4b3JlrI3cEekECumXHcQzubg88c0HxpANouvO9LB8iZDla0aM3zAO65syouwFOThOvAcqiMMN0ofdm3O/gPbA+qTuTbjPXH5u208u8KPvmvtK/8t/o/7KWk8KNs286w+rDlP/ZZ+c1bsAg7K4frTW1TPZfb6PcouJ1/YLmE6LqIinMq482XQvu1pQdVTNF8ZBwfyzVBV/q/3KTmdEtqM0b9ZhzDe1RhqXsF8Z7tfbyGs3LTy7tV+ZIf/xfhxak+imO1yrCmsd32KpKPYmPM1M6DBi3dwuIRf/IAHNwE5wj+IkbVpGMcebmSQXs6pG0pTTC/ATmtYYJ89jVmKoC6h2Jxsi9VVgXbOh5kMbemikOlzbFZCvAXz17fSRWIAf67Qr1P/jJYQTLvmPAdQ4dS/bOCIxPGu4qJOHwWZI13MbRhSUBs0qGEr2Td3tc0/O5iUh9WGpg0kgGIMrhPNKyLZNfajaDB6bch7tHAGEsisiX1FGwGQ3XnpCLNI5bN3kSYFQ8OCPVl3XAhrOdHiL0wuK7XmWv8eI46V8Ze/qUp8O/4Nv8w18biHaDTmlaEk0xlKC2DDGPQwKmM3IGQNoJhW2vOw7aPAW6aySuduFqZMXeiXSsxNi1We0HXkBaA9ylJ/XnqatPNuI1AvpcDjNAmW260CaJ/g==
+--------------------
+14:52:53.369 com.cyjh.http.b.a
+->a(014D.java:8)
+RFU7bUw+4R0T+s01l1ogMggWOSFlG+PBf4a4g5mFvR7HKbu7N78ZYLdHDgDOQ3zLMgc/tbnPfCKZbsqLgaH82+dGI60e3YvRcovj7GzJQUFD+VlCGUsftHPuxl1mKrxbdIgA71eJefP4F2a5k650XIbTJJV3l0OMZm88JUrmD5em0lEIhvhgWmO2f0DYeD0fXMps+pBI0i7b7pxZrFx1Qzj+z11EBNN1oaaKbfDX1ejJL2nmsRwKI55kZjacgApqyjpyIF7tBFFvu1DhJqYrTFoFHsI+Kh8/vxg9VW203ZZmmE1uUQgN5guMjt4b3JlrI3cEekECumXHcQzubg88c0HxpANouvO9LB8iZDla0aM3zAO65syouwFOThOvAcqiMMN0ofdm3O/gPbA+qTuTbjPXH5u208u8KPvmvtK/8t/o/7KWk8KNs286w+rDlP/ZZ+c1bsAg7K4frTW1TPZfb6PcouJ1/YLmE6LqIinMq482XQvu1pQdVTNF8ZBwfyzVBV/q/3KTmdEtqM0b9ZhzDe1RhqXsF8Z7tfbyGs3LTy7tV+ZIf/xfhxak+imO1yrCmsd32KpKPYmPM1M6DBi3dwuIRf/IAHNwE5wj+IkbVpGMcebmSQXs6pG0pTTC/ATmtYYJ89jVmKoC6h2Jxsi9VVgXbOh5kMbemikOlzbFZCvAXz17fSRWIAf67Qr1P/jJYQTLvmPAdQ4dS/bOCIxPGu4qJOHwWZI13MbRhSUBs0qGEr2Td3tc0/O5iUh9WGpg0kgGIMrhPNKyLZNfajaDB6bch7tHAGEsisiX1FGwGQ3XnpCLNI5bN3kSYFQ8OCPVl3XAhrOdHiL0wuK7XmWv8eI46V8Ze/qUp8O/4Nv8w18biHaDTmlaEk0xlKC2DDGPQwKmM3IGQNoJhW2vOw7aPAW6aySuduFqZMXeiXSsxNi1We0HXkBaA9ylJ/XnqatPNuI1AvpcDjNAmW260CaJ/g==
+--------------------
+14:52:53.369 com.cyjh.http.b.a
+->a(014D.java:9)
+6
+--------------------
+14:52:53.373 com.android.volley.l
+->a(0094.java:1)
+Data
+--------------------
+14:52:53.375 com.android.volley.l
+->a(0094.java:2)
+RFU7bUw%2B4R0T%2Bs01l1ogMggWOSFlG%2BPBf4a4g5mFvR7HKbu7N78ZYLdHDgDOQ3zLMgc%2FtbnPfCKZbsqLgaH82%2BdGI60e3YvRcovj7GzJQUFD%2BVlCGUsftHPuxl1mKrxbdIgA71eJefP4F2a5k650XIbTJJV3l0OMZm88JUrmD5em0lEIhvhgWmO2f0DYeD0fXMps%2BpBI0i7b7pxZrFx1Qzj%2Bz11EBNN1oaaKbfDX1ejJL2nmsRwKI55kZjacgApqyjpyIF7tBFFvu1DhJqYrTFoFHsI%2BKh8%2Fvxg9VW203ZZmmE1uUQgN5guMjt4b3JlrI3cEekECumXHcQzubg88c0HxpANouvO9LB8iZDla0aM3zAO65syouwFOThOvAcqiMMN0ofdm3O%2FgPbA%2BqTuTbjPXH5u208u8KPvmvtK%2F8t%2Fo%2F7KWk8KNs286w%2BrDlP%2FZZ%2Bc1bsAg7K4frTW1TPZfb6PcouJ1%2FYLmE6LqIinMq482XQvu1pQdVTNF8ZBwfyzVBV%2Fq%2F3KTmdEtqM0b9ZhzDe1RhqXsF8Z7tfbyGs3LTy7tV%2BZIf%2Fxfhxak%2BimO1yrCmsd32KpKPYmPM1M6DBi3dwuIRf%2FIAHNwE5wj%2BIkbVpGMcebmSQXs6pG0pTTC%2FATmtYYJ89jVmKoC6h2Jxsi9VVgXbOh5kMbemikOlzbFZCvAXz17fSRWIAf67Qr1P%2FjJYQTLvmPAdQ4dS%2FbOCIxPGu4qJOHwWZI13MbRhSUBs0qGEr2Td3tc0%2FO5iUh9WGpg0kgGIMrhPNKyLZNfajaDB6bch7tHAGEsisiX1FGwGQ3XnpCLNI5bN3kSYFQ8OCPVl3XAhrOdHiL0wuK7XmWv8eI46V8Ze%2FqUp8O%2F4Nv8w18biHaDTmlaEk0xlKC2DDGPQwKmM3IGQNoJhW2vOw7aPAW6aySuduFqZMXeiXSsxNi1We0HXkBaA9ylJ%2FXnqatPNuI1AvpcDjNAmW260CaJ%2Fg%3D%3D
+--------------------
+14:52:53.375 com.android.volley.l
+->a(0094.java:1)
+V
+--------------------
+14:52:53.375 com.android.volley.l
+->a(0094.java:2)
+81058250b7deb83d0
+--------------------
+14:52:53.375 com.android.volley.l
+->a(0094.java:1)
+R
+--------------------
+14:52:53.375 com.android.volley.l
+->a(0094.java:2)
+6
+--------------------
+14:52:53.517 com.cyjh.http.d.b.d
+->a(0152.java:1)
+{"Data":"t4IGTfdXwNtf4yyF25LQoSqUasGkU7+K1odu5KxLzgJqWsEMJt7v/sc2vcW/Ej6QXfzxUNX7seGyul4xs6UQenTPA6eOM4Ff6Qt7I0UX59K4b2UHNyE+DABA5uwaUnNr/F2Zza1vwgsL1Kx+w1icSsGikaMMI52o+Lq1sHKHb6rZgbEYJBVH78SaQHoVCLbPEMr9gRXYwDEfl3/520+/5tgqOKytR2vKcQHEjqPNwJg6yFscLtjrNQYMdAlrlWilovcjQ9xUkJlTP7XwrQj6DVrNuhrX+M+Ti6oTJbKiyxXIWnWkDg9nrDrIWxwu2Os1mDnDMk1F3T14CGV8uHFLynHoWd/3pCi4uxSyyxVSzjPIv6Ik/DYiBXwcVrrZe31TERlzeoi12ngtVt8uIjy8kBAFgBTATDrgw6SM84lrX/46yFscLtjrNbadHvz1uvCPyU0TEfNR97xgLWxr/GuHQpgsSGuxwZWey6UWvU1XTjm9ENdgSmHHIwjXPp5KAvUMbYesaXff8d/4miOCBLB3SmplFZneQOgAVtTwJPJscpMBGM2mvbn2RxTkWfkqzsQt1odu5KxLzgLrgU9PlL+VAr9Axi3WookAC8e+Ng5HyVDzRkopZXjkGxWaXSyuPHmYme/NEZK0F+k+4rnom7V9tTEKC8q3jH4JuReXpFt4pBwSyvgW7DucLXJ6TE3BD2bN7MIBnvUqs476cx1lk+SK5IcsLTIxlMcH3Eyv5AJzU7eZNblimIB7vF0nTt486JM0b1+r5czxzNsIQ8OE6UGaIN9TVH/1gTH8yleRLqLI64inVOUfsww0WTx3jzyuG1vOBdJSuJAenXeYRQLqaiW8xA4xvgg6HyoaOu+ynYe45xunAwM686iFRo6UjqMgTGpsnmoC9yDXW3nx1eVrIa/G9Ob/sOUMa4HEGrWlhCXRIjjnjuYqyL7saoDaiO5YB8LMRJJ9TRJwHkJZHiouJRrjcr/nVF7ySJmq","R":4}
+--------------------
+14:52:53.519 com.cyjh.http.e.c
+->a(0156.java:3)
+964f8677
+--------------------
+14:52:53.523 com.cyjh.common.util.h
+->b(00EA.java:4)
+{"SignContent":"{\u0022Code\u0022:200,\u0022Message\u0022:\u0022请求成功！\u0022,\u0022Data\u0022:{\u0022UpdateType\u0022:0,\u0022AppName\u0022:null,\u0022UpdateContent\u0022:null,\u0022UpdateUrl\u0022:null,\u0022PackageName\u0022:null,\u0022PackageSize\u0022:0,\u0022AppUpdateTime\u0022:0,\u0022StudioProjectKey\u0022:null,\u0022DeviceName\u0022:\u0022Sony0bf6dd7d\u0022,\u0022InstanceDataUploadInterval\u0022:0,\u0022UpgradeMode\u0022:0,\u0022AppVersion\u0022:0,\u0022ClientTimestamp\u0022:1712818373,\u0022ServerTimestamp\u0022:1712818375}}","Signature":"z2kq1c1CN79a3q7m+y7uiv7T3bCWuurrnKxkiXGaxb3/0gS7sorGQtLs94WpVgvodeQVf+CO1GpnlHtey3Q17Lypav2F+zLmWUwnCNA73d0uGgurE7aZ4IZnmn4P2ivt0CDqa5Xg7L7U9eAdwove2XBpoGOh/jNXSAt9ugRu2PU="}       
+--------------------
+14:52:53.524 com.cyjh.http.e.c
+->a(0156.java:4)
+{"SignContent":"{\u0022Code\u0022:200,\u0022Message\u0022:\u0022请求成功！\u0022,\u0022Data\u0022:{\u0022UpdateType\u0022:0,\u0022AppName\u0022:null,\u0022UpdateContent\u0022:null,\u0022UpdateUrl\u0022:null,\u0022PackageName\u0022:null,\u0022PackageSize\u0022:0,\u0022AppUpdateTime\u0022:0,\u0022StudioProjectKey\u0022:null,\u0022DeviceName\u0022:\u0022Sony0bf6dd7d\u0022,\u0022InstanceDataUploadInterval\u0022:0,\u0022UpgradeMode\u0022:0,\u0022AppVersion\u0022:0,\u0022ClientTimestamp\u0022:1712818373,\u0022ServerTimestamp\u0022:1712818375}}","Signature":"z2kq1c1CN79a3q7m+y7uiv7T3bCWuurrnKxkiXGaxb3/0gS7sorGQtLs94WpVgvodeQVf+CO1GpnlHtey3Q17Lypav2F+zLmWUwnCNA73d0uGgurE7aZ4IZnmn4P2ivt0CDqa5Xg7L7U9eAdwove2XBpoGOh/jNXSAt9ugRu2PU="}
+--------------------
+14:52:53.524 com.cyjh.http.c.a.a
+->a(014E.java:1)
+{"SignContent":"{\u0022Code\u0022:200,\u0022Message\u0022:\u0022请求成功！\u0022,\u0022Data\u0022:{\u0022UpdateType\u0022:0,\u0022AppName\u0022:null,\u0022UpdateContent\u0022:null,\u0022UpdateUrl\u0022:null,\u0022PackageName\u0022:null,\u0022PackageSize\u0022:0,\u0022AppUpdateTime\u0022:0,\u0022StudioProjectKey\u0022:null,\u0022DeviceName\u0022:\u0022Sony0bf6dd7d\u0022,\u0022InstanceDataUploadInterval\u0022:0,\u0022UpgradeMode\u0022:0,\u0022AppVersion\u0022:0,\u0022ClientTimestamp\u0022:1712818373,\u0022ServerTimestamp\u0022:1712818375}}","Signature":"z2kq1c1CN79a3q7m+y7uiv7T3bCWuurrnKxkiXGaxb3/0gS7sorGQtLs94WpVgvodeQVf+CO1GpnlHtey3Q17Lypav2F+zLmWUwnCNA73d0uGgurE7aZ4IZnmn4P2ivt0CDqa5Xg7L7U9eAdwove2XBpoGOh/jNXSAt9ugRu2PU="}
+--------------------
+14:52:53.530 com.google.gson.stream.JsonReader
+->nextString(01F0.java:6)
+0
+--------------------
+14:52:53.530 com.cyjh.http.b.a
+->b(014D.java:10)
+6.1.1
+--------------------
+14:52:53.531 com.cyjh.common.util.e
+->b(00E8.java:8)
+1686949188
+--------------------
+14:52:53.531 com.cyjh.common.util.af
+->b(00E5.java:1)
+1686949188
+--------------------
+14:52:53.531 com.cyjh.common.util.af
+->b(00E5.java:2)
+1686949188
+--------------------
+14:52:53.531 com.cyjh.http.b.a
+->b(014D.java:11)
+1712804694
+--------------------
+14:52:53.531 com.cyjh.http.b.a
+->b(014D.java:12)
+COBC41DkB9vuJuuZA5T2+hSJXVrM5/DJs+cvCsW89UbcEuqeEcx8Zfdll5w5Ed04e/JnVcOeO4XHospe1u9wgu+IpdsPqHj6
+--------------------
+14:52:53.532 com.cyjh.http.b.a
+->a(014D.java:4)
+{"RegCode":"63ff40df981462bf","ScriptId":"7be025e0-0829-4b47-bff1-224ef491317d","AppId":238076,"AppInfo":"COBC41DkB9vuJuuZA5T2+hSJXVrM5/DJs+cvCsW89UbcEuqeEcx8Zfdll5w5Ed04e/JnVcOeO4XHospe1u9wgu+IpdsPqHj6","AppVersion":"1712804694","ClientTimestamp":1712818373,"DeviceCode":"499524466058853078f8b3e74","DeviceId":"519fec6122568db9b2e62620d78ee680","IsRedFinger":0,"TemplateFileId":559,"TemplateVersion":"6.1.1","V":"81058250b7deb83d0"}
+--------------------
+14:52:53.532 com.cyjh.http.e.c
+->a(0156.java:1)
+MIICdgIBADANBgkqhkiG9w0BAQEFAASCAmAwggJcAgEAAoGBAJU0ITFmX5JkBA2GRHUpd1p+3rigbzwWPKY/6Ir2XlNW3v5WlTBsnj+GX1ReqsUxCysCb13b/g03ctrP4q2FY4KM1ENaAyDTGFdGDqezSEpEVkIRqxwxfmKhbQgV/9aoWRpgScy2Cclas688VL8U80iTzhNkAN8CS3NJEnD5o3MXAgMBAAECgYAh0Je5P29nmR1GB2kaeJRhQSGvDEVJg+yo7REB9YY5MxYE5JCZUfSnhwex8maXnF7gl4Ov7Pzt9+Qi7Tx9gR6lDhjl4w0nxPg7dXwyWGooCkk/JXAs3N3Z8Jdve8mORQLT4IkHrvrt4cahG+U9PZORQ6yww0+uIzRcri32I8rPOQJBAM4ri71N7bczshAx/dJBMG3BP5KKM4c/HpBJo56a8a87yDGbSxrftHV9NSQzll5XNq9nlKcsadgOK1zG8K1DoE0CQQC5Q99FpnL28KaykTn1OBxu402zam49caGu1lkfHOIaK7KKSlRPk2kdDBi9GjpdoCy5S4OL2yMo/WQB91oBUHLzAkEAqr6dqFXVvZfurEL6txqOBRe6kp4qNqQrp8uU2lHwPvP/xDWcadFDHtpnHGgs7EzGWVYrYpgBwJFbkCaiRJxxMQJAbffortonQYcFG9dyVKlyzytjMs1JFHW/qB0Zl4s4dppbhxSpyPZSHWjRwmWwIWTzRyWYtspjq3AFDdm59i+/mwJAJpafiQO32OOG4/T49uPNyXvkyLF+dk8tKNaSGqC/RM44ZbiI7EqkMXtDUwGIxyTKbOK1pvcYHLg7B3dAL/CeTQ==
+--------------------
+14:52:53.534 com.cyjh.common.util.b
+->a(00E7.java:1)
+IyBzCeGL+QCnlLt5v8yq0yGifvjqgSKm8xZo0PD6vhGT678J8q/Xf4NLInsqADPSp40/z15RdFD9yaxzsJZ7JmQvzin2lld3l1wP2dLpCOIl4YhXhlSZvegnBICGXtzc5u+jHB6uIBMrqnqrxm5/DC/DnaDmcvkAy1F4P9Z8WWw=
+--------------------
+14:52:53.534 com.cyjh.http.e.c
+->a(0156.java:2)
+IyBzCeGL+QCnlLt5v8yq0yGifvjqgSKm8xZo0PD6vhGT678J8q/Xf4NLInsqADPSp40/z15RdFD9yaxzsJZ7JmQvzin2lld3l1wP2dLpCOIl4YhXhlSZvegnBICGXtzc5u+jHB6uIBMrqnqrxm5/DC/DnaDmcvkAy1F4P9Z8WWw=
+--------------------
+14:52:53.534 com.cyjh.http.b.a
+->a(014D.java:5)
+IyBzCeGL+QCnlLt5v8yq0yGifvjqgSKm8xZo0PD6vhGT678J8q/Xf4NLInsqADPSp40/z15RdFD9yaxzsJZ7JmQvzin2lld3l1wP2dLpCOIl4YhXhlSZvegnBICGXtzc5u+jHB6uIBMrqnqrxm5/DC/DnaDmcvkAy1F4P9Z8WWw=
+--------------------
+14:52:53.535 com.cyjh.http.b.a
+->a(014D.java:6)
+{"SignContent":"{\"RegCode\":\"63ff40df981462bf\",\"ScriptId\":\"7be025e0-0829-4b47-bff1-224ef491317d\",\"AppId\":238076,\"AppInfo\":\"COBC41DkB9vuJuuZA5T2+hSJXVrM5/DJs+cvCsW89UbcEuqeEcx8Zfdll5w5Ed04e/JnVcOeO4XHospe1u9wgu+IpdsPqHj6\",\"AppVersion\":\"1712804694\",\"ClientTimestamp\":1712818373,\"DeviceCode\":\"499524466058853078f8b3e74\",\"DeviceId\":\"519fec6122568db9b2e62620d78ee680\",\"IsRedFinger\":0,\"TemplateFileId\":559,\"TemplateVersion\":\"6.1.1\",\"V\":\"81058250b7deb83d0\"}","Signature":"IyBzCeGL+QCnlLt5v8yq0yGifvjqgSKm8xZo0PD6vhGT678J8q/Xf4NLInsqADPSp40/z15RdFD9yaxzsJZ7JmQvzin2lld3l1wP2dLpCOIl4YhXhlSZvegnBICGXtzc5u+jHB6uIBMrqnqrxm5/DC/DnaDmcvkAy1F4P9Z8WWw\u003d"}
+--------------------
+14:52:53.535 com.cyjh.http.b.a
+->a(014D.java:7)
+caf7a1f0
+--------------------
+14:52:53.536 com.cyjh.common.util.h
+->a(00EA.java:2)
+eIL54+jztJw352qwx7mBJDlRhkayQKdhMjEUxRP1C1pwxeLAZPpJAz18drhZogAmYDop4OSIeR5wq/NUAmbhdVB6aAYoZmENQTo/mrBmITTUSpXpnM7cz+PKxrBuKtFxJiR5cWFGyACy12ZrgdbtmYLFqeBxY0TnwgACq6PvYlNX+aiGDiFAVZQczstRUTInmMEG3glVno5bx0XINZ8taEuwr+/QmGcpLUl4wquCMcttIXRzZ1saA4bVZr1r8UwenzAQxfj1akvKkcpugUz+P6ednx90M/nCkkGYq6JM7YErh883B9PsNAqNXOMUR6SBfSwFL5a5RJRQVmP8DawKu6puxoWRPzBvLYpuGqGD5F+7dU68utraJIPTY8NpxfJdGeyoGtmUSaW7LDCnUV5OP9CVRHpAMJyy+W4IglUQfYkV4zEOPdyFsS/r/Ca0SfkJ6ks3Dxob3Y3aHpBS24CsP4YZwxAELLbg0uDC1ziWDH+5XqUEDfdG8F86QN1FEbptS3XczVWkiPqVUNwYeQ2piLKsXP/C5zMMZW7e5zSiMoyqaM1JYAb/onpPhMAx2WSji7Eiw2IrbkeJutX0NMPPVH+GCf4+pNGJ58mZhFpi7AaE0I0kxkydN3/qMmyMjQKY8fYBy5mnMg5WrYgGH2yxrWdtiDjOJFwPHg2iBPXIXm0SgnL/vrlohbA2aWQpF3HDT1N/aROBJL6OPTgyZfhx5+qEZ6PUvxEtWW2/rvca2JP4uuT1TZvydfPuJ6CZqWWonTQkxGjORV9kYp7hFkbCsRQG8S7x+ls6xrDgYyqdQ9DCJyXSYA0swYsQhue5QVdRhLcu+jMa6Si4P9Bs3dNGc9EbRvL5gJQ8ueZp5dluBV1KZpJiZvme5KdhAoeWQjJ9G37RchTe0vWvDoDMxKUTfg==
+--------------------
+14:52:53.536 com.cyjh.http.b.a
+->a(014D.java:8)
+eIL54+jztJw352qwx7mBJDlRhkayQKdhMjEUxRP1C1pwxeLAZPpJAz18drhZogAmYDop4OSIeR5wq/NUAmbhdVB6aAYoZmENQTo/mrBmITTUSpXpnM7cz+PKxrBuKtFxJiR5cWFGyACy12ZrgdbtmYLFqeBxY0TnwgACq6PvYlNX+aiGDiFAVZQczstRUTInmMEG3glVno5bx0XINZ8taEuwr+/QmGcpLUl4wquCMcttIXRzZ1saA4bVZr1r8UwenzAQxfj1akvKkcpugUz+P6ednx90M/nCkkGYq6JM7YErh883B9PsNAqNXOMUR6SBfSwFL5a5RJRQVmP8DawKu6puxoWRPzBvLYpuGqGD5F+7dU68utraJIPTY8NpxfJdGeyoGtmUSaW7LDCnUV5OP9CVRHpAMJyy+W4IglUQfYkV4zEOPdyFsS/r/Ca0SfkJ6ks3Dxob3Y3aHpBS24CsP4YZwxAELLbg0uDC1ziWDH+5XqUEDfdG8F86QN1FEbptS3XczVWkiPqVUNwYeQ2piLKsXP/C5zMMZW7e5zSiMoyqaM1JYAb/onpPhMAx2WSji7Eiw2IrbkeJutX0NMPPVH+GCf4+pNGJ58mZhFpi7AaE0I0kxkydN3/qMmyMjQKY8fYBy5mnMg5WrYgGH2yxrWdtiDjOJFwPHg2iBPXIXm0SgnL/vrlohbA2aWQpF3HDT1N/aROBJL6OPTgyZfhx5+qEZ6PUvxEtWW2/rvca2JP4uuT1TZvydfPuJ6CZqWWonTQkxGjORV9kYp7hFkbCsRQG8S7x+ls6xrDgYyqdQ9DCJyXSYA0swYsQhue5QVdRhLcu+jMa6Si4P9Bs3dNGc9EbRvL5gJQ8ueZp5dluBV1KZpJiZvme5KdhAoeWQjJ9G37RchTe0vWvDoDMxKUTfg==
+--------------------
+14:52:53.536 com.cyjh.http.b.a
+->a(014D.java:9)
+1
+--------------------
+14:52:53.536 com.android.volley.l
+->a(0094.java:1)
+Data
+--------------------
+14:52:53.537 com.android.volley.l
+->a(0094.java:2)
+eIL54%2BjztJw352qwx7mBJDlRhkayQKdhMjEUxRP1C1pwxeLAZPpJAz18drhZogAmYDop4OSIeR5wq%2FNUAmbhdVB6aAYoZmENQTo%2FmrBmITTUSpXpnM7cz%2BPKxrBuKtFxJiR5cWFGyACy12ZrgdbtmYLFqeBxY0TnwgACq6PvYlNX%2BaiGDiFAVZQczstRUTInmMEG3glVno5bx0XINZ8taEuwr%2B%2FQmGcpLUl4wquCMcttIXRzZ1saA4bVZr1r8UwenzAQxfj1akvKkcpugUz%2BP6ednx90M%2FnCkkGYq6JM7YErh883B9PsNAqNXOMUR6SBfSwFL5a5RJRQVmP8DawKu6puxoWRPzBvLYpuGqGD5F%2B7dU68utraJIPTY8NpxfJdGeyoGtmUSaW7LDCnUV5OP9CVRHpAMJyy%2BW4IglUQfYkV4zEOPdyFsS%2Fr%2FCa0SfkJ6ks3Dxob3Y3aHpBS24CsP4YZwxAELLbg0uDC1ziWDH%2B5XqUEDfdG8F86QN1FEbptS3XczVWkiPqVUNwYeQ2piLKsXP%2FC5zMMZW7e5zSiMoyqaM1JYAb%2FonpPhMAx2WSji7Eiw2IrbkeJutX0NMPPVH%2BGCf4%2BpNGJ58mZhFpi7AaE0I0kxkydN3%2FqMmyMjQKY8fYBy5mnMg5WrYgGH2yxrWdtiDjOJFwPHg2iBPXIXm0SgnL%2FvrlohbA2aWQpF3HDT1N%2FaROBJL6OPTgyZfhx5%2BqEZ6PUvxEtWW2%2Frvca2JP4uuT1TZvydfPuJ6CZqWWonTQkxGjORV9kYp7hFkbCsRQG8S7x%2Bls6xrDgYyqdQ9DCJyXSYA0swYsQhue5QVdRhLcu%2BjMa6Si4P9Bs3dNGc9EbRvL5gJQ8ueZp5dluBV1KZpJiZvme5KdhAoeWQjJ9G37RchTe0vWvDoDMxKUTfg%3D%3D
+--------------------
+14:52:53.537 com.android.volley.l
+->a(0094.java:1)
+V
+--------------------
+14:52:53.537 com.android.volley.l
+->a(0094.java:2)
+81058250b7deb83d0
+--------------------
+14:52:53.537 com.android.volley.l
+->a(0094.java:1)
+R
+--------------------
+14:52:53.538 com.android.volley.l
+->a(0094.java:2)
+1
+--------------------
+14:52:53.624 com.cyjh.http.d.b.d
+->a(0152.java:1)
+{"Data":"d7jlhI2T/OcPVRIQ2eDN62THWnDBrFgsrIV0fPxbHPxPhyx3YVi1s8QqHoQD2f6lmFmNKF73+3q8HBPaZDDr5tQ+6rMGw9aj1njNjZaV5BRsBTLDCJU53iVbWmbzpQP964R5Vt4gutSRhBbEIHo3HiiUTCu/6deJlj3YevV0fbmMT6s8RnvK/96a0LXF2GmBxiBzrw5kKRYgLSioUUrx7A3HdnOeLZel7fnHdvb/mJKGDGyeQtfoSYRu038MU0JIn6p3I99Qr0s3Pwp4ZctOS5fFr8Zk9nj4eqJ+97JFxKSkVYd6EA1hwVKlAqClKWpmtlZcKxfeRY8Q2OE8udg/ZEl3WmuZCFsRiEg7HPeifYG3LS9NEhFe7Kh4xu5YD5vJbAUywwiVOd7SMLeL6Rl86LZ2GlJi/5gvZs06TnhkL/sGxnEbwXhRY9cxgm3Degc/EQgcF+2Av0Y4Cgu+EGZEFt9WAnE4vbpYVuHpf7LDU1PO7C9a/vTsI/XmMVOUFMb6GdZXv+U4CI9l4ISTWA+1xl632MFHib1rB+7XZwNktPfRM2vEBPXCs457r0c8vc3eiBCUwIA8GQP/O6HZVZ0VZYYtWLLpSMv8V4NFKCEm45XnmecEQ8dXBhM19R4h81/my35Yd48j+SuVRryjRvCYnhl5CLHIfk/lBTJe/Kt1K9fAI8UN5DW+eEgDk35yo9J7a82xxJeX91rEGzULHxIiEKgyWYQfvRcEnVbAATESKkrWz6mk0RFmtQ==","R":7}
+--------------------
+14:52:53.626 com.cyjh.http.e.c
+->a(0156.java:3)
+6619cb9d
+--------------------
+14:52:53.630 com.cyjh.common.util.h
+->b(00EA.java:4)
+{"SignContent":"{\u0022Code\u0022:200,\u0022Message\u0022:\u0022请求成功！\u0022,\u0022Data\u0022:{\u0022ExpireTime\u0022:1713180919,\u0022DailyTryTimes\u0022:1,\u0022OnceTryMinute\u0022:10,\u0022RunGuid\u0022:null,\u0022ScriptEncryptKey\u0022:\u0022ab61f1113c13458bbb57f9601ddd10c4\u0022,\u0022ClientTimestamp\u0022:1712818373,\u0022ServerTimestamp\u0022:1712818375}}","Signature":"hJ6ugca8nccQq9UvgdTdyoJKevmC70mdmXj9mGbkrdSiIG0g8XiJ77SltuT9XF88F+Jo9QFghskfnNx1ugJY7eKrHXUTs7AOPfMn/sbPmRBhMtkDcl2GWrKg0TAzhQthuO6N2oi4V6GRfSwhH4MKK2PdPHtH2a7M1ZpDMdd9Wjs="}      
+--------------------
+14:52:53.630 com.cyjh.http.e.c
+->a(0156.java:4)
+{"SignContent":"{\u0022Code\u0022:200,\u0022Message\u0022:\u0022请求成功！\u0022,\u0022Data\u0022:{\u0022ExpireTime\u0022:1713180919,\u0022DailyTryTimes\u0022:1,\u0022OnceTryMinute\u0022:10,\u0022RunGuid\u0022:null,\u0022ScriptEncryptKey\u0022:\u0022ab61f1113c13458bbb57f9601ddd10c4\u0022,\u0022ClientTimestamp\u0022:1712818373,\u0022ServerTimestamp\u0022:1712818375}}","Signature":"hJ6ugca8nccQq9UvgdTdyoJKevmC70mdmXj9mGbkrdSiIG0g8XiJ77SltuT9XF88F+Jo9QFghskfnNx1ugJY7eKrHXUTs7AOPfMn/sbPmRBhMtkDcl2GWrKg0TAzhQthuO6N2oi4V6GRfSwhH4MKK2PdPHtH2a7M1ZpDMdd9Wjs="}
+--------------------
+14:52:53.630 com.cyjh.http.c.a.a
+->a(014E.java:1)
+{"SignContent":"{\u0022Code\u0022:200,\u0022Message\u0022:\u0022请求成功！\u0022,\u0022Data\u0022:{\u0022ExpireTime\u0022:1713180919,\u0022DailyTryTimes\u0022:1,\u0022OnceTryMinute\u0022:10,\u0022RunGuid\u0022:null,\u0022ScriptEncryptKey\u0022:\u0022ab61f1113c13458bbb57f9601ddd10c4\u0022,\u0022ClientTimestamp\u0022:1712818373,\u0022ServerTimestamp\u0022:1712818375}}","Signature":"hJ6ugca8nccQq9UvgdTdyoJKevmC70mdmXj9mGbkrdSiIG0g8XiJ77SltuT9XF88F+Jo9QFghskfnNx1ugJY7eKrHXUTs7AOPfMn/sbPmRBhMtkDcl2GWrKg0TAzhQthuO6N2oi4V6GRfSwhH4MKK2PdPHtH2a7M1ZpDMdd9Wjs="}
+--------------------
+14:52:53.633 mt.LogA9F8F1
+->a(02C6.java:7)
+zzz
+--------------------
+14:52:53.633 mt.LogA9F8F1
+->a(02C6.java:8)
+com.cyjh.share.AppStatisticsPresenter--uiDataSuccess:{"Code":200,"Message":"请求成功！","Data":{"ExpireTime":1713180919,"DailyTryTimes":1,"OnceTryMinute":10,"RunGuid":null,"ScriptEncryptKey":"ab61f1113c13458bbb57f9601ddd10c4","ClientTimestamp":1712818373,"ServerTimestamp":1712818375}}
+--------------------
+14:52:53.634 com.google.gson.stream.JsonReader
+->nextString(01F0.java:6)
+1713180919
+--------------------
+14:52:53.635 com.google.gson.stream.JsonReader
+->nextString(01F0.java:6)
+1713180919
+--------------------
+14:52:53.636 mt.LogA9F8F1
+->a(02C6.java:7)
+zzz
+--------------------
+14:52:53.636 mt.LogA9F8F1
+->a(02C6.java:8)
+runScript--script4Run.scripyEncryptKey:ab61f1113c13458bbb57f9601ddd10c4
+--------------------
+14:52:53.675 com.cyjh.common.util.l
+->a(00ED.java:1)
+你还可以使用4天4小时42分钟
+--------------------
+14:52:53.675 com.cyjh.elfin.floatingwindowprocess.d.b$2
+->b(011E.java:1)
+你还可以使用4天4小时42分钟
+--------------------
+14:52:53.677 com.cyjh.http.b.a
+->b(014D.java:10)
+6.1.1
+--------------------
+14:52:53.677 com.cyjh.common.util.e
+->b(00E8.java:8)
+1686949188
+--------------------
+14:52:53.677 com.cyjh.common.util.af
+->b(00E5.java:1)
+1686949188
+--------------------
+14:52:53.677 com.cyjh.common.util.af
+->b(00E5.java:2)
+1686949188
+--------------------
+14:52:53.677 com.cyjh.http.b.a
+->b(014D.java:11)
+1712804694
+--------------------
+14:52:53.678 com.cyjh.http.b.a
+->b(014D.java:12)
+COBC41DkB9vuJuuZA5T2+hSJXVrM5/DJs+cvCsW89UbcEuqeEcx8Zfdll5w5Ed04e/JnVcOeO4XHospe1u9wgu+IpdsPqHj6
+--------------------
+14:52:53.680 com.cyjh.http.b.a
+->a(014D.java:4)
+{"RegCode":"63ff40df981462bf","ScriptId":"7be025e0-0829-4b47-bff1-224ef491317d","AppId":238076,"AppInfo":"COBC41DkB9vuJuuZA5T2+hSJXVrM5/DJs+cvCsW89UbcEuqeEcx8Zfdll5w5Ed04e/JnVcOeO4XHospe1u9wgu+IpdsPqHj6","AppVersion":"1712804694","ClientTimestamp":1712818373,"DeviceCode":"499524466058853078f8b3e74","DeviceId":"519fec6122568db9b2e62620d78ee680","IsRedFinger":0,"TemplateFileId":559,"TemplateVersion":"6.1.1","V":"81058250b7deb83d0"}
+--------------------
+14:52:53.681 com.cyjh.http.e.c
+->a(0156.java:1)
+MIICdgIBADANBgkqhkiG9w0BAQEFAASCAmAwggJcAgEAAoGBAJU0ITFmX5JkBA2GRHUpd1p+3rigbzwWPKY/6Ir2XlNW3v5WlTBsnj+GX1ReqsUxCysCb13b/g03ctrP4q2FY4KM1ENaAyDTGFdGDqezSEpEVkIRqxwxfmKhbQgV/9aoWRpgScy2Cclas688VL8U80iTzhNkAN8CS3NJEnD5o3MXAgMBAAECgYAh0Je5P29nmR1GB2kaeJRhQSGvDEVJg+yo7REB9YY5MxYE5JCZUfSnhwex8maXnF7gl4Ov7Pzt9+Qi7Tx9gR6lDhjl4w0nxPg7dXwyWGooCkk/JXAs3N3Z8Jdve8mORQLT4IkHrvrt4cahG+U9PZORQ6yww0+uIzRcri32I8rPOQJBAM4ri71N7bczshAx/dJBMG3BP5KKM4c/HpBJo56a8a87yDGbSxrftHV9NSQzll5XNq9nlKcsadgOK1zG8K1DoE0CQQC5Q99FpnL28KaykTn1OBxu402zam49caGu1lkfHOIaK7KKSlRPk2kdDBi9GjpdoCy5S4OL2yMo/WQB91oBUHLzAkEAqr6dqFXVvZfurEL6txqOBRe6kp4qNqQrp8uU2lHwPvP/xDWcadFDHtpnHGgs7EzGWVYrYpgBwJFbkCaiRJxxMQJAbffortonQYcFG9dyVKlyzytjMs1JFHW/qB0Zl4s4dppbhxSpyPZSHWjRwmWwIWTzRyWYtspjq3AFDdm59i+/mwJAJpafiQO32OOG4/T49uPNyXvkyLF+dk8tKNaSGqC/RM44ZbiI7EqkMXtDUwGIxyTKbOK1pvcYHLg7B3dAL/CeTQ==
+--------------------
+14:52:53.685 com.cyjh.common.util.b
+->a(00E7.java:1)
+IyBzCeGL+QCnlLt5v8yq0yGifvjqgSKm8xZo0PD6vhGT678J8q/Xf4NLInsqADPSp40/z15RdFD9yaxzsJZ7JmQvzin2lld3l1wP2dLpCOIl4YhXhlSZvegnBICGXtzc5u+jHB6uIBMrqnqrxm5/DC/DnaDmcvkAy1F4P9Z8WWw=
+--------------------
+14:52:53.685 com.cyjh.http.e.c
+->a(0156.java:2)
+IyBzCeGL+QCnlLt5v8yq0yGifvjqgSKm8xZo0PD6vhGT678J8q/Xf4NLInsqADPSp40/z15RdFD9yaxzsJZ7JmQvzin2lld3l1wP2dLpCOIl4YhXhlSZvegnBICGXtzc5u+jHB6uIBMrqnqrxm5/DC/DnaDmcvkAy1F4P9Z8WWw=
+--------------------
+14:52:53.685 com.cyjh.http.b.a
+->a(014D.java:5)
+IyBzCeGL+QCnlLt5v8yq0yGifvjqgSKm8xZo0PD6vhGT678J8q/Xf4NLInsqADPSp40/z15RdFD9yaxzsJZ7JmQvzin2lld3l1wP2dLpCOIl4YhXhlSZvegnBICGXtzc5u+jHB6uIBMrqnqrxm5/DC/DnaDmcvkAy1F4P9Z8WWw=
+--------------------
+14:52:53.686 com.cyjh.http.b.a
+->a(014D.java:6)
+{"SignContent":"{\"RegCode\":\"63ff40df981462bf\",\"ScriptId\":\"7be025e0-0829-4b47-bff1-224ef491317d\",\"AppId\":238076,\"AppInfo\":\"COBC41DkB9vuJuuZA5T2+hSJXVrM5/DJs+cvCsW89UbcEuqeEcx8Zfdll5w5Ed04e/JnVcOeO4XHospe1u9wgu+IpdsPqHj6\",\"AppVersion\":\"1712804694\",\"ClientTimestamp\":1712818373,\"DeviceCode\":\"499524466058853078f8b3e74\",\"DeviceId\":\"519fec6122568db9b2e62620d78ee680\",\"IsRedFinger\":0,\"TemplateFileId\":559,\"TemplateVersion\":\"6.1.1\",\"V\":\"81058250b7deb83d0\"}","Signature":"IyBzCeGL+QCnlLt5v8yq0yGifvjqgSKm8xZo0PD6vhGT678J8q/Xf4NLInsqADPSp40/z15RdFD9yaxzsJZ7JmQvzin2lld3l1wP2dLpCOIl4YhXhlSZvegnBICGXtzc5u+jHB6uIBMrqnqrxm5/DC/DnaDmcvkAy1F4P9Z8WWw\u003d"}
+--------------------
+14:52:53.687 com.cyjh.http.b.a
+->a(014D.java:7)
+964f8677
+--------------------
+14:52:53.691 com.cyjh.common.util.h
+->a(00EA.java:2)
+t4IGTfdXwNtf4yyF25LQof+hDAJX6NkKzsa2MCO+iROw8aHjMfEcN0+XVqrwFzVYD0AzPAU2pkaKzvHii0gI29/Ilx2W6k9nObAHrIb6SqQ2Wdmg2+hrLK43MRC+GeIFkLHKytuv36ldcfSTezj0XsFlkV0qvy+FskgN+GRLIJNHxqyj09XF5KvyRNrxsxa4Ik8tKWp0d28y6usFdaT+Tv6alSKlCzPwuiwelPND9lJ+4AQc6WPyYUWBhKut9eC06jVhmmF1VyK4CN+dHA1PCBn15/xmq9MbWp+IDJirTLwDZXk3g+8H6DhBOrUQRofUvX58BuOlF/A09OBS0GWfGeJmHBu+RnesDLKZSmq8B6FyekxNwQ9mzd5m4WPVIiWKYv9c14iFX4k7N39fBPLi/wwoUetC2Xr5sOzY6Q/y/UCzG+RmheuwSCGP3JCqiK5K9thFRrZZhQ35T1bui6N4ibGmYQii9rEjn+FSVCjVswxwtF8KHLiPXyhahknGL7BnghBkrw/jHYdT7wN/qy1ubICv3qqiHI+hSF+xPdPiXpLSj0rJnnWLMBdyj57rK5Hqo8h4afXlzjnU6fHke7UHs6ktBhsAu2SuEx2BOSaYujZtU5wHR5rDY+j2YTAkUqSpQlDzTWu16NBGTXTPgvuY9ypgF8E+5tkgUKw9XEDU1GyNMt31DqZ5/CCC5wyhsiyNS1CNdmLE3j669cX8aBt94//r3RB0ZDvV9yT+axAS0wJq8EaB9xfqvUer0QvNs/Ea6nrBaovJWGrTcALQSSSCVzgpffBLR87bKlVVzdwhwmi/xJO4D+5Ct6Grmh9y7nvPUIYthUtdkfJugUQbmtz8WruUHv1oj9wxdS5lDyAuUpNNKi9petdhL4OKmUJ/3ehAyIoWMpkNccrV1cN5Bxqt6A==
+--------------------
+14:52:53.691 com.cyjh.http.b.a
+->a(014D.java:8)
+t4IGTfdXwNtf4yyF25LQof+hDAJX6NkKzsa2MCO+iROw8aHjMfEcN0+XVqrwFzVYD0AzPAU2pkaKzvHii0gI29/Ilx2W6k9nObAHrIb6SqQ2Wdmg2+hrLK43MRC+GeIFkLHKytuv36ldcfSTezj0XsFlkV0qvy+FskgN+GRLIJNHxqyj09XF5KvyRNrxsxa4Ik8tKWp0d28y6usFdaT+Tv6alSKlCzPwuiwelPND9lJ+4AQc6WPyYUWBhKut9eC06jVhmmF1VyK4CN+dHA1PCBn15/xmq9MbWp+IDJirTLwDZXk3g+8H6DhBOrUQRofUvX58BuOlF/A09OBS0GWfGeJmHBu+RnesDLKZSmq8B6FyekxNwQ9mzd5m4WPVIiWKYv9c14iFX4k7N39fBPLi/wwoUetC2Xr5sOzY6Q/y/UCzG+RmheuwSCGP3JCqiK5K9thFRrZZhQ35T1bui6N4ibGmYQii9rEjn+FSVCjVswxwtF8KHLiPXyhahknGL7BnghBkrw/jHYdT7wN/qy1ubICv3qqiHI+hSF+xPdPiXpLSj0rJnnWLMBdyj57rK5Hqo8h4afXlzjnU6fHke7UHs6ktBhsAu2SuEx2BOSaYujZtU5wHR5rDY+j2YTAkUqSpQlDzTWu16NBGTXTPgvuY9ypgF8E+5tkgUKw9XEDU1GyNMt31DqZ5/CCC5wyhsiyNS1CNdmLE3j669cX8aBt94//r3RB0ZDvV9yT+axAS0wJq8EaB9xfqvUer0QvNs/Ea6nrBaovJWGrTcALQSSSCVzgpffBLR87bKlVVzdwhwmi/xJO4D+5Ct6Grmh9y7nvPUIYthUtdkfJugUQbmtz8WruUHv1oj9wxdS5lDyAuUpNNKi9petdhL4OKmUJ/3ehAyIoWMpkNccrV1cN5Bxqt6A==
+--------------------
+14:52:53.691 com.cyjh.http.b.a
+->a(014D.java:9)
+4
+--------------------
+14:52:53.695 com.android.volley.l
+->a(0094.java:1)
+Data
+--------------------
+14:52:53.696 net.grandcentrix.tray.core.TrayException
+-><init>(0300.java:1)
+Value for Key <com.cyjh.elfin.ui.activity.SettingActivity.swtVibration> not found
+--------------------
+14:52:53.696 com.android.volley.l
+->a(0094.java:2)
+t4IGTfdXwNtf4yyF25LQof%2BhDAJX6NkKzsa2MCO%2BiROw8aHjMfEcN0%2BXVqrwFzVYD0AzPAU2pkaKzvHii0gI29%2FIlx2W6k9nObAHrIb6SqQ2Wdmg2%2BhrLK43MRC%2BGeIFkLHKytuv36ldcfSTezj0XsFlkV0qvy%2BFskgN%2BGRLIJNHxqyj09XF5KvyRNrxsxa4Ik8tKWp0d28y6usFdaT%2BTv6alSKlCzPwuiwelPND9lJ%2B4AQc6WPyYUWBhKut9eC06jVhmmF1VyK4CN%2BdHA1PCBn15%2Fxmq9MbWp%2BIDJirTLwDZXk3g%2B8H6DhBOrUQRofUvX58BuOlF%2FA09OBS0GWfGeJmHBu%2BRnesDLKZSmq8B6FyekxNwQ9mzd5m4WPVIiWKYv9c14iFX4k7N39fBPLi%2FwwoUetC2Xr5sOzY6Q%2Fy%2FUCzG%2BRmheuwSCGP3JCqiK5K9thFRrZZhQ35T1bui6N4ibGmYQii9rEjn%2BFSVCjVswxwtF8KHLiPXyhahknGL7BnghBkrw%2FjHYdT7wN%2Fqy1ubICv3qqiHI%2BhSF%2BxPdPiXpLSj0rJnnWLMBdyj57rK5Hqo8h4afXlzjnU6fHke7UHs6ktBhsAu2SuEx2BOSaYujZtU5wHR5rDY%2Bj2YTAkUqSpQlDzTWu16NBGTXTPgvuY9ypgF8E%2B5tkgUKw9XEDU1GyNMt31DqZ5%2FCCC5wyhsiyNS1CNdmLE3j669cX8aBt94%2F%2Fr3RB0ZDvV9yT%2BaxAS0wJq8EaB9xfqvUer0QvNs%2FEa6nrBaovJWGrTcALQSSSCVzgpffBLR87bKlVVzdwhwmi%2FxJO4D%2B5Ct6Grmh9y7nvPUIYthUtdkfJugUQbmtz8WruUHv1oj9wxdS5lDyAuUpNNKi9petdhL4OKmUJ%2F3ehAyIoWMpkNccrV1cN5Bxqt6A%3D%3D
+--------------------
+14:52:53.697 com.android.volley.l
+->a(0094.java:1)
+V
+--------------------
+14:52:53.697 com.android.volley.l
+->a(0094.java:2)
+81058250b7deb83d0
+--------------------
+14:52:53.698 com.android.volley.l
+->a(0094.java:1)
+R
+--------------------
+14:52:53.698 com.android.volley.l
+->a(0094.java:2)
+4
+--------------------
+14:52:53.792 com.cyjh.http.d.b.d
+->a(0152.java:1)
+{"Data":"RFU7bUw+4R0T+s01l1ogMp8yvmGCX7VlZA5sXHJdDia2b5pmpJ/WXFw6Pzw56VF0kSCQyp+lEp8bw8MyTr7sP/l+viDa3xeq2uDJbtiBBQmhM8tNE9cMnETa3DgcdivndY3OgJuKXZUpeqL1qtKYoe1qQX3/klovvGUm2wYYPcITe6nRBRZHU2iNsdNu8/k1Xyilci0kmiBTOYVlLk6THYLJeKzF5W69KlFQ9oTRhMEmRuqPFd36PkHWjwl5tDdE5lxPFI9wxWsnq28ehuq3p/vg5r8IxP7Jeqv9z04AZIQBXIVEa0EghO+HFcBN2wWbiASrIuHnaFeLwtlHwYg5mu5JuYfKtR3gwF/WBxlcQrv1O3xE3OtNz/Y+SBxeFNMeUD7Q+EJmwGahM8tNE9cMnCBhBxKLzbpD3qXVqm0g6SP8QbaIuUWjrMhZSJVKJs55PTcc4soHpplh2UBk5/rnl+MOFqw5Zy+D8dRvxXn41ZNn5zVuwCDsrk5Hekr7bcT0NzQ64+FXKouQcuIXC3zqLaVp2klFQhkD0LnF97rHnToYZ8mCve9XJm2F7Fa1BQ4Os5ta99A4N1VkowxaQa1TbBFcGyWg8I2Rf2+RNsZUMKoe6eQCvTa5gmT+iGcLwvNqhR3z8y4R/vnWfYDQ9MN++nCZJBBYHhMQLneqT4nbmm6c5nmCpmF2XUTUc+rEp/jxEuet8+URQQh1kFZ6TEEld3Qlbwkv5tSYuOL/L3vo1698nv8rS/4dPAhJhXxSHnpx","R":6}
+--------------------
+14:52:53.794 com.cyjh.http.e.c
+->a(0156.java:3)
+b4af55a5
+--------------------
+14:52:53.795 com.cyjh.common.util.h
+->b(00EA.java:4)
+{"SignContent":"{\u0022Code\u0022:200,\u0022Message\u0022:\u0022请求成功！\u0022,\u0022Data\u0022:{\u0022ExpireTime\u0022:1713180919,\u0022DailyTryTimes\u0022:1,\u0022OnceTryMinute\u0022:10,\u0022RunGuid\u0022:\u0022a0e99ffcdc954c00938aa221dbfb5bd8\u0022,\u0022ScriptEncryptKey\u0022:\u0022\u0022,\u0022ClientTimestamp\u0022:1712818373,\u0022ServerTimestamp\u0022:1712818375}}","Signature":"VNZfsl6mT4QV72Aep1utM/FzkASTV3bMhHno1ILmVZ/8HBOf8GJBDUf9972B8D08Dj3AT+em9mmZJI1Deb/JcZpQOlvPxBgU6eiFeHK5FepNlzFfB5TxoYu060p7ZBZJl7TDvht70GRgtICqlXzwibEto2+SlWOE6JlaQ6tBp0Y="}      
+--------------------
+14:52:53.796 com.cyjh.http.e.c
+->a(0156.java:4)
+{"SignContent":"{\u0022Code\u0022:200,\u0022Message\u0022:\u0022请求成功！\u0022,\u0022Data\u0022:{\u0022ExpireTime\u0022:1713180919,\u0022DailyTryTimes\u0022:1,\u0022OnceTryMinute\u0022:10,\u0022RunGuid\u0022:\u0022a0e99ffcdc954c00938aa221dbfb5bd8\u0022,\u0022ScriptEncryptKey\u0022:\u0022\u0022,\u0022ClientTimestamp\u0022:1712818373,\u0022ServerTimestamp\u0022:1712818375}}","Signature":"VNZfsl6mT4QV72Aep1utM/FzkASTV3bMhHno1ILmVZ/8HBOf8GJBDUf9972B8D08Dj3AT+em9mmZJI1Deb/JcZpQOlvPxBgU6eiFeHK5FepNlzFfB5TxoYu060p7ZBZJl7TDvht70GRgtICqlXzwibEto2+SlWOE6JlaQ6tBp0Y="}
+--------------------
+14:52:53.796 com.cyjh.http.c.a.a
+->a(014E.java:1)
+{"SignContent":"{\u0022Code\u0022:200,\u0022Message\u0022:\u0022请求成功！\u0022,\u0022Data\u0022:{\u0022ExpireTime\u0022:1713180919,\u0022DailyTryTimes\u0022:1,\u0022OnceTryMinute\u0022:10,\u0022RunGuid\u0022:\u0022a0e99ffcdc954c00938aa221dbfb5bd8\u0022,\u0022ScriptEncryptKey\u0022:\u0022\u0022,\u0022ClientTimestamp\u0022:1712818373,\u0022ServerTimestamp\u0022:1712818375}}","Signature":"VNZfsl6mT4QV72Aep1utM/FzkASTV3bMhHno1ILmVZ/8HBOf8GJBDUf9972B8D08Dj3AT+em9mmZJI1Deb/JcZpQOlvPxBgU6eiFeHK5FepNlzFfB5TxoYu060p7ZBZJl7TDvht70GRgtICqlXzwibEto2+SlWOE6JlaQ6tBp0Y="}
+--------------------
+14:52:53.825 mt.LogA9F8F1
+->a(02C6.java:7)
+zzz
+--------------------
+14:52:53.825 mt.LogA9F8F1
+->a(02C6.java:8)
+com.cyjh.share.AppStatisticsPresenter--uiDataSuccess:{"Code":200,"Message":"请求成功！","Data":{"ExpireTime":1713180919,"DailyTryTimes":1,"OnceTryMinute":10,"RunGuid":"a0e99ffcdc954c00938aa221dbfb5bd8","ScriptEncryptKey":"","ClientTimestamp":1712818373,"ServerTimestamp":1712818375}}
+--------------------
+14:52:53.828 com.google.gson.stream.JsonReader
+->nextString(01F0.java:6)
+1713180919
+--------------------
+14:52:53.829 com.google.gson.stream.JsonReader
+->nextString(01F0.java:6)
+1713180919
+--------------------
+14:52:56.166 com.google.protobuf.LiteralByteString
+->toString(01F8.java:1)
+
+--------------------
+14:52:56.184 com.cyjh.http.b.a
+->b(014D.java:10)
+6.1.1
+--------------------
+14:52:56.184 com.cyjh.common.util.e
+->b(00E8.java:8)
+1686949188
+--------------------
+14:52:56.186 com.cyjh.common.util.af
+->b(00E5.java:1)
+1686949188
+--------------------
+14:52:56.186 com.cyjh.common.util.af
+->b(00E5.java:2)
+1686949188
+--------------------
+14:52:56.186 com.cyjh.http.b.a
+->b(014D.java:11)
+1712804694
+--------------------
+14:52:56.189 com.cyjh.http.b.a
+->b(014D.java:12)
+COBC41DkB9vuJuuZA5T2+hSJXVrM5/DJs+cvCsW89UbcEuqeEcx8Zfdll5w5Ed04e/JnVcOeO4XHospe1u9wgu+IpdsPqHj6
+--------------------
+14:52:56.193 com.cyjh.http.b.a
+->a(014D.java:4)
+{"RunGuid":"a0e99ffcdc954c00938aa221dbfb5bd8","AppId":238076,"AppInfo":"COBC41DkB9vuJuuZA5T2+hSJXVrM5/DJs+cvCsW89UbcEuqeEcx8Zfdll5w5Ed04e/JnVcOeO4XHospe1u9wgu+IpdsPqHj6","AppVersion":"1712804694","ClientTimestamp":1712818376,"DeviceCode":"499524466058853078f8b3e74","DeviceId":"519fec6122568db9b2e62620d78ee680","IsRedFinger":0,"TemplateFileId":559,"TemplateVersion":"6.1.1","V":"81058250b7deb83d0"}
+--------------------
+14:52:56.193 com.cyjh.http.e.c
+->a(0156.java:1)
+MIICdgIBADANBgkqhkiG9w0BAQEFAASCAmAwggJcAgEAAoGBAJU0ITFmX5JkBA2GRHUpd1p+3rigbzwWPKY/6Ir2XlNW3v5WlTBsnj+GX1ReqsUxCysCb13b/g03ctrP4q2FY4KM1ENaAyDTGFdGDqezSEpEVkIRqxwxfmKhbQgV/9aoWRpgScy2Cclas688VL8U80iTzhNkAN8CS3NJEnD5o3MXAgMBAAECgYAh0Je5P29nmR1GB2kaeJRhQSGvDEVJg+yo7REB9YY5MxYE5JCZUfSnhwex8maXnF7gl4Ov7Pzt9+Qi7Tx9gR6lDhjl4w0nxPg7dXwyWGooCkk/JXAs3N3Z8Jdve8mORQLT4IkHrvrt4cahG+U9PZORQ6yww0+uIzRcri32I8rPOQJBAM4ri71N7bczshAx/dJBMG3BP5KKM4c/HpBJo56a8a87yDGbSxrftHV9NSQzll5XNq9nlKcsadgOK1zG8K1DoE0CQQC5Q99FpnL28KaykTn1OBxu402zam49caGu1lkfHOIaK7KKSlRPk2kdDBi9GjpdoCy5S4OL2yMo/WQB91oBUHLzAkEAqr6dqFXVvZfurEL6txqOBRe6kp4qNqQrp8uU2lHwPvP/xDWcadFDHtpnHGgs7EzGWVYrYpgBwJFbkCaiRJxxMQJAbffortonQYcFG9dyVKlyzytjMs1JFHW/qB0Zl4s4dppbhxSpyPZSHWjRwmWwIWTzRyWYtspjq3AFDdm59i+/mwJAJpafiQO32OOG4/T49uPNyXvkyLF+dk8tKNaSGqC/RM44ZbiI7EqkMXtDUwGIxyTKbOK1pvcYHLg7B3dAL/CeTQ==
+--------------------
+14:52:56.197 com.cyjh.common.util.b
+->a(00E7.java:1)
+kapdZDYe8Y7WgfWqfSU5NCv4yjFg7Mjtztnwxmkf6ihTbQ2mAv7sY8K59kIpUViHHOGseJiEU5CLnGKz8ACYXsWWzghyoQf0WuV5haiuIL+S1ulhGDixeoBtKEvmwJaeZ8oHArX4U8ZTQKzq0WrVBdMp/l+l1W+e0VUOslPNRqg=
+--------------------
+14:52:56.197 com.cyjh.http.e.c
+->a(0156.java:2)
+kapdZDYe8Y7WgfWqfSU5NCv4yjFg7Mjtztnwxmkf6ihTbQ2mAv7sY8K59kIpUViHHOGseJiEU5CLnGKz8ACYXsWWzghyoQf0WuV5haiuIL+S1ulhGDixeoBtKEvmwJaeZ8oHArX4U8ZTQKzq0WrVBdMp/l+l1W+e0VUOslPNRqg=
+--------------------
+14:52:56.197 com.cyjh.http.b.a
+->a(014D.java:5)
+kapdZDYe8Y7WgfWqfSU5NCv4yjFg7Mjtztnwxmkf6ihTbQ2mAv7sY8K59kIpUViHHOGseJiEU5CLnGKz8ACYXsWWzghyoQf0WuV5haiuIL+S1ulhGDixeoBtKEvmwJaeZ8oHArX4U8ZTQKzq0WrVBdMp/l+l1W+e0VUOslPNRqg=
+--------------------
+14:52:56.199 com.cyjh.http.b.a
+->a(014D.java:6)
+{"SignContent":"{\"RunGuid\":\"a0e99ffcdc954c00938aa221dbfb5bd8\",\"AppId\":238076,\"AppInfo\":\"COBC41DkB9vuJuuZA5T2+hSJXVrM5/DJs+cvCsW89UbcEuqeEcx8Zfdll5w5Ed04e/JnVcOeO4XHospe1u9wgu+IpdsPqHj6\",\"AppVersion\":\"1712804694\",\"ClientTimestamp\":1712818376,\"DeviceCode\":\"499524466058853078f8b3e74\",\"DeviceId\":\"519fec6122568db9b2e62620d78ee680\",\"IsRedFinger\":0,\"TemplateFileId\":559,\"TemplateVersion\":\"6.1.1\",\"V\":\"81058250b7deb83d0\"}","Signature":"kapdZDYe8Y7WgfWqfSU5NCv4yjFg7Mjtztnwxmkf6ihTbQ2mAv7sY8K59kIpUViHHOGseJiEU5CLnGKz8ACYXsWWzghyoQf0WuV5haiuIL+S1ulhGDixeoBtKEvmwJaeZ8oHArX4U8ZTQKzq0WrVBdMp/l+l1W+e0VUOslPNRqg\u003d"}
+--------------------
+14:52:56.199 com.cyjh.http.b.a
+->a(014D.java:7)
+b4af55a5
+--------------------
+14:52:56.200 com.cyjh.common.util.h
+->a(00EA.java:2)
+RFU7bUw+4R0T+s01l1ogMgQOcOVuAijH0VlM+d2RIf+LxODo8aKtDEbZuNToVscIj85ZtCDTqtyieoZp5voFTAer7g/zm5k5ib5MBUiGGPDTnCEjbhOfVSAI2nSN+vyscvkyobeC/fkVW52rXlNVnHBxk2j4FDDfaD/UVRKxq9KmJi1rDuFq1AFz6HsSXspUgngjhFXPLvp6Iy2WH8K2DsYckKXAH2FP3c4k3UWmqEbIT478gkvd4OCXzfte5bxiRuHwYQwVzDA3A1xKQDvcrjTAP7/+4o+T/6dX5R0ISxhlFgj03fCwCd6l1aptIOkj/tXUSr7ObwUkEy0pmM1xry2ozRv1mHMNhfJF1bwf2VB4j4l6YJN/yiKXD6EwghckgIvFpSsdKgKIQfsGGO7V40UM/esaveQU+7v3hXWnG7sPV1dUqNRQKQuaTGWFiNBj3BUAYOIGP3lBxV9kkOXEiCRqfbhm00cUKd7EuuPi2gCet5KwgZHskhZ5Gx8jWl/KHS4Z6S64VRi7Dp9QRk7MI1BgbRjdcsP54GE8z4AdPACqQ1Aw65ymcKXGB9kSFVEiN1NmQU355oKn+4wLBeoYHklHYxCZgSHDIqzaAFtX9W2pToFdAHbtjOK6dCQDbD0HKx9+ECB5CFxGoDyRpQc8Nm5ea0jY3/xahedutsSQuA/Me0CQToyGb3fnN3xrl+aOhuJzKbwIwudww1a0xTRVBA28BvlHk/xX1c250JmaRcj6pF9cwQrL5Fj3J+MEz6NRfs77CwqQGgCHkXCR+acpygny6dPuxZr+f4c0h0AHmWMxLgtqdHBm0+UXjIb9gpIM3/ipbbVa1Db6EsHB9+yRW0Dn9Ijzak+w
+--------------------
+14:52:56.200 com.cyjh.http.b.a
+->a(014D.java:8)
+RFU7bUw+4R0T+s01l1ogMgQOcOVuAijH0VlM+d2RIf+LxODo8aKtDEbZuNToVscIj85ZtCDTqtyieoZp5voFTAer7g/zm5k5ib5MBUiGGPDTnCEjbhOfVSAI2nSN+vyscvkyobeC/fkVW52rXlNVnHBxk2j4FDDfaD/UVRKxq9KmJi1rDuFq1AFz6HsSXspUgngjhFXPLvp6Iy2WH8K2DsYckKXAH2FP3c4k3UWmqEbIT478gkvd4OCXzfte5bxiRuHwYQwVzDA3A1xKQDvcrjTAP7/+4o+T/6dX5R0ISxhlFgj03fCwCd6l1aptIOkj/tXUSr7ObwUkEy0pmM1xry2ozRv1mHMNhfJF1bwf2VB4j4l6YJN/yiKXD6EwghckgIvFpSsdKgKIQfsGGO7V40UM/esaveQU+7v3hXWnG7sPV1dUqNRQKQuaTGWFiNBj3BUAYOIGP3lBxV9kkOXEiCRqfbhm00cUKd7EuuPi2gCet5KwgZHskhZ5Gx8jWl/KHS4Z6S64VRi7Dp9QRk7MI1BgbRjdcsP54GE8z4AdPACqQ1Aw65ymcKXGB9kSFVEiN1NmQU355oKn+4wLBeoYHklHYxCZgSHDIqzaAFtX9W2pToFdAHbtjOK6dCQDbD0HKx9+ECB5CFxGoDyRpQc8Nm5ea0jY3/xahedutsSQuA/Me0CQToyGb3fnN3xrl+aOhuJzKbwIwudww1a0xTRVBA28BvlHk/xX1c250JmaRcj6pF9cwQrL5Fj3J+MEz6NRfs77CwqQGgCHkXCR+acpygny6dPuxZr+f4c0h0AHmWMxLgtqdHBm0+UXjIb9gpIM3/ipbbVa1Db6EsHB9+yRW0Dn9Ijzak+w
+--------------------
+14:52:56.201 com.cyjh.http.b.a
+->a(014D.java:9)
+6
+--------------------
+14:52:56.202 com.android.volley.l
+->a(0094.java:1)
+Data
+--------------------
+14:52:56.203 com.android.volley.l
+->a(0094.java:2)
+RFU7bUw%2B4R0T%2Bs01l1ogMgQOcOVuAijH0VlM%2Bd2RIf%2BLxODo8aKtDEbZuNToVscIj85ZtCDTqtyieoZp5voFTAer7g%2Fzm5k5ib5MBUiGGPDTnCEjbhOfVSAI2nSN%2BvyscvkyobeC%2FfkVW52rXlNVnHBxk2j4FDDfaD%2FUVRKxq9KmJi1rDuFq1AFz6HsSXspUgngjhFXPLvp6Iy2WH8K2DsYckKXAH2FP3c4k3UWmqEbIT478gkvd4OCXzfte5bxiRuHwYQwVzDA3A1xKQDvcrjTAP7%2F%2B4o%2BT%2F6dX5R0ISxhlFgj03fCwCd6l1aptIOkj%2FtXUSr7ObwUkEy0pmM1xry2ozRv1mHMNhfJF1bwf2VB4j4l6YJN%2FyiKXD6EwghckgIvFpSsdKgKIQfsGGO7V40UM%2FesaveQU%2B7v3hXWnG7sPV1dUqNRQKQuaTGWFiNBj3BUAYOIGP3lBxV9kkOXEiCRqfbhm00cUKd7EuuPi2gCet5KwgZHskhZ5Gx8jWl%2FKHS4Z6S64VRi7Dp9QRk7MI1BgbRjdcsP54GE8z4AdPACqQ1Aw65ymcKXGB9kSFVEiN1NmQU355oKn%2B4wLBeoYHklHYxCZgSHDIqzaAFtX9W2pToFdAHbtjOK6dCQDbD0HKx9%2BECB5CFxGoDyRpQc8Nm5ea0jY3%2FxahedutsSQuA%2FMe0CQToyGb3fnN3xrl%2BaOhuJzKbwIwudww1a0xTRVBA28BvlHk%2FxX1c250JmaRcj6pF9cwQrL5Fj3J%2BMEz6NRfs77CwqQGgCHkXCR%2Bacpygny6dPuxZr%2Bf4c0h0AHmWMxLgtqdHBm0%2BUXjIb9gpIM3%2FipbbVa1Db6EsHB9%2ByRW0Dn9Ijzak%2Bw
+--------------------
+14:52:56.203 com.android.volley.l
+->a(0094.java:1)
+V
+--------------------
+14:52:56.204 com.android.volley.l
+->a(0094.java:2)
+81058250b7deb83d0
+--------------------
+14:52:56.205 com.android.volley.l
+->a(0094.java:1)
+R
+--------------------
+14:52:56.205 com.android.volley.l
+->a(0094.java:2)
+6
+--------------------
+14:52:56.214 net.grandcentrix.tray.core.TrayException
+-><init>(0300.java:1)
+Value for Key <com.cyjh.elfin.ui.activity.SettingActivity.swtVibration> not found
+--------------------
+14:52:56.314 com.cyjh.http.d.b.d
+->a(0152.java:1)
+{"Data":"t4IGTfdXwNtf4yyF25LQoSqUasGkU7+K1odu5KxLzgJqWsEMJt7v/sc2vcW/Ej6QXfzxUNX7seGyul4xs6UQenTPA6eOM4Ff6Qt7I0UX59K4b2UHNyE+DABA5uwaUnNr/F2Zza1vwgsQ+Gz5BgdqOuFEIcjFK0w8eXycqVOEX5HTElMFtHXINDi5VlVXrW1q8U/jdxY8oco0B14w4uU681Qxodvoo14KS0jwgnAqCb53ANde4XlMkYLuuRtoN9C0NyiZFpgDoG925mcW6MhbhM0c2qV2iOxbbpSjTK0lRlfkIUuYQk5DuPbT1bVffjQzmi3a8U7jW3dNO+uN9Zcv5Goa2snG8CeLNh86bPiZKD9k514vWoox2HntMgjTVRZdGOaGlqKUGyR0R99sd8rBWtawCp23QDqwPGmI1yQ5RAnH/3/KlsLdH/InYKgMGeXY43l54TRAOaezI2/Qo7yKrRRwgEnyP180E9JhAqoPr+CuRlzn3EIFWQ==","R":4}
+--------------------
+14:52:56.316 com.cyjh.http.e.c
+->a(0156.java:3)
+964f8677
+--------------------
+14:52:56.317 com.cyjh.common.util.h
+->b(00EA.java:4)
+{"SignContent":"{\u0022Code\u0022:200,\u0022Message\u0022:\u0022请求成功！\u0022,\u0022Data\u0022:{\u0022ClientTimestamp\u0022:1712818376,\u0022ServerTimestamp\u0022:1712818377}}","Signature":"hJ6OiLiW39e/dgVVvqPW7kjQd/suF2Vec5RK+u+YyNbc6NZwB/xn1X1UFSHK/XI3jRFCO4R5J/oEgYbiXV1GKkaaFm/2f6AFTarMRIiyY9AJ6WXvGDWw5epFlrPqjOwpxRTPiXdOssoCGgIQ2JEq6xDxqZVI3beea0ke44wu7qs="}    
+--------------------
+14:52:56.318 com.cyjh.http.e.c
+->a(0156.java:4)
+{"SignContent":"{\u0022Code\u0022:200,\u0022Message\u0022:\u0022请求成功！\u0022,\u0022Data\u0022:{\u0022ClientTimestamp\u0022:1712818376,\u0022ServerTimestamp\u0022:1712818377}}","Signature":"hJ6OiLiW39e/dgVVvqPW7kjQd/suF2Vec5RK+u+YyNbc6NZwB/xn1X1UFSHK/XI3jRFCO4R5J/oEgYbiXV1GKkaaFm/2f6AFTarMRIiyY9AJ6WXvGDWw5epFlrPqjOwpxRTPiXdOssoCGgIQ2JEq6xDxqZVI3beea0ke44wu7qs="}
+--------------------
+14:52:56.318 com.cyjh.http.c.a.a
+->a(014E.java:1)
+{"SignContent":"{\u0022Code\u0022:200,\u0022Message\u0022:\u0022请求成功！\u0022,\u0022Data\u0022:{\u0022ClientTimestamp\u0022:1712818376,\u0022ServerTimestamp\u0022:1712818377}}","Signature":"hJ6OiLiW39e/dgVVvqPW7kjQd/suF2Vec5RK+u+YyNbc6NZwB/xn1X1UFSHK/XI3jRFCO4R5J/oEgYbiXV1GKkaaFm/2f6AFTarMRIiyY9AJ6WXvGDWw5epFlrPqjOwpxRTPiXdOssoCGgIQ2JEq6xDxqZVI3beea0ke44wu7qs="}
+--------------------
+14:52:56.322 mt.LogA9F8F1
+->a(02C6.java:7)
+zzz
+--------------------
+14:52:56.322 mt.LogA9F8F1
+->a(02C6.java:8)
+com.cyjh.share.AppStatisticsPresenter--uiDataSuccess:{"Code":200,"Message":"请求成功！","Data":{"ClientTimestamp":1712818376,"ServerTimestamp":1712818377}}
+--------------------

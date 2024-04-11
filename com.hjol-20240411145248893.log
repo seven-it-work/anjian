@@ -1,0 +1,112 @@
+14:52:48.876 com.cyjh.common.util.aj
+->copyWebInjectFile(00E6.java)
+测试
+--------------------
+14:52:48.877 com.cyjh.common.util.aj
+->copyWebInjectFile(00E6.java)
+xygtest
+--------------------
+14:52:48.878 com.cyjh.common.util.aj
+->copyWebInjectFile(00E6.java)
+isRoot=true
+--------------------
+14:52:48.878 com.cyjh.common.util.aj
+->copyWebInjectFile(00E6.java)
+测试
+--------------------
+14:52:49.429 com.cyjh.common.util.aj
+->copyWebInjectFile(00E6.java:4)
+测试
+--------------------
+14:52:49.429 com.cyjh.common.util.aj
+->copyWebInjectFile(00E6.java:4)
+xygtest
+--------------------
+14:52:49.430 com.cyjh.common.util.aj
+->copyWebInjectFile(00E6.java:4)
+result=0
+--------------------
+14:52:49.430 com.cyjh.common.util.aj
+->copyWebInjectFile(00E6.java:4)
+测试
+--------------------
+14:52:49.501 com.cyjh.common.util.aj
+->copyWebInjectFile(00E6.java:4)
+测试
+--------------------
+14:52:49.502 com.cyjh.common.util.aj
+->copyWebInjectFile(00E6.java:4)
+xygtest
+--------------------
+14:52:49.502 com.cyjh.common.util.aj
+->copyWebInjectFile(00E6.java:4)
+result=0
+--------------------
+14:52:49.502 com.cyjh.common.util.aj
+->copyWebInjectFile(00E6.java:4)
+测试
+--------------------
+14:52:53.633 com.cyjh.http.c.c.c
+->a(014F.java)
+测试
+--------------------
+14:52:53.633 com.cyjh.http.c.c.c
+->a(014F.java)
+zzz
+--------------------
+14:52:53.633 com.cyjh.http.c.c.c
+->a(014F.java)
+com.cyjh.share.AppStatisticsPresenter--uiDataSuccess:{"Code":200,"Message":"请求成功！","Data":{"ExpireTime":1713180919,"DailyTryTimes":1,"OnceTryMinute":10,"RunGuid":null,"ScriptEncryptKey":"ab61f1113c13458bbb57f9601ddd10c4","ClientTimestamp":1712818373,"ServerTimestamp":1712818375}}
+--------------------
+14:52:53.633 com.cyjh.http.c.c.c
+->a(014F.java)
+测试
+--------------------
+14:52:53.636 com.cyjh.elfin.floatingwindowprocess.d.b
+->a(011F.java)
+测试
+--------------------
+14:52:53.636 com.cyjh.elfin.floatingwindowprocess.d.b
+->a(011F.java)
+zzz
+--------------------
+14:52:53.636 com.cyjh.elfin.floatingwindowprocess.d.b
+->a(011F.java)
+runScript--script4Run.scripyEncryptKey:ab61f1113c13458bbb57f9601ddd10c4
+--------------------
+14:52:53.636 com.cyjh.elfin.floatingwindowprocess.d.b
+->a(011F.java)
+测试
+--------------------
+14:52:53.824 com.cyjh.http.c.c.c
+->a(014F.java)
+测试
+--------------------
+14:52:53.825 com.cyjh.http.c.c.c
+->a(014F.java)
+zzz
+--------------------
+14:52:53.825 com.cyjh.http.c.c.c
+->a(014F.java)
+com.cyjh.share.AppStatisticsPresenter--uiDataSuccess:{"Code":200,"Message":"请求成功！","Data":{"ExpireTime":1713180919,"DailyTryTimes":1,"OnceTryMinute":10,"RunGuid":"a0e99ffcdc954c00938aa221dbfb5bd8","ScriptEncryptKey":"","ClientTimestamp":1712818373,"ServerTimestamp":1712818375}}
+--------------------
+14:52:53.826 com.cyjh.http.c.c.c
+->a(014F.java)
+测试
+--------------------
+14:52:56.321 com.cyjh.http.c.c.c
+->a(014F.java)
+测试
+--------------------
+14:52:56.322 com.cyjh.http.c.c.c
+->a(014F.java)
+zzz
+--------------------
+14:52:56.322 com.cyjh.http.c.c.c
+->a(014F.java)
+com.cyjh.share.AppStatisticsPresenter--uiDataSuccess:{"Code":200,"Message":"请求成功！","Data":{"ClientTimestamp":1712818376,"ServerTimestamp":1712818377}}
+--------------------
+14:52:56.322 com.cyjh.http.c.c.c
+->a(014F.java)
+测试
+--------------------

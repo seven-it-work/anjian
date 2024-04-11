@@ -1,0 +1,256 @@
+14:52:48.034 com.cyjh.elfin.ui.activity.SplashActivity
+->a(0131.java)
+测试
+--------------------
+14:52:48.035 com.cyjh.elfin.ui.activity.SplashActivity
+->a(0131.java)
+zzz
+--------------------
+14:52:48.035 com.cyjh.elfin.ui.activity.SplashActivity
+->a(0131.java)
+notHasBlueTooth:null
+--------------------
+14:52:48.035 com.cyjh.elfin.ui.activity.SplashActivity
+->a(0131.java)
+测试
+--------------------
+14:52:48.788 com.cyjh.http.c.c.c
+->a(014F.java)
+测试
+--------------------
+14:52:48.789 com.cyjh.http.c.c.c
+->a(014F.java)
+zzz
+--------------------
+14:52:48.789 com.cyjh.http.c.c.c
+->a(014F.java)
+com.cyjh.share.AppStatisticsPresenter--uiDataSuccess:{"Code":200,"Message":"请求成功！","Data":{"ExpireTime":1713180919,"DailyTryTimes":1,"OnceTryMinute":10,"RunGuid":null,"ScriptEncryptKey":"ab61f1113c13458bbb57f9601ddd10c4","ClientTimestamp":1712818368,"ServerTimestamp":1712818370}}
+--------------------
+14:52:48.790 com.cyjh.http.c.c.c
+->a(014F.java)
+测试
+--------------------
+14:52:48.803 com.cyjh.elfin.floatingwindowprocess.d.b
+->a(011F.java)
+测试
+--------------------
+14:52:48.804 com.cyjh.elfin.floatingwindowprocess.d.b
+->a(011F.java)
+zzz
+--------------------
+14:52:48.804 com.cyjh.elfin.floatingwindowprocess.d.b
+->a(011F.java)
+runScript--script4Run.scripyEncryptKey:ab61f1113c13458bbb57f9601ddd10c4
+--------------------
+14:52:48.804 com.cyjh.elfin.floatingwindowprocess.d.b
+->a(011F.java)
+测试
+--------------------
+14:52:48.900 com.cyjh.http.c.c.m
+->a(0151.java)
+测试
+--------------------
+14:52:48.900 com.cyjh.http.c.c.m
+->a(0151.java)
+zzz
+--------------------
+14:52:48.900 com.cyjh.http.c.c.m
+->a(0151.java)
+com.cyjh.share.NoticeListPresenter--loadAd:
+--------------------
+14:52:48.900 com.cyjh.http.c.c.m
+->a(0151.java)
+测试
+--------------------
+14:52:48.904 com.cyjh.elfin.ui.model.ElfinModel$5
+->run(013C.java:2)
+测试
+--------------------
+14:52:48.904 com.cyjh.elfin.ui.model.ElfinModel$5
+->run(013C.java:2)
+zzz
+--------------------
+14:52:48.904 com.cyjh.elfin.ui.model.ElfinModel$5
+->run(013C.java:2)
+ElfinPayActivity:statusInfo新的--
+--------------------
+14:52:48.904 com.cyjh.elfin.ui.model.ElfinModel$5
+->run(013C.java:2)
+测试
+--------------------
+14:52:48.904 com.cyjh.http.c.c.m
+->a(0151.java)
+测试
+--------------------
+14:52:48.904 com.cyjh.http.c.c.m
+->a(0151.java)
+zzz
+--------------------
+14:52:48.904 com.cyjh.http.c.c.m
+->a(0151.java)
+com.cyjh.share.NoticeListPresenter--loadAd:http://auth2.mobileanjian.com//Notice/List
+--------------------
+14:52:48.905 com.cyjh.http.c.c.m
+->a(0151.java)
+测试
+--------------------
+14:52:48.905 com.cyjh.elfin.ui.model.ElfinModel$5
+->run(013C.java:2)
+测试
+--------------------
+14:52:48.905 com.cyjh.elfin.ui.model.ElfinModel$5
+->run(013C.java:2)
+qureyRegCode
+--------------------
+14:52:48.906 com.cyjh.elfin.ui.model.ElfinModel$5
+->run(013C.java:2)
+ElfinPayActivity:statusInfo新的--
+--------------------
+14:52:48.906 com.cyjh.elfin.ui.model.ElfinModel$5
+->run(013C.java:2)
+测试
+--------------------
+14:52:48.967 com.cyjh.http.c.c.e
+->a(Unknown Source)
+测试
+--------------------
+14:52:48.968 com.cyjh.http.c.c.e
+->a(Unknown Source)
+zzz
+--------------------
+14:52:48.968 com.cyjh.http.c.c.e
+->a(Unknown Source)
+BindRegisterCodePresenter--bindRegCode--http://auth2.mobileanjian.com//Script/BindRegCode
+--------------------
+14:52:48.968 com.cyjh.http.c.c.e
+->a(Unknown Source)
+测试
+--------------------
+14:52:48.985 com.elfin.engin.d
+->a(0189.java)
+测试
+--------------------
+14:52:48.985 com.elfin.engin.d
+->a(0189.java)
+zzz
+--------------------
+14:52:48.986 com.elfin.engin.d
+->a(0189.java)
+runScript--startLoop:/data/user/0/com.hjol/files/assets/script.lc, scriptEncryptKey:ab61f1113c13458bbb57f9601ddd10c4
+--------------------
+14:52:48.987 com.elfin.engin.d
+->a(0189.java)
+测试
+--------------------
+14:52:48.995 com.cyjh.elfin.ui.fragment.DescriptionFragment
+->c(Unknown Source)
+测试
+--------------------
+14:52:48.995 com.cyjh.elfin.ui.fragment.DescriptionFragment
+->c(Unknown Source)
+TAG
+--------------------
+14:52:48.995 com.cyjh.elfin.ui.fragment.DescriptionFragment
+->c(Unknown Source)
+file:///data/user/0/com.hjol/files/assets/script.rtd
+--------------------
+14:52:48.996 com.cyjh.elfin.ui.fragment.DescriptionFragment
+->c(Unknown Source)
+测试
+--------------------
+14:52:49.063 com.cyjh.http.c.c.m
+->a(0151.java)
+测试
+--------------------
+14:52:49.063 com.cyjh.http.c.c.m
+->a(0151.java)
+zzz
+--------------------
+14:52:49.064 com.cyjh.http.c.c.m
+->a(0151.java)
+com.cyjh.share.NoticeListPresenter--uiDataSuccess1:{"Code":200,"Message":"请求成功！","Data":{"NoticeList":null,"ClientTimestamp":1712818368,"ServerTimestamp":1712818370}}
+--------------------
+14:52:49.064 com.cyjh.http.c.c.m
+->a(0151.java)
+测试
+--------------------
+14:52:49.072 com.elfin.engin.d
+->a(0189.java)
+测试
+--------------------
+14:52:49.072 com.elfin.engin.d
+->a(0189.java)
+a111111
+--------------------
+14:52:49.072 com.elfin.engin.d
+->a(0189.java)
+getScriptModel /data/user/0/com.hjol/files/assets/script.uip /data/user/0/com.hjol/files/assets/script.ui /data/user/0/com.hjol/files/script.cfg
+--------------------
+14:52:49.072 com.elfin.engin.d
+->a(0189.java)
+测试
+--------------------
+14:52:49.090 com.elfin.engin.b.c
+-><init>(0188.java)
+测试
+--------------------
+14:52:49.090 com.elfin.engin.b.c
+-><init>(0188.java)
+a111111
+--------------------
+14:52:49.090 com.elfin.engin.b.c
+-><init>(0188.java)
+ScriptUipModel /data/user/0/com.hjol/files/assets/script.uip
+--------------------
+14:52:49.091 com.elfin.engin.b.c
+-><init>(0188.java)
+测试
+--------------------
+14:52:51.016 com.cyjh.http.c.c.m
+->a(0151.java)
+测试
+--------------------
+14:52:51.017 com.cyjh.http.c.c.m
+->a(0151.java)
+zzz
+--------------------
+14:52:51.017 com.cyjh.http.c.c.m
+->a(0151.java)
+com.cyjh.share.NoticeListPresenter--loadAd:
+--------------------
+14:52:51.017 com.cyjh.http.c.c.m
+->a(0151.java)
+测试
+--------------------
+14:52:51.028 com.cyjh.http.c.c.m
+->a(0151.java)
+测试
+--------------------
+14:52:51.028 com.cyjh.http.c.c.m
+->a(0151.java)
+zzz
+--------------------
+14:52:51.028 com.cyjh.http.c.c.m
+->a(0151.java)
+com.cyjh.share.NoticeListPresenter--loadAd:http://auth2.mobileanjian.com//Notice/List
+--------------------
+14:52:51.029 com.cyjh.http.c.c.m
+->a(0151.java)
+测试
+--------------------
+14:52:51.107 com.cyjh.http.c.c.m
+->a(0151.java)
+测试
+--------------------
+14:52:51.107 com.cyjh.http.c.c.m
+->a(0151.java)
+zzz
+--------------------
+14:52:51.108 com.cyjh.http.c.c.m
+->a(0151.java)
+com.cyjh.share.NoticeListPresenter--uiDataSuccess1:{"Code":200,"Message":"请求成功！","Data":{"NoticeList":null,"ClientTimestamp":1712818371,"ServerTimestamp":1712818372}}
+--------------------
+14:52:51.108 com.cyjh.http.c.c.m
+->a(0151.java)
+测试
+--------------------
