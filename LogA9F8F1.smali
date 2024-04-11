@@ -138,36 +138,125 @@
 .end method
 
 .method public static a(Ljava/lang/Object;Ljava/lang/Object;)V
-    .registers 3
-    .param p0, "obj1"  # Ljava/lang/Object;
-    .param p1, "obj2"  # Ljava/lang/Object;
+    .registers 8
+    .param p0, "obj1"    # Ljava/lang/Object;
+    .param p1, "obj2"    # Ljava/lang/Object;
 
     .prologue
-    .line 8
-    const-string v0, "测试"
+    .line 12
+    const-string v4, "\u6d4b\u8bd5"
 
-    invoke-static {v0}, Lmt/LogA9F8F1;->z(Ljava/lang/String;)V
+    invoke-static {v4}, Lmt/LogA9F8F1;->z(Ljava/lang/String;)V
 
-    .line 9
+    .line 13
+    new-instance v3, Ljava/lang/RuntimeException;
+
+    const-string v4, "\u8bb0\u5f55\u6808"
+
+    invoke-direct {v3, v4}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
+
+    .line 14
+    .local v3, "runtimeException":Ljava/lang/RuntimeException;
+    :try_start_c
+    new-instance v0, Ljava/io/ByteArrayOutputStream;
+
+    invoke-direct {v0}, Ljava/io/ByteArrayOutputStream;-><init>()V
+    :try_end_11
+    .catch Ljava/io/IOException; {:try_start_c .. :try_end_11} :catch_3d
+
+    .line 15
+    .local v0, "buf":Ljava/io/ByteArrayOutputStream;
+    :try_start_11
+    new-instance v4, Ljava/io/PrintWriter;
+
+    const/4 v5, 0x1
+
+    invoke-direct {v4, v0, v5}, Ljava/io/PrintWriter;-><init>(Ljava/io/OutputStream;Z)V
+
+    invoke-virtual {v3, v4}, Ljava/lang/RuntimeException;->printStackTrace(Ljava/io/PrintWriter;)V
+
+    .line 16
+    invoke-virtual {v0}, Ljava/io/ByteArrayOutputStream;->toString()Ljava/lang/String;
+
+    move-result-object v2
+
+    .line 17
+    .local v2, "expMessage":Ljava/lang/String;
+    invoke-static {v2}, Lmt/LogA9F8F1;->z(Ljava/lang/String;)V
+    :try_end_21
+    .catch Ljava/lang/Throwable; {:try_start_11 .. :try_end_21} :catch_38
+    .catch Ljava/io/IOException; {:try_start_11 .. :try_end_21} :catch_3d
+
+    .line 18
+    :try_start_21
+    invoke-virtual {v0}, Ljava/io/ByteArrayOutputStream;->close()V
+    :try_end_24
+    .catch Ljava/io/IOException; {:try_start_21 .. :try_end_24} :catch_3d
+
+    .line 21
     invoke-static {p0}, Lmt/LogA9F8F1;->y(Ljava/lang/Object;)Ljava/lang/String;
 
-    move-result-object v0
+    move-result-object v4
 
-    invoke-static {v0}, Lmt/LogA9F8F1;->z(Ljava/lang/String;)V
+    invoke-static {v4}, Lmt/LogA9F8F1;->z(Ljava/lang/String;)V
 
-    .line 10
+    .line 22
     invoke-static {p1}, Lmt/LogA9F8F1;->y(Ljava/lang/Object;)Ljava/lang/String;
 
-    move-result-object v0
+    move-result-object v4
 
-    invoke-static {v0}, Lmt/LogA9F8F1;->z(Ljava/lang/String;)V
+    invoke-static {v4}, Lmt/LogA9F8F1;->z(Ljava/lang/String;)V
 
-    .line 11
-    const-string p0, "测试"
+    .line 23
+    const-string v4, "\u6d4b\u8bd5"
 
-    invoke-static {p0}, Lmt/LogA9F8F1;->z(Ljava/lang/String;)V
+    invoke-static {v4}, Lmt/LogA9F8F1;->z(Ljava/lang/String;)V
 
+    .line 24
     return-void
+
+    .line 14
+    .end local v2    # "expMessage":Ljava/lang/String;
+    :catch_38
+    move-exception v4
+
+    :try_start_39
+    invoke-virtual {v0}, Ljava/io/ByteArrayOutputStream;->close()V
+    :try_end_3c
+    .catch Ljava/lang/Throwable; {:try_start_39 .. :try_end_3c} :catch_44
+    .catch Ljava/io/IOException; {:try_start_39 .. :try_end_3c} :catch_3d
+
+    :goto_3c
+    :try_start_3c
+    throw v4
+    :try_end_3d
+    .catch Ljava/io/IOException; {:try_start_3c .. :try_end_3d} :catch_3d
+
+    .line 18
+    .end local v0    # "buf":Ljava/io/ByteArrayOutputStream;
+    :catch_3d
+    move-exception v1
+
+    .line 19
+    .local v1, "e":Ljava/io/IOException;
+    new-instance v4, Ljava/lang/RuntimeException;
+
+    invoke-direct {v4, v1}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/Throwable;)V
+
+    throw v4
+
+    .line 14
+    .end local v1    # "e":Ljava/io/IOException;
+    .restart local v0    # "buf":Ljava/io/ByteArrayOutputStream;
+    :catch_44
+    move-exception v5
+
+    :try_start_45
+    invoke-virtual {v4, v5}, Ljava/lang/Throwable;->addSuppressed(Ljava/lang/Throwable;)V
+    :try_end_48
+    .catch Ljava/io/IOException; {:try_start_45 .. :try_end_48} :catch_3d
+
+    goto :goto_3c
 .end method
 
 .method public static a(Z)V
