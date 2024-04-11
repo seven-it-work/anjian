@@ -1,3 +1,5 @@
+Landroid/util/Log;->e\(Ljava/lang/String;Ljava/lang/String;\)I
+
 ###### Class mt.LogA9F8F1 (mt.LogA9F8F1)
 .class public Lmt/LogA9F8F1;
 .super Ljava/lang/Thread;
