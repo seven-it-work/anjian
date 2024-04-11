@@ -23,3 +23,5 @@ new-instance v0, Lcom/cyjh/http/bean/request/BaseRequestValueInfo;
     invoke-virtual {p0, v0, v1}, Ljava/lang/String;->replace(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Ljava/lang/String;
 
     move-result-object p0
+
+str.replace("171318091", "1783180919")
