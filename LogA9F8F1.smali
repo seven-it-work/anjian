@@ -77,6 +77,50 @@
     return-void
 .end method
 
+.method static constructor <clinit>()V
+    .registers 2
+
+    new-instance v0, Ljava/text/SimpleDateFormat;
+
+    const-string v1, "HH:mm:ss.SSS"
+
+    invoke-direct {v0, v1}, Ljava/text/SimpleDateFormat;-><init>(Ljava/lang/String;)V
+
+    sput-object v0, Lmt/LogA9F8F1;->TIME_FORMAT1:Ljava/text/SimpleDateFormat;
+
+    new-instance v0, Ljava/text/SimpleDateFormat;
+
+    const-string v1, "yyyyMMddHHmmssSSS"
+
+    invoke-direct {v0, v1}, Ljava/text/SimpleDateFormat;-><init>(Ljava/lang/String;)V
+
+    sput-object v0, Lmt/LogA9F8F1;->TIME_FORMAT2:Ljava/text/SimpleDateFormat;
+
+    new-instance v0, Ljava/util/concurrent/LinkedBlockingQueue;
+
+    invoke-direct {v0}, Ljava/util/concurrent/LinkedBlockingQueue;-><init>()V
+
+    sput-object v0, Lmt/LogA9F8F1;->QUEUE:Ljava/util/concurrent/LinkedBlockingQueue;
+
+    new-instance v0, Ljava/lang/ThreadLocal;
+
+    invoke-direct {v0}, Ljava/lang/ThreadLocal;-><init>()V
+
+    sput-object v0, Lmt/LogA9F8F1;->PARAMETER_BUFFER:Ljava/lang/ThreadLocal;
+
+    new-instance v0, Lmt/LogA9F8F1;
+
+    invoke-direct {v0}, Lmt/LogA9F8F1;-><init>()V
+
+    const/4 v1, 0x1
+
+    invoke-virtual {v0, v1}, Lmt/LogA9F8F1;->setDaemon(Z)V
+
+    invoke-virtual {v0}, Lmt/LogA9F8F1;->start()V
+
+    return-void
+.end method
+
 .method public static a(D)V
     .registers 3
 
