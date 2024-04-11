@@ -16,3 +16,10 @@ const-string p1,"{\"Code\":200,\"Message\":\"请求成功！\",\"Data\":{\"Expir
 
 new-instance v0, Lcom/cyjh/http/bean/request/BaseRequestValueInfo;
 
+    const-string v0, "171318091"
+
+    const-string v1, "1783180919"
+
+    invoke-virtual {p0, v0, v1}, Ljava/lang/String;->replace(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Ljava/lang/String;
+
+    move-result-object p0
