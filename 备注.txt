@@ -14,4 +14,5 @@ const-string p1,"{\"Code\":200,\"Message\":\"请求成功！\",\"Data\":{\"Expir
 
 63ff40df981462bf
 
+new-instance v0, Lcom/cyjh/http/bean/request/BaseRequestValueInfo;
 
