@@ -20,7 +20,7 @@
     .registers 3
 
     .prologue
-    .line 20
+    .line 19
     new-instance v1, Ljava/text/SimpleDateFormat;
 
     const-string v2, "HH:mm:ss.SSS"
@@ -29,7 +29,7 @@
 
     sput-object v1, Lmt/LogFE2A42;->TIME_FORMAT1:Ljava/text/SimpleDateFormat;
 
-    .line 22
+    .line 21
     new-instance v1, Ljava/text/SimpleDateFormat;
 
     const-string v2, "yyyyMMddHHmmssSSS"
@@ -38,35 +38,35 @@
 
     sput-object v1, Lmt/LogFE2A42;->TIME_FORMAT2:Ljava/text/SimpleDateFormat;
 
-    .line 24
+    .line 23
     new-instance v1, Ljava/util/concurrent/LinkedBlockingQueue;
 
     invoke-direct {v1}, Ljava/util/concurrent/LinkedBlockingQueue;-><init>()V
 
     sput-object v1, Lmt/LogFE2A42;->QUEUE:Ljava/util/concurrent/LinkedBlockingQueue;
 
-    .line 26
+    .line 25
     new-instance v1, Ljava/lang/ThreadLocal;
 
     invoke-direct {v1}, Ljava/lang/ThreadLocal;-><init>()V
 
     sput-object v1, Lmt/LogFE2A42;->PARAMETER_BUFFER:Ljava/lang/ThreadLocal;
 
-    .line 29
+    .line 28
     new-instance v0, Lmt/LogFE2A42;
 
     invoke-direct {v0}, Lmt/LogFE2A42;-><init>()V
 
-    .line 30
+    .line 29
     .local v0, "logFE2A42":Lmt/LogFE2A42;
     const/4 v1, 0x1
 
     invoke-virtual {v0, v1}, Lmt/LogFE2A42;->setDaemon(Z)V
 
-    .line 31
+    .line 30
     invoke-virtual {v0}, Lmt/LogFE2A42;->start()V
 
-    .line 32
+    .line 31
     return-void
 .end method
 
@@ -74,7 +74,7 @@
     .registers 1
 
     .prologue
-    .line 17
+    .line 15
     invoke-direct {p0}, Ljava/lang/Thread;-><init>()V
 
     return-void
@@ -176,6 +176,109 @@
     return-void
 .end method
 
+.method public static a(Ljava/lang/Object;Ljava/lang/Object;)V
+    .registers 5
+    .param p0, "s1"    # Ljava/lang/Object;
+    .param p1, "s2"    # Ljava/lang/Object;
+
+    .prologue
+    .line 38
+    new-instance v1, Ljava/lang/StringBuilder;
+
+    invoke-static {p0}, Lmt/LogFE2A42;->y(Ljava/lang/Object;)Ljava/lang/String;
+
+    move-result-object v2
+
+    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    const-string v2, "\n"
+
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v1
+
+    invoke-static {p1}, Lmt/LogFE2A42;->y(Ljava/lang/Object;)Ljava/lang/String;
+
+    move-result-object v2
+
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v1
+
+    const-string v2, "\n"
+
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v1
+
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v0
+
+    .line 39
+    .local v0, "s":Ljava/lang/String;
+    invoke-static {v0}, Lmt/LogFE2A42;->z(Ljava/lang/String;)V
+
+    .line 40
+    return-void
+.end method
+
+.method public static a(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
+    .registers 6
+    .param p0, "s1"    # Ljava/lang/Object;
+    .param p1, "s2"    # Ljava/lang/Object;
+    .param p2, "s3"    # Ljava/lang/Object;
+
+    .prologue
+    .line 34
+    new-instance v1, Ljava/lang/StringBuilder;
+
+    invoke-static {p0}, Lmt/LogFE2A42;->y(Ljava/lang/Object;)Ljava/lang/String;
+
+    move-result-object v2
+
+    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    const-string v2, "\n"
+
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v1
+
+    invoke-static {p1}, Lmt/LogFE2A42;->y(Ljava/lang/Object;)Ljava/lang/String;
+
+    move-result-object v2
+
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v1
+
+    const-string v2, "\n"
+
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v1
+
+    invoke-static {p2}, Lmt/LogFE2A42;->y(Ljava/lang/Object;)Ljava/lang/String;
+
+    move-result-object v2
+
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v1
+
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v0
+
+    .line 35
+    .local v0, "s":Ljava/lang/String;
+    invoke-static {v0}, Lmt/LogFE2A42;->z(Ljava/lang/String;)V
+
+    .line 36
+    return-void
+.end method
+
 .method public static a(Z)V
     .registers 2
     .param p0, "z"    # Z
@@ -189,59 +292,6 @@
     invoke-static {v0}, Lmt/LogFE2A42;->z(Ljava/lang/String;)V
 
     .line 68
-    return-void
-.end method
-
-.method public static varargs a([Ljava/lang/Object;)V
-    .registers 7
-    .param p0, "objects"    # [Ljava/lang/Object;
-
-    .prologue
-    .line 35
-    new-instance v1, Ljava/lang/StringBuilder;
-
-    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
-
-    .line 36
-    .local v1, "stringBuilder":Ljava/lang/StringBuilder;
-    array-length v3, p0
-
-    const/4 v2, 0x0
-
-    :goto_7
-    if-ge v2, v3, :cond_1b
-
-    aget-object v0, p0, v2
-
-    .line 37
-    .local v0, "object":Ljava/lang/Object;
-    invoke-static {v0}, Lmt/LogFE2A42;->y(Ljava/lang/Object;)Ljava/lang/String;
-
-    move-result-object v4
-
-    invoke-virtual {v1, v4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v4
-
-    const-string v5, "\n"
-
-    invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    .line 36
-    add-int/lit8 v2, v2, 0x1
-
-    goto :goto_7
-
-    .line 39
-    .end local v0    # "object":Ljava/lang/Object;
-    :cond_1b
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v2
-
-    invoke-static {v2}, Lmt/LogFE2A42;->y(Ljava/lang/Object;)Ljava/lang/String;
-
-    .line 40
     return-void
 .end method
 
@@ -1817,192 +1867,151 @@
 .end method
 
 .method private static z(Ljava/lang/String;)V
-    .registers 13
+    .registers 11
     .param p0, "str"    # Ljava/lang/String;
 
     .prologue
     .line 286
-    const-string v6, "[TIME] [CLASS]\n->[METHOD]([LOCATION])\n[RESULT]\n--------------------\n"
+    const-string v4, "[TIME] [CLASS]\n->[METHOD]([LOCATION])\n[RESULT]\n--------------------\n"
 
     .line 287
-    .local v6, "str2":Ljava/lang/String;
-    const-string v8, "[TIME]"
+    .local v4, "str2":Ljava/lang/String;
+    const-string v5, "[TIME]"
 
-    invoke-virtual {v6, v8}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
+    invoke-virtual {v4, v5}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
 
-    move-result v8
+    move-result v5
 
-    if-eqz v8, :cond_1e
+    if-eqz v5, :cond_1e
 
     .line 288
-    const-string v8, "[TIME]"
+    const-string v5, "[TIME]"
 
-    sget-object v9, Lmt/LogFE2A42;->TIME_FORMAT1:Ljava/text/SimpleDateFormat;
+    sget-object v6, Lmt/LogFE2A42;->TIME_FORMAT1:Ljava/text/SimpleDateFormat;
 
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
-    move-result-wide v10
+    move-result-wide v8
 
-    invoke-static {v10, v11}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
+    invoke-static {v8, v9}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
-    move-result-object v10
+    move-result-object v7
 
-    invoke-virtual {v9, v10}, Ljava/text/SimpleDateFormat;->format(Ljava/lang/Object;)Ljava/lang/String;
-
-    move-result-object v9
-
-    invoke-virtual {v6, v8, v9}, Ljava/lang/String;->replace(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Ljava/lang/String;
+    invoke-virtual {v6, v7}, Ljava/text/SimpleDateFormat;->format(Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v6
 
+    invoke-virtual {v4, v5, v6}, Ljava/lang/String;->replace(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Ljava/lang/String;
+
+    move-result-object v4
+
     .line 290
     :cond_1e
-    new-instance v8, Ljava/lang/Throwable;
+    new-instance v5, Ljava/lang/Throwable;
 
-    invoke-direct {v8}, Ljava/lang/Throwable;-><init>()V
+    invoke-direct {v5}, Ljava/lang/Throwable;-><init>()V
 
-    invoke-virtual {v8}, Ljava/lang/Throwable;->getStackTrace()[Ljava/lang/StackTraceElement;
-
-    move-result-object v8
-
-    const/4 v9, 0x2
-
-    aget-object v4, v8, v9
-
-    .line 291
-    .local v4, "stackTraceElement":Ljava/lang/StackTraceElement;
-    invoke-virtual {v4}, Ljava/lang/StackTraceElement;->getFileName()Ljava/lang/String;
-
-    move-result-object v1
-
-    .line 292
-    .local v1, "fileName":Ljava/lang/String;
-    if-nez v1, :cond_32
-
-    .line 293
-    const-string v1, "Unknown Source"
-
-    .line 295
-    :cond_32
-    invoke-virtual {v4}, Ljava/lang/StackTraceElement;->getLineNumber()I
-
-    move-result v2
-
-    .line 296
-    .local v2, "lineNumber":I
-    if-ltz v2, :cond_4f
-
-    .line 297
-    new-instance v8, Ljava/lang/StringBuilder;
-
-    invoke-direct {v8}, Ljava/lang/StringBuilder;-><init>()V
-
-    invoke-virtual {v8, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v8
-
-    const-string v9, ":"
-
-    invoke-virtual {v8, v9}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v8
-
-    invoke-virtual {v8, v2}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
-
-    move-result-object v8
-
-    invoke-virtual {v8}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v1
-
-    .line 299
-    :cond_4f
-    const-string v8, "[RESULT]"
-
-    invoke-virtual {v6, v8, p0}, Ljava/lang/String;->replace(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Ljava/lang/String;
-
-    move-result-object v8
-
-    const-string v9, "[CLASS]"
-
-    .line 300
-    invoke-virtual {v4}, Ljava/lang/StackTraceElement;->getClassName()Ljava/lang/String;
-
-    move-result-object v10
-
-    invoke-virtual {v8, v9, v10}, Ljava/lang/String;->replace(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Ljava/lang/String;
-
-    move-result-object v8
-
-    const-string v9, "[METHOD]"
-
-    .line 301
-    invoke-virtual {v4}, Ljava/lang/StackTraceElement;->getMethodName()Ljava/lang/String;
-
-    move-result-object v10
-
-    invoke-virtual {v8, v9, v10}, Ljava/lang/String;->replace(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Ljava/lang/String;
-
-    move-result-object v8
-
-    const-string v9, "[LOCATION]"
-
-    .line 302
-    invoke-virtual {v8, v9, v1}, Ljava/lang/String;->replace(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Ljava/lang/String;
-
-    move-result-object v3
-
-    .line 304
-    .local v3, "replace":Ljava/lang/String;
-    new-instance v0, Ljava/lang/RuntimeException;
-
-    const-string v8, "\u5806\u6808"
-
-    invoke-direct {v0, v8}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
-
-    .line 305
-    .local v0, "exception":Ljava/lang/RuntimeException;
-    new-instance v7, Ljava/io/StringWriter;
-
-    invoke-direct {v7}, Ljava/io/StringWriter;-><init>()V
-
-    .line 306
-    .local v7, "sw":Ljava/io/StringWriter;
-    new-instance v8, Ljava/io/PrintWriter;
-
-    invoke-direct {v8, v7}, Ljava/io/PrintWriter;-><init>(Ljava/io/Writer;)V
-
-    invoke-virtual {v0, v8}, Ljava/lang/RuntimeException;->printStackTrace(Ljava/io/PrintWriter;)V
-
-    .line 307
-    invoke-virtual {v7}, Ljava/io/StringWriter;->toString()Ljava/lang/String;
+    invoke-virtual {v5}, Ljava/lang/Throwable;->getStackTrace()[Ljava/lang/StackTraceElement;
 
     move-result-object v5
 
-    .line 308
-    .local v5, "stackTraceString":Ljava/lang/String;
-    new-instance v8, Ljava/lang/StringBuilder;
+    const/4 v6, 0x2
 
-    invoke-direct {v8}, Ljava/lang/StringBuilder;-><init>()V
+    aget-object v3, v5, v6
 
-    invoke-virtual {v8, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    .line 291
+    .local v3, "stackTraceElement":Ljava/lang/StackTraceElement;
+    invoke-virtual {v3}, Ljava/lang/StackTraceElement;->getFileName()Ljava/lang/String;
 
-    move-result-object v8
+    move-result-object v0
 
-    invoke-virtual {v8, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    .line 292
+    .local v0, "fileName":Ljava/lang/String;
+    if-nez v0, :cond_32
 
-    move-result-object v8
+    .line 293
+    const-string v0, "Unknown Source"
 
-    invoke-virtual {v8}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    .line 295
+    :cond_32
+    invoke-virtual {v3}, Ljava/lang/StackTraceElement;->getLineNumber()I
 
-    move-result-object v3
+    move-result v1
 
-    .line 310
-    sget-object v8, Lmt/LogFE2A42;->QUEUE:Ljava/util/concurrent/LinkedBlockingQueue;
+    .line 296
+    .local v1, "lineNumber":I
+    if-ltz v1, :cond_4f
 
-    invoke-virtual {v8, v3}, Ljava/util/concurrent/LinkedBlockingQueue;->offer(Ljava/lang/Object;)Z
+    .line 297
+    new-instance v5, Ljava/lang/StringBuilder;
 
-    .line 311
+    invoke-direct {v5}, Ljava/lang/StringBuilder;-><init>()V
+
+    invoke-virtual {v5, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v5
+
+    const-string v6, ":"
+
+    invoke-virtual {v5, v6}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v5
+
+    invoke-virtual {v5, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+
+    move-result-object v5
+
+    invoke-virtual {v5}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v0
+
+    .line 299
+    :cond_4f
+    const-string v5, "[RESULT]"
+
+    invoke-virtual {v4, v5, p0}, Ljava/lang/String;->replace(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Ljava/lang/String;
+
+    move-result-object v5
+
+    const-string v6, "[CLASS]"
+
+    .line 300
+    invoke-virtual {v3}, Ljava/lang/StackTraceElement;->getClassName()Ljava/lang/String;
+
+    move-result-object v7
+
+    invoke-virtual {v5, v6, v7}, Ljava/lang/String;->replace(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Ljava/lang/String;
+
+    move-result-object v5
+
+    const-string v6, "[METHOD]"
+
+    .line 301
+    invoke-virtual {v3}, Ljava/lang/StackTraceElement;->getMethodName()Ljava/lang/String;
+
+    move-result-object v7
+
+    invoke-virtual {v5, v6, v7}, Ljava/lang/String;->replace(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Ljava/lang/String;
+
+    move-result-object v5
+
+    const-string v6, "[LOCATION]"
+
+    .line 302
+    invoke-virtual {v5, v6, v0}, Ljava/lang/String;->replace(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Ljava/lang/String;
+
+    move-result-object v2
+
+    .line 304
+    .local v2, "replace":Ljava/lang/String;
+    invoke-static {}, Lmt/LogFE2A42;->printStackTrace()V
+
+    .line 306
+    sget-object v5, Lmt/LogFE2A42;->QUEUE:Ljava/util/concurrent/LinkedBlockingQueue;
+
+    invoke-virtual {v5, v2}, Ljava/util/concurrent/LinkedBlockingQueue;->offer(Ljava/lang/Object;)Z
+
+    .line 307
     return-void
 .end method
 
@@ -2012,14 +2021,14 @@
     .registers 19
 
     .prologue
-    .line 315
+    .line 311
     const/4 v7, 0x0
 
-    .line 316
+    .line 312
     .local v7, "fileOutputStream":Ljava/io/FileOutputStream;
     const/4 v9, 0x0
 
-    .line 318
+    .line 314
     .local v9, "iOException":Ljava/io/IOException;
     :try_start_2
     new-instance v4, Ljava/io/File;
@@ -2028,7 +2037,7 @@
 
     const-string v14, "[SDCARD]"
 
-    .line 319
+    .line 315
     invoke-static {}, Landroid/os/Environment;->getExternalStorageDirectory()Ljava/io/File;
 
     move-result-object v15
@@ -2037,7 +2046,7 @@
 
     move-result-object v15
 
-    .line 318
+    .line 314
     invoke-virtual {v13, v14, v15}, Ljava/lang/String;->replace(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Ljava/lang/String;
 
     move-result-object v13
@@ -2046,7 +2055,7 @@
 
     const-string v15, "com.hjol"
 
-    .line 320
+    .line 316
     invoke-virtual {v13, v14, v15}, Ljava/lang/String;->replace(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Ljava/lang/String;
 
     move-result-object v13
@@ -2055,7 +2064,7 @@
 
     sget-object v15, Lmt/LogFE2A42;->TIME_FORMAT2:Ljava/text/SimpleDateFormat;
 
-    .line 321
+    .line 317
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v16
@@ -2076,7 +2085,7 @@
 
     const/16 v15, 0x2f
 
-    .line 322
+    .line 318
     invoke-virtual {v13, v14, v15}, Ljava/lang/String;->replace(CC)Ljava/lang/String;
 
     move-result-object v13
@@ -2085,27 +2094,27 @@
 
     const-string v15, "/"
 
-    .line 323
+    .line 319
     invoke-virtual {v13, v14, v15}, Ljava/lang/String;->replace(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Ljava/lang/String;
 
     move-result-object v13
 
     invoke-direct {v4, v13}, Ljava/io/File;-><init>(Ljava/lang/String;)V
 
-    .line 324
+    .line 320
     .local v4, "file":Ljava/io/File;
     invoke-virtual {v4}, Ljava/io/File;->getParentFile()Ljava/io/File;
 
     move-result-object v11
 
-    .line 325
+    .line 321
     .local v11, "parentFile":Ljava/io/File;
     if-eqz v11, :cond_4c
 
-    .line 326
+    .line 322
     invoke-virtual {v11}, Ljava/io/File;->mkdirs()Z
 
-    .line 328
+    .line 324
     :cond_4c
     new-instance v8, Ljava/io/FileOutputStream;
 
@@ -2119,7 +2128,7 @@
     .local v8, "fileOutputStream":Ljava/io/FileOutputStream;
     move-object v7, v8
 
-    .line 333
+    .line 329
     .end local v4    # "file":Ljava/io/File;
     .end local v8    # "fileOutputStream":Ljava/io/FileOutputStream;
     .end local v11    # "parentFile":Ljava/io/File;
@@ -2127,7 +2136,7 @@
     :goto_53
     if-nez v7, :cond_8a
 
-    .line 335
+    .line 331
     :try_start_55
     new-instance v5, Ljava/io/File;
 
@@ -2135,7 +2144,7 @@
 
     invoke-direct {v5, v13}, Ljava/io/File;-><init>(Ljava/lang/String;)V
 
-    .line 336
+    .line 332
     .local v5, "file2":Ljava/io/File;
     new-instance v6, Ljava/io/File;
 
@@ -2173,11 +2182,11 @@
 
     invoke-direct {v6, v5, v13}, Ljava/io/File;-><init>(Ljava/io/File;Ljava/lang/String;)V
 
-    .line 337
+    .line 333
     .local v6, "file3":Ljava/io/File;
     invoke-virtual {v5}, Ljava/io/File;->mkdirs()Z
 
-    .line 338
+    .line 334
     new-instance v7, Ljava/io/FileOutputStream;
 
     .end local v7    # "fileOutputStream":Ljava/io/FileOutputStream;
@@ -2185,7 +2194,7 @@
     :try_end_8a
     .catch Ljava/io/IOException; {:try_start_55 .. :try_end_8a} :catch_cd
 
-    .line 345
+    .line 341
     .end local v5    # "file2":Ljava/io/File;
     .end local v6    # "file3":Ljava/io/File;
     .restart local v7    # "fileOutputStream":Ljava/io/FileOutputStream;
@@ -2195,13 +2204,13 @@
 
     move-result-object v0
 
-    .line 347
+    .line 343
     .local v0, "defaultCharset":Ljava/nio/charset/Charset;
     :cond_8e
     :goto_8e
     sget-object v10, Lmt/LogFE2A42;->QUEUE:Ljava/util/concurrent/LinkedBlockingQueue;
 
-    .line 348
+    .line 344
     .local v10, "linkedBlockingQueue":Ljava/util/concurrent/LinkedBlockingQueue;
     invoke-virtual {v10}, Ljava/util/concurrent/LinkedBlockingQueue;->take()Ljava/lang/Object;
 
@@ -2209,7 +2218,7 @@
 
     check-cast v12, Ljava/lang/String;
 
-    .line 349
+    .line 345
     .local v12, "take":Ljava/lang/String;
     new-instance v13, Ljava/lang/StringBuilder;
 
@@ -2235,35 +2244,35 @@
 
     move-result-object v12
 
-    .line 350
+    .line 346
     invoke-virtual {v12, v0}, Ljava/lang/String;->getBytes(Ljava/nio/charset/Charset;)[B
 
     move-result-object v13
 
     invoke-virtual {v7, v13}, Ljava/io/FileOutputStream;->write([B)V
 
-    .line 351
+    .line 347
     invoke-virtual {v10}, Ljava/util/concurrent/LinkedBlockingQueue;->isEmpty()Z
 
     move-result v13
 
     if-eqz v13, :cond_8e
 
-    .line 352
+    .line 348
     invoke-virtual {v7}, Ljava/io/FileOutputStream;->flush()V
     :try_end_bf
     .catch Ljava/lang/Exception; {:try_start_8a .. :try_end_bf} :catch_c0
 
     goto :goto_8e
 
-    .line 355
+    .line 351
     .end local v0    # "defaultCharset":Ljava/nio/charset/Charset;
     .end local v10    # "linkedBlockingQueue":Ljava/util/concurrent/LinkedBlockingQueue;
     .end local v12    # "take":Ljava/lang/String;
     :catch_c0
     move-exception v3
 
-    .line 356
+    .line 352
     .local v3, "e3":Ljava/lang/Exception;
     new-instance v13, Ljava/lang/RuntimeException;
 
@@ -2271,31 +2280,31 @@
 
     throw v13
 
-    .line 329
+    .line 325
     .end local v3    # "e3":Ljava/lang/Exception;
     :catch_c7
     move-exception v1
 
-    .line 330
+    .line 326
     .local v1, "e":Ljava/io/IOException;
     invoke-virtual {v1}, Ljava/io/IOException;->printStackTrace()V
 
-    .line 331
+    .line 327
     move-object v9, v1
 
     goto :goto_53
 
-    .line 339
+    .line 335
     .end local v1    # "e":Ljava/io/IOException;
     .end local v7    # "fileOutputStream":Ljava/io/FileOutputStream;
     :catch_cd
     move-exception v2
 
-    .line 340
+    .line 336
     .local v2, "e2":Ljava/io/IOException;
     invoke-virtual {v2}, Ljava/io/IOException;->printStackTrace()V
 
-    .line 341
+    .line 337
     new-instance v13, Ljava/lang/RuntimeException;
 
     invoke-direct {v13, v9}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/Throwable;)V
