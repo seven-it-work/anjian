@@ -48,6 +48,6 @@ invoke-static {v0}, Lmt/LogFE2A42;->a(Ljava/lang/Object;)V
     const-string v1, "send_thread"
 invoke-static {v1}, Lmt/LogFE2A42;->a(Ljava/lang/Object;)V
 
-IpcMessage(心跳关键)
+IpcMessage(心跳关键) 当前what=21 arg1=31出现异常
     invoke-virtual {v0, p1}, Ljava/util/concurrent/ArrayBlockingQueue;->add(Ljava/lang/Object;)Z
 invoke-static {p1}, Lmt/LogFE2A42;->a(Ljava/lang/Object;)V
