@@ -1,0 +1,2 @@
+对于无效注册码，清理日志
+ui啥的清理 json清理 放开ScriptStartRunResponse)的注入点，变成记录日志，获取最新注入信息
