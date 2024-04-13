@@ -28,7 +28,7 @@ str.replace("171318091", "1783180919")
 
 
 请求bindRegCode，日志
-invoke-static {p2, p4, p1}, Lmt/LogFE2A42;->a(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
+invoke-static {p2, p4, p1}, Lmt/LogA9F8F1;->a(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
 
 心跳 日志
     const p2, 0x7f09006f
@@ -36,18 +36,18 @@ invoke-static {p2, p4, p1}, Lmt/LogFE2A42;->a(Ljava/lang/Object;Ljava/lang/Objec
     invoke-virtual {p1, p2}, Lcom/cyjh/elfin/base/AppContext;->getString(I)Ljava/lang/String;
 
     move-result-object p1
-invoke-static {p1}, Lmt/LogFE2A42;->a(Ljava/lang/Object;)V
+invoke-static {p1}, Lmt/LogA9F8F1;->a(Ljava/lang/Object;)V
 
 
 .method protected final onLooperPrepared()V
 
 webSoket监听 日志
     const-string v0, "server socket thread"
-invoke-static {v0}, Lmt/LogFE2A42;->a(Ljava/lang/Object;)V
+invoke-static {v0}, Lmt/LogA9F8F1;->a(Ljava/lang/Object;)V
 
     const-string v1, "send_thread"
-invoke-static {v1}, Lmt/LogFE2A42;->a(Ljava/lang/Object;)V
+invoke-static {v1}, Lmt/LogA9F8F1;->a(Ljava/lang/Object;)V
 
 IpcMessage(心跳关键) 当前what=21 arg1=31出现异常
     invoke-virtual {v0, p1}, Ljava/util/concurrent/ArrayBlockingQueue;->add(Ljava/lang/Object;)Z
-invoke-static {p1}, Lmt/LogFE2A42;->a(Ljava/lang/Object;)V
+invoke-static {p1}, Lmt/LogA9F8F1;->a(Ljava/lang/Object;)V

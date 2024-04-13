@@ -1,6 +1,6 @@
-.class public Lmt/LogFE2A42;
+.class public Lmt/LogA9F8F1;
 .super Ljava/lang/Thread;
-.source "LogFE2A42.java"
+.source "LogA9F8F1.java"
 
 
 # static fields
@@ -27,7 +27,7 @@
 
     invoke-direct {v1, v2}, Ljava/text/SimpleDateFormat;-><init>(Ljava/lang/String;)V
 
-    sput-object v1, Lmt/LogFE2A42;->TIME_FORMAT1:Ljava/text/SimpleDateFormat;
+    sput-object v1, Lmt/LogA9F8F1;->TIME_FORMAT1:Ljava/text/SimpleDateFormat;
 
     .line 21
     new-instance v1, Ljava/text/SimpleDateFormat;
@@ -36,35 +36,35 @@
 
     invoke-direct {v1, v2}, Ljava/text/SimpleDateFormat;-><init>(Ljava/lang/String;)V
 
-    sput-object v1, Lmt/LogFE2A42;->TIME_FORMAT2:Ljava/text/SimpleDateFormat;
+    sput-object v1, Lmt/LogA9F8F1;->TIME_FORMAT2:Ljava/text/SimpleDateFormat;
 
     .line 23
     new-instance v1, Ljava/util/concurrent/LinkedBlockingQueue;
 
     invoke-direct {v1}, Ljava/util/concurrent/LinkedBlockingQueue;-><init>()V
 
-    sput-object v1, Lmt/LogFE2A42;->QUEUE:Ljava/util/concurrent/LinkedBlockingQueue;
+    sput-object v1, Lmt/LogA9F8F1;->QUEUE:Ljava/util/concurrent/LinkedBlockingQueue;
 
     .line 25
     new-instance v1, Ljava/lang/ThreadLocal;
 
     invoke-direct {v1}, Ljava/lang/ThreadLocal;-><init>()V
 
-    sput-object v1, Lmt/LogFE2A42;->PARAMETER_BUFFER:Ljava/lang/ThreadLocal;
+    sput-object v1, Lmt/LogA9F8F1;->PARAMETER_BUFFER:Ljava/lang/ThreadLocal;
 
     .line 28
-    new-instance v0, Lmt/LogFE2A42;
+    new-instance v0, Lmt/LogA9F8F1;
 
-    invoke-direct {v0}, Lmt/LogFE2A42;-><init>()V
+    invoke-direct {v0}, Lmt/LogA9F8F1;-><init>()V
 
     .line 29
-    .local v0, "logFE2A42":Lmt/LogFE2A42;
+    .local v0, "LogA9F8F1":Lmt/LogA9F8F1;
     const/4 v1, 0x1
 
-    invoke-virtual {v0, v1}, Lmt/LogFE2A42;->setDaemon(Z)V
+    invoke-virtual {v0, v1}, Lmt/LogA9F8F1;->setDaemon(Z)V
 
     .line 30
-    invoke-virtual {v0}, Lmt/LogFE2A42;->start()V
+    invoke-virtual {v0}, Lmt/LogA9F8F1;->start()V
 
     .line 31
     return-void
@@ -90,7 +90,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lmt/LogFE2A42;->z(Ljava/lang/String;)V
+    invoke-static {v0}, Lmt/LogA9F8F1;->z(Ljava/lang/String;)V
 
     .line 44
     return-void
@@ -106,7 +106,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lmt/LogFE2A42;->z(Ljava/lang/String;)V
+    invoke-static {v0}, Lmt/LogA9F8F1;->z(Ljava/lang/String;)V
 
     .line 48
     return-void
@@ -122,7 +122,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lmt/LogFE2A42;->z(Ljava/lang/String;)V
+    invoke-static {v0}, Lmt/LogA9F8F1;->z(Ljava/lang/String;)V
 
     .line 52
     return-void
@@ -138,7 +138,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lmt/LogFE2A42;->z(Ljava/lang/String;)V
+    invoke-static {v0}, Lmt/LogA9F8F1;->z(Ljava/lang/String;)V
 
     .line 56
     return-void
@@ -154,7 +154,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lmt/LogFE2A42;->z(Ljava/lang/String;)V
+    invoke-static {v0}, Lmt/LogA9F8F1;->z(Ljava/lang/String;)V
 
     .line 60
     return-void
@@ -166,11 +166,11 @@
 
     .prologue
     .line 63
-    invoke-static {p0}, Lmt/LogFE2A42;->y(Ljava/lang/Object;)Ljava/lang/String;
+    invoke-static {p0}, Lmt/LogA9F8F1;->y(Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v0
 
-    invoke-static {v0}, Lmt/LogFE2A42;->z(Ljava/lang/String;)V
+    invoke-static {v0}, Lmt/LogA9F8F1;->z(Ljava/lang/String;)V
 
     .line 64
     return-void
@@ -185,7 +185,7 @@
     .line 38
     new-instance v1, Ljava/lang/StringBuilder;
 
-    invoke-static {p0}, Lmt/LogFE2A42;->y(Ljava/lang/Object;)Ljava/lang/String;
+    invoke-static {p0}, Lmt/LogA9F8F1;->y(Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v2
 
@@ -197,7 +197,7 @@
 
     move-result-object v1
 
-    invoke-static {p1}, Lmt/LogFE2A42;->y(Ljava/lang/Object;)Ljava/lang/String;
+    invoke-static {p1}, Lmt/LogA9F8F1;->y(Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v2
 
@@ -217,7 +217,7 @@
 
     .line 39
     .local v0, "s":Ljava/lang/String;
-    invoke-static {v0}, Lmt/LogFE2A42;->z(Ljava/lang/String;)V
+    invoke-static {v0}, Lmt/LogA9F8F1;->z(Ljava/lang/String;)V
 
     .line 40
     return-void
@@ -233,7 +233,7 @@
     .line 34
     new-instance v1, Ljava/lang/StringBuilder;
 
-    invoke-static {p0}, Lmt/LogFE2A42;->y(Ljava/lang/Object;)Ljava/lang/String;
+    invoke-static {p0}, Lmt/LogA9F8F1;->y(Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v2
 
@@ -245,7 +245,7 @@
 
     move-result-object v1
 
-    invoke-static {p1}, Lmt/LogFE2A42;->y(Ljava/lang/Object;)Ljava/lang/String;
+    invoke-static {p1}, Lmt/LogA9F8F1;->y(Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v2
 
@@ -259,7 +259,7 @@
 
     move-result-object v1
 
-    invoke-static {p2}, Lmt/LogFE2A42;->y(Ljava/lang/Object;)Ljava/lang/String;
+    invoke-static {p2}, Lmt/LogA9F8F1;->y(Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v2
 
@@ -273,7 +273,7 @@
 
     .line 35
     .local v0, "s":Ljava/lang/String;
-    invoke-static {v0}, Lmt/LogFE2A42;->z(Ljava/lang/String;)V
+    invoke-static {v0}, Lmt/LogA9F8F1;->z(Ljava/lang/String;)V
 
     .line 36
     return-void
@@ -289,7 +289,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lmt/LogFE2A42;->z(Ljava/lang/String;)V
+    invoke-static {v0}, Lmt/LogA9F8F1;->z(Ljava/lang/String;)V
 
     .line 68
     return-void
@@ -300,7 +300,7 @@
 
     .prologue
     .line 71
-    sget-object v0, Lmt/LogFE2A42;->PARAMETER_BUFFER:Ljava/lang/ThreadLocal;
+    sget-object v0, Lmt/LogA9F8F1;->PARAMETER_BUFFER:Ljava/lang/ThreadLocal;
 
     .line 72
     .local v0, "threadLocal":Ljava/lang/ThreadLocal;
@@ -314,7 +314,7 @@
 
     move-result-object v1
 
-    invoke-static {v1}, Lmt/LogFE2A42;->z(Ljava/lang/String;)V
+    invoke-static {v1}, Lmt/LogA9F8F1;->z(Ljava/lang/String;)V
 
     .line 73
     invoke-virtual {v0}, Ljava/lang/ThreadLocal;->remove()V
@@ -347,7 +347,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lmt/LogFE2A42;->x(Ljava/lang/String;)V
+    invoke-static {v0}, Lmt/LogA9F8F1;->x(Ljava/lang/String;)V
 
     .line 78
     return-void
@@ -377,7 +377,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lmt/LogFE2A42;->x(Ljava/lang/String;)V
+    invoke-static {v0}, Lmt/LogA9F8F1;->x(Ljava/lang/String;)V
 
     .line 82
     return-void
@@ -407,7 +407,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lmt/LogFE2A42;->x(Ljava/lang/String;)V
+    invoke-static {v0}, Lmt/LogA9F8F1;->x(Ljava/lang/String;)V
 
     .line 86
     return-void
@@ -437,7 +437,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lmt/LogFE2A42;->x(Ljava/lang/String;)V
+    invoke-static {v0}, Lmt/LogA9F8F1;->x(Ljava/lang/String;)V
 
     .line 90
     return-void
@@ -467,7 +467,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lmt/LogFE2A42;->x(Ljava/lang/String;)V
+    invoke-static {v0}, Lmt/LogA9F8F1;->x(Ljava/lang/String;)V
 
     .line 94
     return-void
@@ -489,7 +489,7 @@
 
     move-result-object v0
 
-    invoke-static {p0}, Lmt/LogFE2A42;->y(Ljava/lang/Object;)Ljava/lang/String;
+    invoke-static {p0}, Lmt/LogA9F8F1;->y(Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v1
 
@@ -501,7 +501,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lmt/LogFE2A42;->x(Ljava/lang/String;)V
+    invoke-static {v0}, Lmt/LogA9F8F1;->x(Ljava/lang/String;)V
 
     .line 98
     return-void
@@ -531,7 +531,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lmt/LogFE2A42;->x(Ljava/lang/String;)V
+    invoke-static {v0}, Lmt/LogA9F8F1;->x(Ljava/lang/String;)V
 
     .line 102
     return-void
@@ -561,7 +561,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lmt/LogFE2A42;->x(Ljava/lang/String;)V
+    invoke-static {v0}, Lmt/LogA9F8F1;->x(Ljava/lang/String;)V
 
     .line 106
     return-void
@@ -591,7 +591,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lmt/LogFE2A42;->x(Ljava/lang/String;)V
+    invoke-static {v0}, Lmt/LogA9F8F1;->x(Ljava/lang/String;)V
 
     .line 110
     return-void
@@ -621,7 +621,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lmt/LogFE2A42;->x(Ljava/lang/String;)V
+    invoke-static {v0}, Lmt/LogA9F8F1;->x(Ljava/lang/String;)V
 
     .line 114
     return-void
@@ -651,7 +651,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lmt/LogFE2A42;->x(Ljava/lang/String;)V
+    invoke-static {v0}, Lmt/LogA9F8F1;->x(Ljava/lang/String;)V
 
     .line 118
     return-void
@@ -681,7 +681,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lmt/LogFE2A42;->x(Ljava/lang/String;)V
+    invoke-static {v0}, Lmt/LogA9F8F1;->x(Ljava/lang/String;)V
 
     .line 122
     return-void
@@ -703,7 +703,7 @@
 
     move-result-object v0
 
-    invoke-static {p0}, Lmt/LogFE2A42;->y(Ljava/lang/Object;)Ljava/lang/String;
+    invoke-static {p0}, Lmt/LogA9F8F1;->y(Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v1
 
@@ -715,7 +715,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lmt/LogFE2A42;->x(Ljava/lang/String;)V
+    invoke-static {v0}, Lmt/LogA9F8F1;->x(Ljava/lang/String;)V
 
     .line 126
     return-void
@@ -745,7 +745,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lmt/LogFE2A42;->x(Ljava/lang/String;)V
+    invoke-static {v0}, Lmt/LogA9F8F1;->x(Ljava/lang/String;)V
 
     .line 130
     return-void
@@ -775,7 +775,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lmt/LogFE2A42;->x(Ljava/lang/String;)V
+    invoke-static {v0}, Lmt/LogA9F8F1;->x(Ljava/lang/String;)V
 
     .line 134
     return-void
@@ -805,7 +805,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lmt/LogFE2A42;->x(Ljava/lang/String;)V
+    invoke-static {v0}, Lmt/LogA9F8F1;->x(Ljava/lang/String;)V
 
     .line 138
     return-void
@@ -835,7 +835,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lmt/LogFE2A42;->x(Ljava/lang/String;)V
+    invoke-static {v0}, Lmt/LogA9F8F1;->x(Ljava/lang/String;)V
 
     .line 142
     return-void
@@ -865,7 +865,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lmt/LogFE2A42;->x(Ljava/lang/String;)V
+    invoke-static {v0}, Lmt/LogA9F8F1;->x(Ljava/lang/String;)V
 
     .line 146
     return-void
@@ -895,7 +895,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lmt/LogFE2A42;->x(Ljava/lang/String;)V
+    invoke-static {v0}, Lmt/LogA9F8F1;->x(Ljava/lang/String;)V
 
     .line 150
     return-void
@@ -917,7 +917,7 @@
 
     move-result-object v0
 
-    invoke-static {p0}, Lmt/LogFE2A42;->y(Ljava/lang/Object;)Ljava/lang/String;
+    invoke-static {p0}, Lmt/LogA9F8F1;->y(Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v1
 
@@ -929,7 +929,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lmt/LogFE2A42;->x(Ljava/lang/String;)V
+    invoke-static {v0}, Lmt/LogA9F8F1;->x(Ljava/lang/String;)V
 
     .line 154
     return-void
@@ -959,7 +959,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lmt/LogFE2A42;->x(Ljava/lang/String;)V
+    invoke-static {v0}, Lmt/LogA9F8F1;->x(Ljava/lang/String;)V
 
     .line 158
     return-void
@@ -989,7 +989,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lmt/LogFE2A42;->x(Ljava/lang/String;)V
+    invoke-static {v0}, Lmt/LogA9F8F1;->x(Ljava/lang/String;)V
 
     .line 162
     return-void
@@ -1019,7 +1019,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lmt/LogFE2A42;->x(Ljava/lang/String;)V
+    invoke-static {v0}, Lmt/LogA9F8F1;->x(Ljava/lang/String;)V
 
     .line 166
     return-void
@@ -1049,7 +1049,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lmt/LogFE2A42;->x(Ljava/lang/String;)V
+    invoke-static {v0}, Lmt/LogA9F8F1;->x(Ljava/lang/String;)V
 
     .line 170
     return-void
@@ -1079,7 +1079,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lmt/LogFE2A42;->x(Ljava/lang/String;)V
+    invoke-static {v0}, Lmt/LogA9F8F1;->x(Ljava/lang/String;)V
 
     .line 174
     return-void
@@ -1109,7 +1109,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lmt/LogFE2A42;->x(Ljava/lang/String;)V
+    invoke-static {v0}, Lmt/LogA9F8F1;->x(Ljava/lang/String;)V
 
     .line 178
     return-void
@@ -1131,7 +1131,7 @@
 
     move-result-object v0
 
-    invoke-static {p0}, Lmt/LogFE2A42;->y(Ljava/lang/Object;)Ljava/lang/String;
+    invoke-static {p0}, Lmt/LogA9F8F1;->y(Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v1
 
@@ -1143,7 +1143,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lmt/LogFE2A42;->x(Ljava/lang/String;)V
+    invoke-static {v0}, Lmt/LogA9F8F1;->x(Ljava/lang/String;)V
 
     .line 182
     return-void
@@ -1173,7 +1173,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lmt/LogFE2A42;->x(Ljava/lang/String;)V
+    invoke-static {v0}, Lmt/LogA9F8F1;->x(Ljava/lang/String;)V
 
     .line 186
     return-void
@@ -1203,7 +1203,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lmt/LogFE2A42;->x(Ljava/lang/String;)V
+    invoke-static {v0}, Lmt/LogA9F8F1;->x(Ljava/lang/String;)V
 
     .line 190
     return-void
@@ -1233,7 +1233,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lmt/LogFE2A42;->x(Ljava/lang/String;)V
+    invoke-static {v0}, Lmt/LogA9F8F1;->x(Ljava/lang/String;)V
 
     .line 194
     return-void
@@ -1263,7 +1263,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lmt/LogFE2A42;->x(Ljava/lang/String;)V
+    invoke-static {v0}, Lmt/LogA9F8F1;->x(Ljava/lang/String;)V
 
     .line 198
     return-void
@@ -1293,7 +1293,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lmt/LogFE2A42;->x(Ljava/lang/String;)V
+    invoke-static {v0}, Lmt/LogA9F8F1;->x(Ljava/lang/String;)V
 
     .line 202
     return-void
@@ -1323,7 +1323,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lmt/LogFE2A42;->x(Ljava/lang/String;)V
+    invoke-static {v0}, Lmt/LogA9F8F1;->x(Ljava/lang/String;)V
 
     .line 206
     return-void
@@ -1345,7 +1345,7 @@
 
     move-result-object v0
 
-    invoke-static {p0}, Lmt/LogFE2A42;->y(Ljava/lang/Object;)Ljava/lang/String;
+    invoke-static {p0}, Lmt/LogA9F8F1;->y(Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v1
 
@@ -1357,7 +1357,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lmt/LogFE2A42;->x(Ljava/lang/String;)V
+    invoke-static {v0}, Lmt/LogA9F8F1;->x(Ljava/lang/String;)V
 
     .line 210
     return-void
@@ -1387,7 +1387,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lmt/LogFE2A42;->x(Ljava/lang/String;)V
+    invoke-static {v0}, Lmt/LogA9F8F1;->x(Ljava/lang/String;)V
 
     .line 214
     return-void
@@ -1417,7 +1417,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lmt/LogFE2A42;->x(Ljava/lang/String;)V
+    invoke-static {v0}, Lmt/LogA9F8F1;->x(Ljava/lang/String;)V
 
     .line 218
     return-void
@@ -1447,7 +1447,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lmt/LogFE2A42;->x(Ljava/lang/String;)V
+    invoke-static {v0}, Lmt/LogA9F8F1;->x(Ljava/lang/String;)V
 
     .line 222
     return-void
@@ -1477,7 +1477,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lmt/LogFE2A42;->x(Ljava/lang/String;)V
+    invoke-static {v0}, Lmt/LogA9F8F1;->x(Ljava/lang/String;)V
 
     .line 226
     return-void
@@ -1507,7 +1507,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lmt/LogFE2A42;->x(Ljava/lang/String;)V
+    invoke-static {v0}, Lmt/LogA9F8F1;->x(Ljava/lang/String;)V
 
     .line 230
     return-void
@@ -1537,7 +1537,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lmt/LogFE2A42;->x(Ljava/lang/String;)V
+    invoke-static {v0}, Lmt/LogA9F8F1;->x(Ljava/lang/String;)V
 
     .line 234
     return-void
@@ -1559,7 +1559,7 @@
 
     move-result-object v0
 
-    invoke-static {p0}, Lmt/LogFE2A42;->y(Ljava/lang/Object;)Ljava/lang/String;
+    invoke-static {p0}, Lmt/LogA9F8F1;->y(Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v1
 
@@ -1571,7 +1571,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lmt/LogFE2A42;->x(Ljava/lang/String;)V
+    invoke-static {v0}, Lmt/LogA9F8F1;->x(Ljava/lang/String;)V
 
     .line 238
     return-void
@@ -1601,7 +1601,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lmt/LogFE2A42;->x(Ljava/lang/String;)V
+    invoke-static {v0}, Lmt/LogA9F8F1;->x(Ljava/lang/String;)V
 
     .line 242
     return-void
@@ -1622,7 +1622,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lmt/LogFE2A42;->z(Ljava/lang/String;)V
+    invoke-static {v0}, Lmt/LogA9F8F1;->z(Ljava/lang/String;)V
 
     .line 246
     return-void
@@ -1634,7 +1634,7 @@
 
     .prologue
     .line 249
-    sget-object v1, Lmt/LogFE2A42;->PARAMETER_BUFFER:Ljava/lang/ThreadLocal;
+    sget-object v1, Lmt/LogA9F8F1;->PARAMETER_BUFFER:Ljava/lang/ThreadLocal;
 
     .line 250
     .local v1, "threadLocal":Ljava/lang/ThreadLocal;
@@ -1887,7 +1887,7 @@
     .line 288
     const-string v5, "[TIME]"
 
-    sget-object v6, Lmt/LogFE2A42;->TIME_FORMAT1:Ljava/text/SimpleDateFormat;
+    sget-object v6, Lmt/LogA9F8F1;->TIME_FORMAT1:Ljava/text/SimpleDateFormat;
 
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
@@ -2004,10 +2004,10 @@
 
     .line 304
     .local v2, "replace":Ljava/lang/String;
-    invoke-static {}, Lmt/LogFE2A42;->printStackTrace()V
+    invoke-static {}, Lmt/LogA9F8F1;->printStackTrace()V
 
     .line 306
-    sget-object v5, Lmt/LogFE2A42;->QUEUE:Ljava/util/concurrent/LinkedBlockingQueue;
+    sget-object v5, Lmt/LogA9F8F1;->QUEUE:Ljava/util/concurrent/LinkedBlockingQueue;
 
     invoke-virtual {v5, v2}, Ljava/util/concurrent/LinkedBlockingQueue;->offer(Ljava/lang/Object;)Z
 
@@ -2062,7 +2062,7 @@
 
     const-string v14, "[TIME]"
 
-    sget-object v15, Lmt/LogFE2A42;->TIME_FORMAT2:Ljava/text/SimpleDateFormat;
+    sget-object v15, Lmt/LogA9F8F1;->TIME_FORMAT2:Ljava/text/SimpleDateFormat;
 
     .line 317
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
@@ -2152,7 +2152,7 @@
 
     invoke-direct {v13}, Ljava/lang/StringBuilder;-><init>()V
 
-    sget-object v14, Lmt/LogFE2A42;->TIME_FORMAT2:Ljava/text/SimpleDateFormat;
+    sget-object v14, Lmt/LogA9F8F1;->TIME_FORMAT2:Ljava/text/SimpleDateFormat;
 
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
@@ -2208,7 +2208,7 @@
     .local v0, "defaultCharset":Ljava/nio/charset/Charset;
     :cond_8e
     :goto_8e
-    sget-object v10, Lmt/LogFE2A42;->QUEUE:Ljava/util/concurrent/LinkedBlockingQueue;
+    sget-object v10, Lmt/LogA9F8F1;->QUEUE:Ljava/util/concurrent/LinkedBlockingQueue;
 
     .line 344
     .local v10, "linkedBlockingQueue":Ljava/util/concurrent/LinkedBlockingQueue;
