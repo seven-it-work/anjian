@@ -1,1 +1,0 @@
-java -jar baksmali.jar disassemble  classes.dex -o disassembled/
