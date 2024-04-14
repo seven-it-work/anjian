@@ -1,0 +1,56 @@
+package mobi.oneway.export.p199f.p200a;
+
+import mobi.oneway.export.AdListener.OWSplashAdListener;
+import mobi.oneway.export.enums.AdType;
+import mobi.oneway.export.enums.EventType;
+import mobi.oneway.export.enums.OnewayAdCloseType;
+import mobi.oneway.export.enums.OnewaySdkError;
+import mobi.oneway.export.p193b.C2646a;
+import mobi.oneway.export.p199f.C2673a;
+
+/* renamed from: mobi.oneway.export.f.a.h */
+/* loaded from: classes2.dex */
+public class C2681h extends AbstractC2674a implements OWSplashAdListener {
+    public C2681h(C2673a c2673a) {
+        super(c2673a);
+    }
+
+    @Override // mobi.oneway.export.p199f.p200a.AbstractC2674a
+    /* renamed from: c */
+    protected AdType mo12100c() {
+        return AdType.splash;
+    }
+
+    @Override // mobi.oneway.export.AdListener.OWSplashAdListener
+    public void onAdClick() {
+        m12096a(EventType.click);
+        if (this.f10301e != null) {
+            this.f10301e.mo11950d(null);
+        }
+    }
+
+    @Override // mobi.oneway.export.AdListener.OWSplashAdListener
+    public void onAdError(OnewaySdkError onewaySdkError, String str) {
+        m12097a(onewaySdkError, str);
+        if (this.f10301e != null) {
+            this.f10301e.mo11947a(this.f10298b, onewaySdkError, str);
+        }
+    }
+
+    @Override // mobi.oneway.export.AdListener.OWSplashAdListener
+    public void onAdFinish() {
+        m12096a(EventType.end);
+        if (this.f10301e != null) {
+            this.f10301e.mo11946a((String) null, (OnewayAdCloseType) null, (String) null);
+        }
+    }
+
+    @Override // mobi.oneway.export.AdListener.OWSplashAdListener
+    public void onAdShow() {
+        C2646a.m11919a().m11927a(C2646a.a.TYPE_SHOW, m12098b(), m12094a());
+        m12096a(EventType.show);
+        if (this.f10301e != null) {
+            this.f10301e.mo11949c(null);
+        }
+    }
+}
